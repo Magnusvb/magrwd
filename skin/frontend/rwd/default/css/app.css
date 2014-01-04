@@ -3784,35 +3784,35 @@ a {
   font-size: 1em; }
 
 @font-face {
-  font-family: 'andadabold';
-  src: url("..../fonts/andada-bold-webfont.eot");
-  src: url("..../fonts/andada-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andada-bold-webfont.woff") format("woff"), url("../fonts/andada-bold-webfont.ttf") format("truetype"), url("../fonts/andada-bold-webfont.svg#andadabold") format("svg");
+  font-family: 'clear_sansbold';
+  src: url("..../fonts/ClearSans-Bold-webfont.eot");
+  src: url("..../fonts/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Bold-webfont.woff") format("woff"), url("../fonts/ClearSans-Bold-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Bold-webfont.svg#andadabold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'andadabold_italic';
-  src: url("../fonts/andada-bolditalic-webfont.eot");
-  src: url("../fonts/andada-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andada-bolditalic-webfont.woff") format("woff"), url("../fonts/andada-bolditalic-webfont.ttf") format("truetype"), url("../fonts/andada-bolditalic-webfont.svg#andadabold_italic") format("svg");
+  font-family: 'clear_sans_bolditalic';
+  src: url("../fonts/ClearSans-BoldItalic-webfont.eot");
+  src: url("../fonts/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-BoldItalic-webfont.svg#andadabold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'andadaitalic';
-  src: url("../fonts/andada-italic-webfont.eot");
-  src: url("../fonts/andada-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andada-italic-webfont.woff") format("woff"), url("../fonts/andada-italic-webfont.ttf") format("truetype"), url("../fonts/andada-italic-webfont.svg#andadaitalic") format("svg");
+  font-family: 'clear_sansitalic';
+  src: url("../fonts/ClearSans-Italic-webfont.eot");
+  src: url("../fonts/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Italic-webfont.woff") format("woff"), url("../fonts/ClearSans-Italic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Italic-webfont.svg#andadaitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'andadaregular';
-  src: url("../fonts/andada-regular-webfont.eot");
-  src: url("../fonts/andada-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/andada-regular-webfont.woff") format("woff"), url("../fonts/andada-regular-webfont.ttf") format("truetype"), url("../fonts/andada-regular-webfont.svg#andadaregular") format("svg");
+  font-family: 'clear_sansregular';
+  src: url("../fonts/ClearSans-Regular-webfont.eot");
+  src: url("../fonts/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Regular-webfont.woff") format("woff"), url("../fonts/ClearSans-Regular-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Regular-webfont.svg#andadaregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 p {
-  font-family: "andadaregular";
+  font-family: "clear_sansregular";
   font-size: 1.1em;
   margin-top: 0.3em;
   margin-bottom: 1.2em; }
@@ -3822,7 +3822,7 @@ p {
     color: grey; }
 
 h1 {
-  font-family: "andadabold";
+  font-family: "clear_sansbold";
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.3em;
@@ -3833,7 +3833,7 @@ h1 {
       font-size: 4em; } }
 
 h2, h3, h4 {
-  font-family: "andadabold";
+  font-family: "clear_sansbold";
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
