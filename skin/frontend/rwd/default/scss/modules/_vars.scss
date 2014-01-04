@@ -1,0 +1,24 @@
+/* ========== Breakpoints ============== */
+@mixin breakpoint($point) {
+	@if $point == small {
+		@media (min-width: 40em) { @content; }
+	}
+	@else if $point == medium {
+		@media (min-width: 45em) { @content; }
+	}
+	@else if $point == large {
+		@media (min-width: 65em) { @content; }
+	}
+	@else if $point == big {
+		@media (min-width: 94em) { @content; }
+	}
+}
+
+/* ========== Colors ============== */
+
+$gotisk: rgb(0, 132, 68);
+$brons: rgb(251, 143, 0);
+$accent: rgb(202, 34, 31);
+$navbg: rgb(240, 240, 240);
+$button1: rgb(184, 152, 195);
+$button2: darken($button1, 20%);
