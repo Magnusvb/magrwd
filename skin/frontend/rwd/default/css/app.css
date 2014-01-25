@@ -1047,16 +1047,16 @@ input.checkbox {
 input.qty {
   width: 2.5em !important; }
 
-button.button::-moz-focus-inner, button.small-button::-moz-focus-inner {
+button.button::-moz-focus-inner, button.addcart::-moz-focus-inner, button.checkout::-moz-focus-inner, button.small-button::-moz-focus-inner {
   padding: 0;
   border: 0; }
 
 /* FF Fix */
-button.button, button.small-button {
+button.button, button.addcart, button.checkout, button.small-button {
   -webkit-border-fit: lines; }
 
 /* <- Safari & Google Chrome Fix */
-button.button, button.small-button {
+button.button, button.addcart, button.checkout, button.small-button {
   overflow: visible;
   width: auto;
   border: 0;
@@ -1065,7 +1065,7 @@ button.button, button.small-button {
   background: transparent;
   cursor: pointer; }
 
-button.button span, button.small-button span {
+button.button span, button.addcart span, button.checkout span, button.small-button span {
   float: left;
   height: 21px;
   background: transparent url(../images/bkg_button.gif) 0 0 no-repeat;
@@ -1075,7 +1075,7 @@ button.button span, button.small-button span {
   white-space: nowrap;
   color: #fff; }
 
-button.button span span, button.small-button span span {
+button.button span span, button.addcart span span, button.checkout span span, button.small-button span span {
   background-position: 100% 0;
   padding: 0 12px 0 4px; }
 
@@ -1285,7 +1285,7 @@ p.control input.radio {
 .buttons-set .back-link {
   float: left; }
 
-.buttons-set button.button, .buttons-set button.small-button {
+.buttons-set button.button, .buttons-set button.addcart, .buttons-set button.checkout, .buttons-set button.small-button {
   float: right; }
 
 .buttons-set p.required {
@@ -2432,7 +2432,7 @@ tr.summary-details-excluded {
 .add-to-cart .qty {
   float: left; }
 
-.add-to-cart button.button, .add-to-cart button.small-button {
+.add-to-cart button.button, .add-to-cart button.addcart, .add-to-cart button.checkout, .add-to-cart button.small-button {
   float: left;
   margin-left: 5px; }
 
@@ -2988,7 +2988,7 @@ tr.summary-details-excluded {
   border: 1px solid #ddd;
   border-bottom: 0; }
 
-.opc .buttons-set.disabled button.button, .opc .buttons-set.disabled button.small-button {
+.opc .buttons-set.disabled button.button, .opc .buttons-set.disabled button.addcart, .opc .buttons-set.disabled button.checkout, .opc .buttons-set.disabled button.small-button {
   display: none; }
 
 .opc .buttons-set .please-wait {
@@ -3419,10 +3419,10 @@ input.checkbox {
   width: 13px;
   height: 13px; }
 
-button.button, button.small-button {
+button.button, button.addcart, button.checkout, button.small-button {
   height: 21px; }
 
-button.button span, button.small-button span {
+button.button span, button.addcart span, button.checkout span, button.small-button span {
   position: relative; }
 
 .form-list label {
@@ -3531,30 +3531,379 @@ iframe.hover-fix {
   background: transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0); }
 
-/**
- * Magento
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License (AFL 3.0)
- * that is bundled with this package in the file LICENSE_AFL.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/afl-3.0.php
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
- *
- * @category    design
- * @package     base_default
- * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
- */
+/* ========== Breakpoints ============== */
+/*
+  Colors
+*/
+/*
+  Mixin
+*/
+.clear:before, .clear:after {
+  content: ' ';
+  display: table; }
+
+.clear {
+  *zoom: 1; }
+  .clear:after {
+    clear: both; }
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /*  @include vendor(box-sizing, border-box);*/ }
+
+html {
+  font-size: 100%; }
+
+body {
+  font: 300 16px/1.6 'Helvetica Neue', Helvetica, Arial;
+  background: #fff;
+  color: #444;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+  a:link {
+    color: #32516c; }
+  a:visited {
+    color: #32516c; }
+
+.header {
+  background-color: #505560; }
+  @media (min-width: 40em) {
+    .header {
+      padding-left: 22%; } }
+
+.search {
+  /*  background-color: #eec8fa;*/
+  margin-top: 1.5em;
+  text-align: center;
+  margin-bottom: 1em; }
+  @media (min-width: 40em) {
+    .search {
+      float: left;
+      margin-left: 3em; } }
+  @media (min-width: 45em) {
+    .search {
+      float: left;
+      margin-left: 1em; } }
+
+.linksblock {
+  background-color: #f1f9b4;
+  padding: 1em 2em; }
+  @media (min-width: 40em) {
+    .linksblock {
+      float: right; } }
+
+.accountlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left; }
+  .accountlinks li {
+    margin-bottom: 0.6em;
+    margin-right: 1em;
+    float: left; }
+    .accountlinks li:a {
+      float: left; }
+    .accountlinks li:last-child {
+      margin-right: 0; }
+  @media (min-width: 40em) {
+    .accountlinks {
+      float: none; }
+      .accountlinks li {
+        float: none; }
+        .accountlinks li:a {
+          float: none; } }
+
+.cart {
+  /*  background-color: lighten($headerbg, 20%);*/
+  border: 1px dotted #808796;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  width: 80%;
+  margin: 2em auto;
+  padding: 0.3em; }
+  @media (min-width: 40em) {
+    .cart {
+      float: right;
+      margin-right: 5em;
+      width: 40%; } }
+  @media (min-width: 45em) {
+    .cart {
+      float: right;
+      margin-right: 3em;
+      width: 25%; } }
+
+.nav {
+  height: 0;
+  overflow: hidden; }
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .nav ul li {
+      background-color: #c8c8c8;
+      font-weight: bold;
+      font-size: 1em;
+      /*      margin-bottom: 0.6em;*/
+      padding-left: 0;
+      border-bottom: 1px solid white; }
+      .nav ul li a {
+        line-height: 2.5; }
+      .nav ul li ul {
+        padding-left: 0; }
+        .nav ul li ul li {
+          background-color: #e2e2e2;
+          font-weight: normal; }
+  @media (min-width: 40em) {
+    .nav {
+      display: block;
+      height: 100%; }
+      .nav ul li {
+        font-size: 0.85em;
+        background-color: transparent !important;
+        border-bottom: none !important; }
+        .nav ul li ul li {
+          padding-left: 0.8em; }
+          .nav ul li ul li:first-child {
+            margin-top: -0.5em; }
+          .nav ul li ul li:last-child {
+            margin-bottom: 0.3em; } }
+  @media (min-width: 40em) {
+    .nav {
+      padding-top: 1.5em;
+      padding-left: 2.6em; } }
+
+.showmenu {
+  /*  display: block;*/
+  height: 100%;
+  -moz-transition: width 2s, height 2s, background-color 2s, -moz-transform 2s;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  -o-transition: width 2s, height 2s, background-color 2s, -o-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s; }
+
+.menubutton {
+  background-color: #e3e2c8;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 3em;
+  cursor: pointer; }
+  @media (min-width: 40em) {
+    .menubutton {
+      display: none; } }
+
+.wrapper {
+  /*  background-color: red;*/ }
+
+.main {
+  max-width: 63em;
+  /*  background-color: #dcd7d7;*/
+  margin: 0 auto;
+  padding: 2%;
+  /*  height: 30em;*/ }
+  @media (min-width: 40em) {
+    .main {
+      float: left;
+      width: 78%;
+      margin-left: 2%;
+      padding: 0; } }
+  @media (min-width: 65em) {
+    .main {
+      width: 70%;
+      margin-left: 5%; } }
+
+article {
+  padding: 0.5em 10%; }
+
+.footer {
+  background-color: #f0f0f0;
+  height: 8em;
+  border-top: 1px solid black;
+  padding: 1em 2em 0.5em 2em; }
+
+.sidebar {
+  background-color: #dce3eb;
+  text-align: center; }
+  @media (min-width: 40em) {
+    .sidebar {
+      text-align: left;
+      position: relative;
+      top: -12em;
+      float: left;
+      width: 20%; } }
+  @media (min-width: 45em) {
+    .sidebar {
+      top: -9em; } }
+
+.logo {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #e0f255;
+  text-align: center;
+  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5); }
+
+.layernav {
+  border: 1px dotted #808796;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  height: 10em;
+  width: 80%;
+  margin: 0.5em 10%; }
+
+.recent {
+  border: 1px dotted #808796;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  height: 10em;
+  width: 80%;
+  margin: 0.5em 10%; }
+
+/*
+  Basic button
+*/
+.button, .addcart, .checkout, .small-button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  background-color: #ccddf0;
+  color: black;
+  margin: 0em;
+  padding: 0.8em 1em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+.addcart {
+  color: white;
+  background-color: #dd6a12; }
+
+.checkout {
+  color: white;
+  background-color: #0764a6; }
+
+/*.button {
+  font-size: 1.2em;
+  text-align: center;
+  background-color: silver;
+  display: block;
+  padding: 0.4em 1em;
+  border-radius: 6px;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  @include breakpoint(medium) {
+    font-size: 1.6em;
+    display: inline-block;
+  }
+}*/
+.small-button {
+  font-size: 1em; }
+
+input[type=text] {
+  padding: 0.85em 1.2em;
+  font-size: 0.875em;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.4em; }
+
+@font-face {
+  font-family: 'clear_sansbold';
+  src: url("..../fonts/ClearSans-Bold-webfont.eot");
+  src: url("..../fonts/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Bold-webfont.woff") format("woff"), url("../fonts/ClearSans-Bold-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Bold-webfont.svg#andadabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'clear_sans_bolditalic';
+  src: url("../fonts/ClearSans-BoldItalic-webfont.eot");
+  src: url("../fonts/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-BoldItalic-webfont.svg#andadabold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'clear_sansitalic';
+  src: url("../fonts/ClearSans-Italic-webfont.eot");
+  src: url("../fonts/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Italic-webfont.woff") format("woff"), url("../fonts/ClearSans-Italic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Italic-webfont.svg#andadaitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'clear_sansregular';
+  src: url("../fonts/ClearSans-Regular-webfont.eot");
+  src: url("../fonts/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Regular-webfont.woff") format("woff"), url("../fonts/ClearSans-Regular-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Regular-webfont.svg#andadaregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+p {
+  font-family: "clear_sansregular";
+  font-size: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 1.2em; }
+  p.payoff {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: grey; }
+
+h1 {
+  font-family: "clear_sansbold";
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.3em;
+  margin-top: 0.4em;
+  text-align: center; }
+  @media (min-width: 45em) {
+    h1 {
+      font-size: 4em; } }
+
+h2, h3, h4 {
+  font-family: "clear_sansbold";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 1em; }
+
+h3 {
+  font-size: 1.5em; }
+
+.firstparagraph {
+  font-size: 1.4em; }
+
 /* Widgets =============================================================================== */
 .widget {
   display: inline; }
@@ -3730,121 +4079,3 @@ iframe.hover-fix {
   padding: 0 15px 0 0; }
 
 /* ======================================================================================= */
-/* ========== Breakpoints ============== */
-/* ========== Colors ============== */
-.clear:before, .clear:after {
-  content: ' ';
-  display: table; }
-
-.clear {
-  *zoom: 1; }
-  .clear:after {
-    clear: both; }
-
-* {
-  box-sizing: border-box;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
-
-html {
-  font-size: 100%; }
-
-body {
-  font: 300 16px/1.6 'Helvetica Neue', Helvetica, Arial;
-  background: #fff;
-  color: #444;
-  margin: 0;
-  padding: 0; }
-
-img {
-  max-width: 100%; }
-
-a {
-  color: #ca221f;
-  text-decoration: none; }
-  a img {
-    border: 0; }
-
-.button, .small-button {
-  font-size: 1.2em;
-  text-align: center;
-  background-color: silver;
-  display: block;
-  padding: 0.4em 1em;
-  border-radius: 6px;
-  border: 1px solid black;
-  color: white;
-  font-weight: bold; }
-  @media (min-width: 45em) {
-    .button, .small-button {
-      font-size: 1.6em;
-      display: inline-block; } }
-
-.small-button {
-  font-size: 1em; }
-
-@font-face {
-  font-family: 'clear_sansbold';
-  src: url("..../fonts/ClearSans-Bold-webfont.eot");
-  src: url("..../fonts/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Bold-webfont.woff") format("woff"), url("../fonts/ClearSans-Bold-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Bold-webfont.svg#andadabold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'clear_sans_bolditalic';
-  src: url("../fonts/ClearSans-BoldItalic-webfont.eot");
-  src: url("../fonts/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-BoldItalic-webfont.svg#andadabold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'clear_sansitalic';
-  src: url("../fonts/ClearSans-Italic-webfont.eot");
-  src: url("../fonts/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Italic-webfont.woff") format("woff"), url("../fonts/ClearSans-Italic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Italic-webfont.svg#andadaitalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'clear_sansregular';
-  src: url("../fonts/ClearSans-Regular-webfont.eot");
-  src: url("../fonts/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Regular-webfont.woff") format("woff"), url("../fonts/ClearSans-Regular-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Regular-webfont.svg#andadaregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-p {
-  font-family: "clear_sansregular";
-  font-size: 1.1em;
-  margin-top: 0.3em;
-  margin-bottom: 1.2em; }
-  p.payoff {
-    font-size: 1.7em;
-    font-weight: bold;
-    color: grey; }
-
-h1 {
-  font-family: "clear_sansbold";
-  font-size: 3em;
-  line-height: 1;
-  margin-bottom: 0.3em;
-  margin-top: 0.4em;
-  text-align: center; }
-  @media (min-width: 45em) {
-    h1 {
-      font-size: 4em; } }
-
-h2, h3, h4 {
-  font-family: "clear_sansbold";
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.2; }
-
-h2 {
-  font-size: 2.5em;
-  margin-top: 1em; }
-
-h3 {
-  font-size: 1.5em; }
-
-.firstparagraph {
-  font-size: 1.4em; }

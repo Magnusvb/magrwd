@@ -1,0 +1,76 @@
+.header {
+  background-color: $headerbg;
+  @include breakpoint(small) {
+    padding-left: 22%;
+  }
+}
+
+.search {
+/*  background-color: #eec8fa;*/
+  margin-top: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  @include breakpoint(small) {
+    float: left;
+    margin-left: 3em;
+  }
+  @include breakpoint(medium) {
+    float: left;
+    margin-left: 1em;
+  }
+}
+
+.linksblock {
+  background-color: lighten($logobg, 20%);
+  padding: 1em 2em;
+  @include breakpoint(small) {
+    float: right;
+  }
+}
+
+.accountlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  li {
+    margin-bottom: 0.6em;
+    margin-right: 1em;
+    float: left;
+    &:a {
+      float: left;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @include breakpoint(small) {
+    float: none;
+    li {
+      float: none;
+      &:a {
+        float: none;
+      }
+    }
+  }
+}
+
+.cart {
+/*  background-color: lighten($headerbg, 20%);*/
+  border: 1px dotted lighten($headerbg, 20%);
+  @include borderradius(0.5em);
+  width: 80%;
+  margin: 2em auto;
+  padding: 0.3em;
+  @include breakpoint(small) {
+    float: right;
+    margin-right: 5em;
+    width: 40%;
+  }
+  @include breakpoint(medium) {
+    float: right;
+    margin-right: 3em;
+    width: 25%;
+  }
+}
+

@@ -1,0 +1,25 @@
+.wrapper {
+/*  background-color: red;*/
+}
+
+.main {
+  max-width: 63em;
+/*  background-color: #dcd7d7;*/
+  margin: 0 auto;
+  padding: 2%;
+/*  height: 30em;*/
+  @include breakpoint(small) {
+    float: left;
+    width: 78%;
+    margin-left: 2%;
+    padding: 0;
+  }
+  @include breakpoint(large) {
+    width: 70%;
+    margin-left: 5%;
+  }
+}
+
+article {
+  padding: 0.5em 10%;
+}

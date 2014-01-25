@@ -1,4 +1,50 @@
-.button {
+/*
+  Basic button
+*/
+.button { //old .basic
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  background-color: $basicbtn;
+  color: black;
+  margin: 0em;
+  padding: 0.8em 1em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.addcart {
+  @extend .button;
+  color: white;
+  background-color: $addcartbtn;
+}
+
+.checkout {
+  @extend .button;
+  color: white;
+  background-color: $checkoutbtn;
+}
+
+/*.button {
   font-size: 1.2em;
   text-align: center;
   background-color: silver;
@@ -12,7 +58,7 @@
     font-size: 1.6em;
     display: inline-block;
   }
-}
+}*/
 
 .small-button {
   @extend .button;

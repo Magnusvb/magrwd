@@ -1,0 +1,74 @@
+.nav {
+  height: 0;
+  overflow: hidden;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    li {
+      background-color: $navlistfirst;
+      font-weight: bold;
+      font-size: 1em;
+/*      margin-bottom: 0.6em;*/
+      padding-left: 0;
+      border-bottom: 1px solid white;
+      a {
+        line-height: 2.5;
+      }
+      ul {
+        padding-left: 0;
+        li {
+          background-color: $navlistsecond;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  @include breakpoint(small) {
+    display: block;
+    height: 100%;
+    ul {
+      li {
+        font-size: 0.85em;
+        background-color: transparent !important; // TODO
+        border-bottom: none !important;
+        ul {
+          li {
+            padding-left: 0.8em;
+            &:first-child {
+              margin-top: -0.5em;
+            }
+            &:last-child {
+              margin-bottom: 0.3em;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include breakpoint(small) {
+    padding-top: 1.5em;
+    padding-left: 2.6em;
+  }
+}
+
+.showmenu {
+/*  display: block;*/
+  height: 100%;
+  -moz-transition:width 2s, height 2s, background-color 2s, -moz-transform 2s;
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  -o-transition:width 2s, height 2s, background-color 2s, -o-transform 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.menubutton {
+  background-color: $menubutton;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 3em;
+  cursor: pointer;
+  @include breakpoint(small) {
+    display: none;
+  }
+}

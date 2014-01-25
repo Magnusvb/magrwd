@@ -14,11 +14,32 @@
 	}
 }
 
-/* ========== Colors ============== */
+/*
+  Colors
+*/
 
-$gotisk: rgb(0, 132, 68);
-$brons: rgb(251, 143, 0);
-$accent: rgb(202, 34, 31);
-$navbg: rgb(240, 240, 240);
-$button1: rgb(184, 152, 195);
-$button2: darken($button1, 20%);
+$navlistfirst: rgb(200, 200, 200);
+$navlistsecond: lighten($navlistfirst, 10%);
+$menulinks: rgb(50, 81, 108);
+$headerbg: rgb(80, 85, 96);
+$sidebarbg: rgb(187, 201, 217);
+$menubutton: #E3E2C8;
+$logobg: #e0f255;
+$footerbg: rgb(240, 240, 240);
+$basicbtn: rgb(204, 221, 240);
+$addcartbtn: rgb(221, 106, 18);
+$checkoutbtn: rgb(7, 100, 166);
+
+/*
+  Mixin
+*/
+@mixin borderradius($radius) {
+  -webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin boxshadow {
+  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
