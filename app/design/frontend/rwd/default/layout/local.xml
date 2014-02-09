@@ -2,22 +2,24 @@
 <layout>
   <default>
     <reference name="root">
-      <action method="setTemplate"><template>page/2col-left-alice.phtml</template></action>
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
     <reference name="root">
-      <action method="setTemplate"><template>page/2col-left-alice.phtml</template></action>
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
     <!-- block override here -->
     <remove name="left.permanent.callout" /> <!--the dog-->
+    <remove name="store_language" /> <!-- drop menu for language -->
+    <remove name="welcome" /> <!-- Default message -->
   </default>
   <catalog_category_default>
     <reference name="root">
-      <action method="setTemplate"><template>page/2col-left-alice.phtml</template></action>
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
   </catalog_category_default>
   <catalog_category_layered>
     <reference name="root">
-      <action method="setTemplate"><template>page/2col-left-alice.phtml</template></action>
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
   </catalog_category_layered>
 </layout>

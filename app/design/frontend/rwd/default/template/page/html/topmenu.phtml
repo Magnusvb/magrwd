@@ -32,10 +32,11 @@
  */
 ?>
 <?php $_menu = $this->getHtml('level-top') ?>
+<div class="menubutton" id="menubutton">MENY &#9660;</div>
 <?php if($_menu): ?>
-<div class="nav-container">
-    <ul id="nav">
+<nav class="nav clear menu" role="navigation" id="navmenu">
+    <ul>
         <?php echo $_menu ?>
     </ul>
-</div>
+</nav>
 <?php endif ?>
