@@ -1,19 +1,19 @@
 <?php
 /**
- * Studio Alice, 2014, studioalice.se, magnus@studioalice.se
- * Template for header
- *
- * @category    design
- * @package     rwd_default
- * @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
- *
- * Template for Mage_Page_Block_Html
- */
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Template for header
+*
+* @category    design
+* @package     rwd_default
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+*
+* Template for Mage_Page_Block_Html
+*/
 ?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
 <head>
-<?php echo $this->getChildHtml('head') ?>
+  <?php echo $this->getChildHtml('head') ?>
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
 <?php echo $this->getChildHtml('after_body_start') ?>
@@ -23,33 +23,29 @@
 <div class="wrapper clear">
   <aside class="sidebar" role="complementary">
     <?php echo $this->getChildHtml('left') ?>
-    <div class="logo">
-      
-    </div>
     <div class="menubutton" id="menubutton">MENY &#9660;</div>
-      <nav class="nav clear menu" role="navigation" id="navmenu">
+    <nav class="nav clear menu" role="navigation" id="navmenu">
         
-      </nav>
-      <div class="layernav">
+    </nav>
+    <div class="layernav">
         
-      </div>
-      <div class="recent">
+    </div>
+    <div class="recent">
         
-      </div>
+    </div>
       
-    </aside>
+  </aside>
 
-    <main class="main" role="main">
-      <div class="content">
-        <?php echo $this->getChildHtml('breadcrumbs') ?>
-        
-        <article>
-          <?php echo $this->getChildHtml('global_messages') ?>
-          <?php echo $this->getChildHtml('content') ?>
-        </article>
-      </div>
-    </main>
-  </div>
+  <main class="main" role="main">
+    <div class="content">
+      <?php echo $this->getChildHtml('breadcrumbs') ?>
+      <article>
+        <?php echo $this->getChildHtml('global_messages') ?>
+        <?php echo $this->getChildHtml('content') ?>
+      </article>
+    </div>
+  </main>
+</div>
 
 <footer class="footer" role="contentinfo">
   <?php $this->getChildHtml('footer') ?>

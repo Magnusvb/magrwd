@@ -1,7 +1,7 @@
 @import '_normalize';
-@import '_oauth-simple';
-@import '_styles';
-@import '_styles-ie';
+// @import '_oauth-simple';
+//@import '_styles';
+//@import '_styles-ie';
 
 
 // Config modules
@@ -27,4 +27,5 @@
 @import 'modules/_inputs.scss';
 @import 'modules/_lists.scss';
 @import 'modules/_typography.scss';
-@import 'modules/_widgets';
+@import 'modules/_widgets.scss';
+@import 'modules/_category.scss';

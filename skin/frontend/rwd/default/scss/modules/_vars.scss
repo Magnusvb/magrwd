@@ -1,10 +1,10 @@
 /* ========== Breakpoints ============== */
 @mixin breakpoint($point) {
 	@if $point == small {
-		@media (min-width: 40em) { @content; }
+		@media (min-width: 47em) { @content; }
 	}
 	@else if $point == medium {
-		@media (min-width: 45em) { @content; }
+		@media (min-width: 50em) { @content; }
 	}
 	@else if $point == large {
 		@media (min-width: 65em) { @content; }
@@ -29,6 +29,7 @@ $footerbg: rgb(240, 240, 240);
 $basicbtn: rgb(204, 221, 240);
 $addcartbtn: rgb(221, 106, 18);
 $checkoutbtn: rgb(7, 100, 166);
+$headlines: rgb(33, 55, 104);
 
 /*
   Mixin

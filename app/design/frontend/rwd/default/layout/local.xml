@@ -4,8 +4,13 @@
     <reference name="root">
       <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
-    <reference name="root">
+    <!-- <reference name="root">
       <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference> -->
+    <reference name="left">
+      <block type="page/html_header" name="logo" before="-">
+        <action method="setTemplate"><template>page/html/logotyp.phtml</template></action>
+      </block>
     </reference>
     <!-- block override here -->
     <remove name="left.permanent.callout" /> <!--the dog-->

@@ -4,18 +4,17 @@
   @include breakpoint(small) {
     text-align: left;
     position: relative;
-    top: -12em;
+    top: -11em;
     float: left;
     width: 20%;
   }
   @include breakpoint(medium) {
-    top: -9em;
+    // top: -11em;
   }
 }
 
 .logo {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em .3em;
   background-color: $logobg;
   text-align: center;
   @include boxshadow;
