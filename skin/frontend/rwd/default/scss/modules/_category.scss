@@ -10,11 +10,35 @@ section {
 }
 
 .category-products {
-  background-color: silver;
+  // background-color: silver;
 }
 
-.product-grid {
-  li {
+.products-grid {
+  // background-color: lighten($headerbg, 50%);
+  border-bottom: 1px dotted $footerbg;
+  padding: 0;
+  margin: 1em 0;
+  // position: relative;
+  .item {
+    background-color: lighten($headerbg, 50%);
+    vertical-align: top;
     display: inline-block;
+    list-style-type: none;
+    margin-right: 5%;
+    text-align: center;
+    width: 20%
   }
+  .last {
+    margin-right: 0;
+  }
+  .add-to-links {
+    font-size: .8em;
+  }
+  .actions {
+    
+  }
+}
+
+.price-box {
+  background-color: lighten($headerbg, 30%);
 }
