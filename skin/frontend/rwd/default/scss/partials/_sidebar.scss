@@ -24,10 +24,26 @@
   border: 1px dotted lighten($headerbg, 20%);
   @include borderradius(0.5em);
   padding: 0.5em;
-  height: 10em;
+  // height: 10em;
   width: 80%;
   margin: 0.5em 10%;
 }
+
+#narrow-by-list {
+    font-size: .8em;
+    dt {
+      font-weight: bold;
+      margin-left: 0;
+    }
+    dd {
+        padding-left: .6em;
+        margin-left: 0;
+      }
+    ol {
+      margin-top: 0;
+      padding: 0;
+    } 
+  }
 
 .recent {
   border: 1px dotted lighten($headerbg, 20%);

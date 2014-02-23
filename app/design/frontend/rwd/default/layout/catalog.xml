@@ -95,7 +95,7 @@ Category layered navigation layout
 <catalog_category_layered translate="label">
   <label>Catalog Category (Anchor)</label>
   <reference name="left">
-    <block type="catalog/layer_view" name="catalog.leftnav" after="currency" template="catalog/layer/view.phtml"/>
+    <block type="catalog/layer_view" name="catalog.leftnav" after="logotyp" template="catalog/layer/view.phtml"/> <!-- logotyp mmove shop by to the bottom -->
   </reference>
   <reference name="content">
     <block type="catalog/category_view" name="category.products" template="catalog/category/view.phtml">
