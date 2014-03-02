@@ -1,10 +1,10 @@
 .wrapper {
-/*  background-color: red;*/
+   
 }
 
 .main {
   max-width: 63em;
-/*  background-color: #dcd7d7;*/
+  // background-color: #dcd7d7;
   margin: 0 auto;
   padding: 2%;
 /*  height: 30em;*/
@@ -17,6 +17,10 @@
   @include breakpoint(large) {
     width: 70%;
     margin-left: 3%;
+  }
+  @include breakpoint(big) {
+    margin-left: 10%;
+    width: 100%;
   }
 }
 
