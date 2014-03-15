@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Alice_Rwd>
+      <version>0.1.0</version>
+    </Alice_Rwd>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <alice_two_col_rwd translate="label">
+          <label>AliceRWD</label>
+          <template>page/alice-two-col-rwd.phtml</template>
+          <layout_handle>page_alice_two_col_rwd</layout_handle>
+        </alice_two_col_rwd>
+      </layouts>
+    </page>
+  </global>
+</config>

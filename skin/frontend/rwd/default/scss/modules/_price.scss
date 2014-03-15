@@ -1,0 +1,24 @@
+// Styles for displaying prices
+
+.price-box {
+  // background-color: #eee;
+}
+
+.regular-price {
+  @include price-display(1.2em);
+}
+
+.old-price {
+  margin-bottom: .3em;
+  .price {
+    @include price-display(1.2em);
+    color: lighten($headerbg, 30%);
+  }
+}
+
+.special-price {
+  .price {
+    @include price-display(1.5em);
+    color: $specialprice; 
+  }
+}

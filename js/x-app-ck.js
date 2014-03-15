@@ -1,0 +1,1 @@
+"use strict";function displayMenu(){navBox.classList.toggle("showmenu")}var menuButton=document.getElementById("menubutton"),navBox=document.getElementById("navmenu");menuButton.addEventListener("click",displayMenu,!1);

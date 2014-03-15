@@ -1,0 +1,48 @@
+.sidebar {
+  background-color: lighten($sidebarbg, 10%);
+  text-align: center;
+  padding-bottom: 2em;
+  @include breakpoint(small) {
+    text-align: left;
+    position: relative;
+    top: -11em;
+    float: left;
+    width: 20%;
+  }
+  @include breakpoint(medium) {
+    // top: -11em;
+  }
+}
+
+.logo {
+  padding: 2em .3em;
+  background-color: $logobg;
+  text-align: center;
+  @include boxshadow;
+}
+
+.layernav {
+  @extend %dotted-boxborder;
+}
+
+#narrow-by-list {
+    font-size: .8em;
+    dt {
+      font-weight: bold;
+      margin-left: 0;
+    }
+    dd {
+        padding-left: .6em;
+        margin-left: 0;
+      }
+    ol {
+      margin-top: 0;
+      padding: 0;
+    } 
+  }
+
+.recent {
+  @extend %dotted-boxborder;
+  height: 10em;
+}
+

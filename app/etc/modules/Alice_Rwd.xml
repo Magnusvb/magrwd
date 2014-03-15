@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Alice_Rwd>
+      <active>true</active>
+      <codePool>local</codePool>
+      <depends>
+        <Mage_Page />
+      </depends>
+    </Alice_Rwd>
+  </modules>
+</config>

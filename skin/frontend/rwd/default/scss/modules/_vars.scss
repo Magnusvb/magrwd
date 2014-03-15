@@ -1,24 +1,60 @@
 /* ========== Breakpoints ============== */
 @mixin breakpoint($point) {
 	@if $point == small {
-		@media (min-width: 40em) { @content; }
+		@media (min-width: 47em) { @content; }
 	}
 	@else if $point == medium {
-		@media (min-width: 45em) { @content; }
+		@media (min-width: 58em) { @content; } // 50em
 	}
 	@else if $point == large {
 		@media (min-width: 65em) { @content; }
 	}
 	@else if $point == big {
-		@media (min-width: 94em) { @content; }
+		@media (min-width: 97em) { @content; }
 	}
 }
 
-/* ========== Colors ============== */
+/*
+  Colors
+*/
 
-$gotisk: rgb(0, 132, 68);
-$brons: rgb(251, 143, 0);
-$accent: rgb(202, 34, 31);
-$navbg: rgb(240, 240, 240);
-$button1: rgb(184, 152, 195);
-$button2: darken($button1, 20%);
+$navlistfirst: rgb(200, 200, 200);
+$navlistsecond: lighten($navlistfirst, 10%);
+$menulinks: rgb(50, 81, 108);
+$headerbg: rgb(80, 85, 96);
+$sidebarbg: rgb(187, 201, 217);
+$menubutton: #E3E2C8;
+$logobg: #e0f255;
+$footerbg: rgb(240, 240, 240);
+$basicbtn: rgb(204, 221, 240);
+$addcartbtn: rgb(221, 106, 18);
+$checkoutbtn: rgb(7, 100, 166);
+$headlines: rgb(33, 55, 104);
+$specialprice: rgb(240, 98, 2);
+
+/*
+  Mixin
+*/
+@mixin borderradius($radius) {
+  -webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin boxshadow {
+  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+@mixin price-display($size) {
+  font-weight: bold;
+  font-size: $size;
+}
+
+%dotted-boxborder {
+  border: 1px dotted lighten($headerbg, 20%);
+  @include borderradius(0.5em);
+  padding: 0.5em;
+  width: 80%;
+  margin: 0.5em 10%;
+}

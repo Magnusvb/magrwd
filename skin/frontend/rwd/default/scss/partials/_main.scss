@@ -1,0 +1,30 @@
+.wrapper {
+   
+}
+
+.main {
+  max-width: 63em;
+  // background-color: #dcd7d7;
+  margin: 0 auto;
+  padding: 2%;
+/*  height: 30em;*/
+  @include breakpoint(small) {
+    float: left;
+    width: 78%;
+    margin-left: 2%;
+    padding: 0;
+  }
+  @include breakpoint(large) {
+    width: 70%;
+    margin-left: 3%;
+  }
+  @include breakpoint(big) {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+article {
+  // padding: 0.5em 2%;
+  margin-bottom: 2em;
+}

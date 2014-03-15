@@ -1,0 +1,24 @@
+.add-info {
+  @extend %dotted-boxborder;
+  h2 {
+    border-bottom: 1px #eee solid;
+  }
+}
+
+.data-table {
+  // background-color: #aaa;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: left;
+  tr {
+    border-bottom: 1px #eee solid;
+    padding: .3em;
+  }
+  th {
+    border-right: 1px #eee solid;
+    padding: .3em;
+  }
+  td.data {
+    padding-left: .5em;
+  }
+}
