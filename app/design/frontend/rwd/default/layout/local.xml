@@ -8,9 +8,12 @@
       <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference> -->
     <reference name="left">
-      <block type="page/html_header" name="logo" before="-">
+      <block type="page/html_header" name="logo" before="-"> <!-- New block for logotype -->
         <action method="setTemplate"><template>page/html/logotyp.phtml</template></action>
       </block>
+    </reference>
+    <reference name="before_body_end"> <!-- Load app.js after page is loaded - MVB -->
+        <block type="core/template" name="trackgoober" template="page/js/menu.phtml" />
     </reference>
     <!-- block override here -->
     <remove name="left.permanent.callout" /> <!--the dog-->
@@ -27,4 +30,9 @@
       <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
     </reference>
   </catalog_category_layered>
+  <catalog_category_view>
+    <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference>
+  </catalog_category_view>
 </layout>
