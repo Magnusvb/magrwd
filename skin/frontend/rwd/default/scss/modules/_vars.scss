@@ -30,6 +30,7 @@ $basicbtn: rgb(204, 221, 240);
 $addcartbtn: rgb(221, 106, 18);
 $checkoutbtn: rgb(7, 100, 166);
 $headlines: rgb(33, 55, 104);
+$specialprice: rgb(240, 98, 2);
 
 /*
   Mixin
@@ -43,6 +44,11 @@ $headlines: rgb(33, 55, 104);
   -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+@mixin price-display($size) {
+  font-weight: bold;
+  font-size: $size;
 }
 
 %dotted-boxborder {

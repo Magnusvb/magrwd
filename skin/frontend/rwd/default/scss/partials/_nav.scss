@@ -50,7 +50,11 @@
   }
   @include breakpoint(small) {
     padding-top: 1.5em;
-    padding-left: 2.6em;
+    padding-left: .5em;
+  }
+  @include breakpoint(medium) {
+    padding-top: 1.5em;
+    padding-left: 2.2em;
   }
 }
 

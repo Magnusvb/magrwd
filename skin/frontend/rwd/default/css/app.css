@@ -25,7 +25,7 @@ body {
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 41, ../scss/_normalize.scss */
+/* line 30, ../scss/_normalize.scss */
 article,
 aside,
 details,
@@ -44,7 +44,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 53, ../scss/_normalize.scss */
+/* line 50, ../scss/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -67,7 +67,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 74, ../scss/_normalize.scss */
+/* line 73, ../scss/_normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -84,7 +84,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../scss/_normalize.scss */
+/* line 93, ../scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -101,7 +101,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 114, ../scss/_normalize.scss */
+/* line 113, ../scss/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -140,7 +140,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 158, ../scss/_normalize.scss */
+/* line 157, ../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -200,7 +200,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 228, ../scss/_normalize.scss */
+/* line 225, ../scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -220,7 +220,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 252, ../scss/_normalize.scss */
+/* line 248, ../scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -246,7 +246,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8+, and Opera
  * Correct `select` style inheritance in Firefox.
  */
-/* line 274, ../scss/_normalize.scss */
+/* line 273, ../scss/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -258,7 +258,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 289, ../scss/_normalize.scss */
+/* line 286, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -271,7 +271,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 299, ../scss/_normalize.scss */
+/* line 298, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -279,7 +279,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 308, ../scss/_normalize.scss */
+/* line 307, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -300,7 +300,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 331, ../scss/_normalize.scss */
+/* line 330, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -313,7 +313,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 343, ../scss/_normalize.scss */
+/* line 342, ../scss/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -337,7 +337,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, ../scss/_normalize.scss */
+/* line 366, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -387,7 +387,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 421, ../scss/_normalize.scss */
+/* line 420, ../scss/_normalize.scss */
 td,
 th {
   padding: 0; }
@@ -399,7 +399,7 @@ th {
 /*
   Mixin
 */
-/* line 48, ../scss/modules/_vars.scss */
+/* line 54, ../scss/modules/_vars.scss */
 .layernav, .recent, .add-to-box, .add-info {
   border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
@@ -527,8 +527,8 @@ a {
   @media (min-width: 47em) {
     /* line 58, ../scss/partials/_header.scss */
     .cart {
-      float: right;
-      margin-right: 5em;
+      float: left;
+      margin: 1em 0 0 3em;
       width: 40%; } }
   @media (min-width: 58em) {
     /* line 58, ../scss/partials/_header.scss */
@@ -588,9 +588,14 @@ a {
     /* line 1, ../scss/partials/_nav.scss */
     .nav {
       padding-top: 1.5em;
-      padding-left: 2.6em; } }
+      padding-left: .5em; } }
+  @media (min-width: 58em) {
+    /* line 1, ../scss/partials/_nav.scss */
+    .nav {
+      padding-top: 1.5em;
+      padding-left: 2.2em; } }
 
-/* line 57, ../scss/partials/_nav.scss */
+/* line 61, ../scss/partials/_nav.scss */
 .showmenu {
   /*  display: block;*/
   height: 100%;
@@ -599,7 +604,7 @@ a {
   -o-transition: width 2s, height 2s, background-color 2s, -o-transform 2s;
   transition: width 2s, height 2s, background-color 2s, transform 2s; }
 
-/* line 66, ../scss/partials/_nav.scss */
+/* line 70, ../scss/partials/_nav.scss */
 .menubutton {
   background-color: #e3e2c8;
   font-weight: bold;
@@ -608,7 +613,7 @@ a {
   line-height: 3em;
   cursor: pointer; }
   @media (min-width: 47em) {
-    /* line 66, ../scss/partials/_nav.scss */
+    /* line 70, ../scss/partials/_nav.scss */
     .menubutton {
       display: none; } }
 
@@ -701,6 +706,9 @@ section {
   section h2 {
     font-size: 1em; }
 
+/* line 22, ../scss/partials/_product.scss */
+.short-description p {
+  font-size: 1.4em; }
 @media (min-width: 58em) {
   /* line 21, ../scss/partials/_product.scss */
   .short-description {
@@ -711,33 +719,60 @@ section {
   .short-description {
     width: 50%; } }
 
-/* line 31, ../scss/partials/_product.scss */
+/* line 34, ../scss/partials/_product.scss */
 .short-links {
   margin-top: 1em; }
   @media (min-width: 58em) {
-    /* line 31, ../scss/partials/_product.scss */
+    /* line 34, ../scss/partials/_product.scss */
     .short-links {
       float: right;
       margin-top: 0;
       width: 35%; } }
 
-/* line 41, ../scss/partials/_product.scss */
+/* line 44, ../scss/partials/_product.scss */
 .add-to-box {
   text-align: center; }
-  /* line 45, ../scss/partials/_product.scss */
+  /* line 48, ../scss/partials/_product.scss */
   .add-to-box input[type="text"] {
     width: 25%; }
-  /* line 48, ../scss/partials/_product.scss */
+  /* line 51, ../scss/partials/_product.scss */
   .add-to-box .add-to-links {
     margin-left: 0;
     padding-left: 0; }
-    /* line 51, ../scss/partials/_product.scss */
+    /* line 54, ../scss/partials/_product.scss */
     .add-to-box .add-to-links li {
       display: inline-block; }
+  /* line 58, ../scss/partials/_product.scss */
+  .add-to-box .btn-cart {
+    margin-top: 1em; }
+    @media (min-width: 47em) {
+      /* line 58, ../scss/partials/_product.scss */
+      .add-to-box .btn-cart {
+        margin-top: 0; } }
 
-/* line 57, ../scss/partials/_product.scss */
+/* line 66, ../scss/partials/_product.scss */
 .no-display {
   display: none; }
+
+/* line 7, ../scss/modules/_price.scss */
+.regular-price {
+  font-weight: bold;
+  font-size: 1.2em; }
+
+/* line 11, ../scss/modules/_price.scss */
+.old-price {
+  margin-bottom: .3em; }
+  /* line 13, ../scss/modules/_price.scss */
+  .old-price .price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #9ca1ad; }
+
+/* line 20, ../scss/modules/_price.scss */
+.special-price .price {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #f06202; }
 
 /*
   Basic button
@@ -752,7 +787,7 @@ section {
   border: none;
   background-color: #ccddf0;
   color: black;
-  margin: 0em;
+  margin: 0;
   padding: 0.8em 1em;
   font-size: 1rem;
   text-transform: uppercase;
@@ -761,9 +796,9 @@ section {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.05)));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
+  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   border-radius: 0.25em;
   -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
@@ -771,7 +806,7 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 /* line 35, ../scss/modules/_buttons.scss */
 .addcart {
@@ -839,28 +874,24 @@ input[type=text] {
   src: url("..../fonts/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Bold-webfont.woff") format("woff"), url("../fonts/ClearSans-Bold-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Bold-webfont.svg#andadabold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'clear_sans_bolditalic';
   src: url("../fonts/ClearSans-BoldItalic-webfont.eot");
   src: url("../fonts/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-BoldItalic-webfont.svg#andadabold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'clear_sansitalic';
   src: url("../fonts/ClearSans-Italic-webfont.eot");
   src: url("../fonts/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Italic-webfont.woff") format("woff"), url("../fonts/ClearSans-Italic-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Italic-webfont.svg#andadaitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'clear_sansregular';
   src: url("../fonts/ClearSans-Regular-webfont.eot");
   src: url("../fonts/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Regular-webfont.woff") format("woff"), url("../fonts/ClearSans-Regular-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Regular-webfont.svg#andadaregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* line 45, ../scss/modules/_typography.scss */
 p {
   font-family: "clear_sansregular";
@@ -963,7 +994,7 @@ ul, ol, li {
 .col-main .widget-new-products {
   margin: 7px 0; }
 
-/* line 37, ../scss/modules/_widgets.scss */
+/* line 36, ../scss/modules/_widgets.scss */
 .widget-new-products .products-grid .product-image,
 .widget-new-products .products-list .product-image {
   width: 85px;
@@ -993,7 +1024,7 @@ ul, ol, li {
 .col-main .widget-viewed {
   margin: 7px 0; }
 
-/* line 62, ../scss/modules/_widgets.scss */
+/* line 61, ../scss/modules/_widgets.scss */
 .widget-viewed .products-grid .product-image,
 .widget-viewed .products-list .product-image {
   width: 85px;
@@ -1022,7 +1053,7 @@ ul, ol, li {
 .col-main .widget-compared {
   margin: 7px 0; }
 
-/* line 86, ../scss/modules/_widgets.scss */
+/* line 85, ../scss/modules/_widgets.scss */
 .widget-compared .products-grid .product-image,
 .widget-compared .products-list .product-image {
   width: 85px;

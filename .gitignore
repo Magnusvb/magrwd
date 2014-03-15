@@ -1,2 +1,4 @@
 /var/
 /media/catalog/product/cache/*
+
+/skin/frontend/rwd/default/scss/.sass-cache/*

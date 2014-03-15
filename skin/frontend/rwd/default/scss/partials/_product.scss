@@ -19,6 +19,9 @@ section {
 }
 
 .short-description {
+  p {
+    font-size: 1.4em;
+  }
   @include breakpoint(medium) {
     float: left;
     width: 60%;
@@ -50,6 +53,12 @@ section {
     padding-left: 0;
     li {
       display: inline-block;
+    }
+  }
+  .btn-cart {
+    margin-top: 1em;
+    @include breakpoint(small) {
+      margin-top: 0;
     }
   }
 }
