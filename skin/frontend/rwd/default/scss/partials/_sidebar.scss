@@ -26,7 +26,10 @@
 }
 
 #narrow-by-list {
-    font-size: .8em;
+    font-size: 1em;
+    @include breakpoint(small) {
+      font-size: .8em;
+    }
     dt {
       font-weight: bold;
       margin-left: 0;

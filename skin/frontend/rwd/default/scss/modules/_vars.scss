@@ -58,3 +58,7 @@ $specialprice: rgb(240, 98, 2);
   width: 80%;
   margin: 0.5em 10%;
 }
+
+%listborder {
+  border-bottom: 1px solid lighten($logobg, 20%);
+}

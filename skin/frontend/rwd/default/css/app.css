@@ -408,15 +408,19 @@ th {
   width: 80%;
   margin: 0.5em 10%; }
 
+/* line 62, ../scss/modules/_vars.scss */
+.products-grid, .products-list li {
+  border-bottom: 1px solid #f1f9b4; }
+
 /* line 1, ../scss/modules/_clearfix.scss */
-.clear:before, .clear:after {
+.clear:before, .clear:after, .products-list li {
   content: ' ';
   display: table; }
 
-/* line 5, ../scss/modules/_clearfix.scss */
+/* line 6, ../scss/modules/_clearfix.scss */
 .clear {
   *zoom: 1; }
-  /* line 10, ../scss/modules/_clearfix.scss */
+  /* line 11, ../scss/modules/_clearfix.scss */
   .clear:after {
     clear: both; }
 
@@ -677,21 +681,25 @@ article {
 
 /* line 28, ../scss/partials/_sidebar.scss */
 #narrow-by-list {
-  font-size: .8em; }
-  /* line 30, ../scss/partials/_sidebar.scss */
+  font-size: 1em; }
+  @media (min-width: 47em) {
+    /* line 28, ../scss/partials/_sidebar.scss */
+    #narrow-by-list {
+      font-size: .8em; } }
+  /* line 33, ../scss/partials/_sidebar.scss */
   #narrow-by-list dt {
     font-weight: bold;
     margin-left: 0; }
-  /* line 34, ../scss/partials/_sidebar.scss */
+  /* line 37, ../scss/partials/_sidebar.scss */
   #narrow-by-list dd {
     padding-left: .6em;
     margin-left: 0; }
-  /* line 38, ../scss/partials/_sidebar.scss */
+  /* line 41, ../scss/partials/_sidebar.scss */
   #narrow-by-list ol {
     margin-top: 0;
     padding: 0; }
 
-/* line 44, ../scss/partials/_sidebar.scss */
+/* line 47, ../scss/partials/_sidebar.scss */
 .recent {
   height: 10em; }
 
@@ -1194,7 +1202,6 @@ ul, ol, li {
 
 /* line 44, ../scss/modules/_category.scss */
 .products-grid {
-  border-bottom: 1px solid #f1f9b4;
   padding: 0;
   margin: 0; }
   /* line 50, ../scss/modules/_category.scss */
@@ -1222,3 +1229,23 @@ ul, ol, li {
   .products-grid .add-to-links {
     font-size: .8em;
     padding: 0; }
+
+/* line 79, ../scss/modules/_category.scss */
+.products-list {
+  padding-left: 0; }
+  /* line 82, ../scss/modules/_category.scss */
+  .products-list li {
+    margin-bottom: 1em; }
+  /* line 88, ../scss/modules/_category.scss */
+  .products-list .product-shop {
+    width: 70%;
+    float: right; }
+    @media (min-width: 58em) {
+      /* line 88, ../scss/modules/_category.scss */
+      .products-list .product-shop {
+        width: 80%; } }
+    /* line 96, ../scss/modules/_category.scss */
+    .products-list .product-shop .add-to-links li {
+      display: inline-block;
+      border: none;
+      margin: 1em; }

@@ -43,7 +43,7 @@ section {
 
 .products-grid {
   // background-color: lighten($headerbg, 50%);
-  border-bottom: 1px solid lighten($logobg, 20%);
+  @extend %listborder;
   padding: 0;
   margin: 0;
   // position: relative;
@@ -73,6 +73,32 @@ section {
   }
   .actions {
     
+  }
+}
+
+.products-list {
+  // background-color: #eee;
+  padding-left: 0;
+  li {
+    // background-color: lighten($headerbg, 50%);
+    @extend %listborder;
+    margin-bottom: 1em;
+    @extend %clear;
+  }
+  .product-shop {
+    // background-color: yellow;
+    width: 70%;
+    float: right;
+    @include breakpoint(medium) {
+      width: 80%;
+    }
+    .add-to-links {
+      li {
+        display: inline-block;
+        border: none;
+        margin: 1em;
+      }
+    }
   }
 }
 
