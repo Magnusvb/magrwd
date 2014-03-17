@@ -1,0 +1,10 @@
+.proceedbutton {
+  // background-color: #eee;
+  text-align: right;
+}
+
+.cart-items {
+  @extend %dotted-boxborder;
+  margin: 0;
+  width: 100%;
+}

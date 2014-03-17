@@ -1,0 +1,15 @@
+<?php
+/**
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Proceed button on checkout page
+*
+* @category    design
+* @package     rwd_default
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+ */
+?>
+<div class="proceedbutton">
+<?php if ($this->isPossibleOnepageCheckout()):?>
+    <button type="button" title="<?php echo $this->__('Proceed to Checkout') ?>" class="button btn-proceed-checkout btn-checkout<?php if ($this->isDisabled()):?> no-checkout<?php endif; ?>"<?php if ($this->isDisabled()):?> disabled="disabled"<?php endif; ?> onclick="window.location='<?php echo $this->getCheckoutUrl() ?>';"><span><span><?php echo $this->__('Proceed to Checkout') ?></span></span></button>
+<?php endif?>
+</div>

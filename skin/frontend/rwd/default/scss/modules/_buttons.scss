@@ -34,14 +34,22 @@
 
 .addcart {
   @extend .button;
-  color: white;
+  color: #fff;
   background-color: $addcartbtn;
 }
 
 .checkout {
   @extend .button;
-  color: white;
+  color: #fff;
   background-color: $checkoutbtn;
+}
+
+.btn-proceed-checkout {
+  @extend .button;
+  color: #000;
+  background-color: $proceedbtn;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*.button {

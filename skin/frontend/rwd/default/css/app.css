@@ -399,8 +399,8 @@ th {
 /*
   Mixin
 */
-/* line 54, ../scss/modules/_vars.scss */
-.layernav, .recent, .add-to-box, .add-info {
+/* line 55, ../scss/modules/_vars.scss */
+.layernav, .recent, .add-to-box, .add-info, .cart-items {
   border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
@@ -408,7 +408,7 @@ th {
   width: 80%;
   margin: 0.5em 10%; }
 
-/* line 62, ../scss/modules/_vars.scss */
+/* line 63, ../scss/modules/_vars.scss */
 .products-grid, .products-list li {
   border-bottom: 1px solid #f1f9b4; }
 
@@ -786,7 +786,7 @@ section {
   Basic button
 */
 /* line 4, ../scss/modules/_buttons.scss */
-.button, .addcart, .checkout, .small-button {
+.button, .addcart, .checkout, .btn-proceed-checkout, .small-button {
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -818,13 +818,20 @@ section {
 
 /* line 35, ../scss/modules/_buttons.scss */
 .addcart {
-  color: white;
+  color: #fff;
   background-color: #dd6a12; }
 
 /* line 41, ../scss/modules/_buttons.scss */
 .checkout {
-  color: white;
+  color: #fff;
   background-color: #0764a6; }
+
+/* line 47, ../scss/modules/_buttons.scss */
+.btn-proceed-checkout {
+  color: #000;
+  background-color: #ff8227;
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 /*.button {
   font-size: 1.2em;
@@ -841,7 +848,7 @@ section {
     display: inline-block;
   }
 }*/
-/* line 63, ../scss/modules/_buttons.scss */
+/* line 71, ../scss/modules/_buttons.scss */
 .small-button {
   font-size: 1em; }
 
@@ -1249,3 +1256,12 @@ ul, ol, li {
       display: inline-block;
       border: none;
       margin: 1em; }
+
+/* line 1, ../scss/modules/_checkout.scss */
+.proceedbutton {
+  text-align: right; }
+
+/* line 6, ../scss/modules/_checkout.scss */
+.cart-items {
+  margin: 0;
+  width: 100%; }
