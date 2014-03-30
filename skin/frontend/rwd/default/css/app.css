@@ -410,7 +410,7 @@ th {
   text-align: right; }
 
 /* line 74, ../scss/modules/_vars.scss */
-.layernav, .recent, .add-to-box, .add-info, .cart-items {
+.layernav, .recent, .add-to-box, .add-info, .cart-items, #discount-coupon-form, .shipping {
   border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
@@ -423,7 +423,7 @@ th {
   border-bottom: 1px solid #f1f9b4; }
 
 /* line 1, ../scss/modules/_clearfix.scss */
-.clear:before, .clear:after, .products-list li {
+.clear:before, .clear:after, .products-list li, .totals {
   content: ' ';
   display: table; }
 
@@ -1385,3 +1385,32 @@ tfoot .cart-buttons {
   /* line 142, ../scss/modules/_checkout.scss */
   .crosssell .item button {
     margin: 1em 0; }
+
+/* line 152, ../scss/modules/_checkout.scss */
+#discount-coupon-form .buttons-set {
+  margin-top: 1em; }
+@media (min-width: 58em) {
+  /* line 149, ../scss/modules/_checkout.scss */
+  #discount-coupon-form {
+    float: left;
+    margin: 0;
+    width: 25%; } }
+
+@media (min-width: 58em) {
+  /* line 162, ../scss/modules/_checkout.scss */
+  .shipping {
+    float: left;
+    margin: 0;
+    margin-right: 0;
+    width: 70%;
+    margin-left: 4%; } }
+
+/* line 174, ../scss/modules/_checkout.scss */
+.totals {
+  background-color: #eee;
+  width: 100%; }
+  @media (min-width: 58em) {
+    /* line 174, ../scss/modules/_checkout.scss */
+    .totals {
+      float: right;
+      width: 70%; } }

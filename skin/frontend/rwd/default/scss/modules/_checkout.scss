@@ -144,3 +144,39 @@ tfoot {
     }
   }
 }
+
+// ------------------------ Discount and shipping
+#discount-coupon-form {
+  // background-color: red;
+  @extend %dotted-boxborder;
+  .buttons-set {
+    margin-top: 1em;
+  }
+  @include breakpoint(medium) {
+    float: left;
+    margin: 0;
+    width: 25%
+  }
+}
+
+.shipping {
+  @extend %dotted-boxborder;
+  @include breakpoint(medium) {
+    float: left;
+    margin: 0;
+    margin-right: 0;
+    width: 70%;
+    margin-left: 4%;
+  }
+}
+
+// ------------------------ Grand totals
+.totals {
+  background-color: #eee;
+  @extend %clear;
+  width: 100%;
+  @include breakpoint(medium) {
+    float: right;
+    width: 70%;
+  }
+}
