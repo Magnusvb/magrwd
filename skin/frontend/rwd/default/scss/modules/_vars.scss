@@ -52,6 +52,25 @@ $proceedbtn: rgb(255, 130, 39);
   font-size: $size;
 }
 
+@mixin right-border {
+  border-right: 1px dotted lighten($headerbg, 50%);
+}
+
+@mixin button-border-light {
+  border: 1px dotted lighten($headerbg, 50%);
+  @include borderradius(.3em);
+  padding: .2em .3em;
+}
+
+%add-to-links {
+  @include button-border-light;
+  font-size: .8em;
+  display: inline-block;
+  // padding: .2em .5em;
+  text-align: right;
+  // background-color: lighten($logobg, 30%);
+}
+
 %dotted-boxborder {
   border: 1px dotted lighten($headerbg, 20%);
   @include borderradius(0.5em);

@@ -92,12 +92,13 @@ thead {
   }
 }
 
-.tfoot {
-  tr {
-    text-align: center;
-  }
-  button {
-    display: block;
+tfoot {
+  .cart-buttons {
+    // background-color: green;
+    text-align: center !important;
+    button {
+      margin: 1em;
+    }
   }
 }
 
@@ -109,5 +110,37 @@ thead {
   dd {
     display: inline-block;
     margin-left: 5px;
+  }
+}
+
+// ------------------ Crosssell bellow cart table
+.crosssell {
+  // background-color: #eee;
+  #crosssell-products-list {
+    padding: 0;
+  }
+  .item {
+    // background-color: #666;
+    @include right-border;
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    padding-right: 3%;
+    @include breakpoint(medium) {
+      width: 22%;
+      margin-right: 3%;
+      padding-right: 3%;
+    }
+    vertical-align: top;
+    &:last-child {
+      margin-right: 0;
+      // border-right: 0;
+    }
+    .add-to-links {
+      @extend %add-to-links;
+    }
+    button {
+      margin: 1em 0;
+    }
   }
 }
