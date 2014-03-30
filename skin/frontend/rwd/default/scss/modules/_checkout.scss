@@ -1,10 +1,113 @@
 .proceedbutton {
   // background-color: #eee;
-  text-align: right;
+  text-align: center;
+  @include breakpoint(medium) {
+    text-align: right;
+  }
 }
 
 .cart-items {
   @extend %dotted-boxborder;
+  // background-color: #555;
   margin: 0;
   width: 100%;
+  fieldset {
+    border: 0;
+  }
+}
+
+.shopping-cart {
+  // background-color: #eee;
+  tbody {
+    tr {
+      text-align: center;
+    }
+    td {
+      display: block;
+      // text-align: center;
+      @include breakpoint(medium) {
+        display: table-cell;
+        text-align: left;
+      }
+    }
+    .a-center, .a-right {
+    // display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    @include breakpoint(medium) {
+      display: table-cell;
+      width: 5%;
+    }
+  }
+}
+
+.cart-image {
+  margin-top: 2em;
+  @include breakpoint(medium) {
+    width: 8%;
+  }
+}
+
+.product-name-cart {
+  @include breakpoint(medium) {
+    width: 25%;
+  }
+}
+
+.cart-lable {
+  font-weight: bold;
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
+
+
+.first {
+  .cart-image {
+    margin-top: 0;
+  }
+}
+td.a-center.last {
+  margin: 1em 0;
+  padding: .3em;
+  background-color: $footerbg;
+  @include breakpoint(medium) {
+    background-color: transparent;
+  }
+}
+}
+
+#shopping-cart-table {
+  // background-color: yellow;
+}
+
+ul.checkout-types {
+  padding: 0;
+}
+
+thead {
+  display: none;
+  @include breakpoint(medium) {
+    display: table-header-group;
+  }
+}
+
+.tfoot {
+  tr {
+    text-align: center;
+  }
+  button {
+    display: block;
+  }
+}
+
+.item-options {
+  dt {
+    display: inline-block;
+    font-family: clear_sansbold;
+  }
+  dd {
+    display: inline-block;
+    margin-left: 5px;
+  }
 }

@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "16895",
 "files": {
 	"\/default\/css\/app.css": {
 		"fileType": 16,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/css\/app.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/default\/css\/flexnav.css": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/css\/flexnav.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/default\/css\/print.css": {
@@ -24,6 +26,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/css\/print.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/default\/images\/catalog\/product\/placeholder\/image.jpg": {
@@ -33,6 +36,7 @@
 		"initialSize": 1957,
 		"inputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/image.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -43,6 +47,7 @@
 		"initialSize": 1067,
 		"inputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/small_image.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/small_image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -53,6 +58,7 @@
 		"initialSize": 854,
 		"inputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/thumbnail.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/catalog\/product\/placeholder\/thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -63,6 +69,7 @@
 		"initialSize": 622,
 		"inputAbbreviatedPath": "\/default\/images\/fam_book_open.png",
 		"outputAbbreviatedPath": "\/default\/images\/fam_book_open.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -73,6 +80,7 @@
 		"initialSize": 14639,
 		"inputAbbreviatedPath": "\/default\/images\/free_shipping_callout.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/free_shipping_callout.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -83,6 +91,7 @@
 		"initialSize": 36053,
 		"inputAbbreviatedPath": "\/default\/images\/home_main_callout.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/home_main_callout.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -93,6 +102,18 @@
 		"initialSize": 791,
 		"inputAbbreviatedPath": "\/default\/images\/i_rss-big.png",
 		"outputAbbreviatedPath": "\/default\/images\/i_rss-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29808,
+		"inputAbbreviatedPath": "\/default\/images\/logo.png",
+		"outputAbbreviatedPath": "\/default\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -103,6 +124,7 @@
 		"initialSize": 17781,
 		"inputAbbreviatedPath": "\/default\/images\/media\/404_callout1.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/404_callout1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -113,6 +135,7 @@
 		"initialSize": 23222,
 		"inputAbbreviatedPath": "\/default\/images\/media\/404_callout2.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/404_callout2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -123,6 +146,7 @@
 		"initialSize": 11123,
 		"inputAbbreviatedPath": "\/default\/images\/media\/about_us_img.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/about_us_img.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -133,6 +157,7 @@
 		"initialSize": 1817,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img01.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img01.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -143,6 +168,7 @@
 		"initialSize": 3118,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img02.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img02.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -153,6 +179,7 @@
 		"initialSize": 2516,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img03.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img03.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -163,6 +190,7 @@
 		"initialSize": 2455,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img04.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img04.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -173,6 +201,7 @@
 		"initialSize": 2799,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img05.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img05.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -183,6 +212,7 @@
 		"initialSize": 4898,
 		"inputAbbreviatedPath": "\/default\/images\/media\/best_selling_img06.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/best_selling_img06.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -193,6 +223,7 @@
 		"initialSize": 21259,
 		"inputAbbreviatedPath": "\/default\/images\/media\/cell_phone_landing_banner1.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/cell_phone_landing_banner1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -203,6 +234,7 @@
 		"initialSize": 19102,
 		"inputAbbreviatedPath": "\/default\/images\/media\/col_left_callout.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/col_left_callout.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -213,6 +245,7 @@
 		"initialSize": 14703,
 		"inputAbbreviatedPath": "\/default\/images\/media\/col_right_callout.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/col_right_callout.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -223,6 +256,7 @@
 		"initialSize": 42440,
 		"inputAbbreviatedPath": "\/default\/images\/media\/electronics_cellphones.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/electronics_cellphones.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -233,6 +267,7 @@
 		"initialSize": 57481,
 		"inputAbbreviatedPath": "\/default\/images\/media\/electronics_digitalcameras.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/electronics_digitalcameras.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -243,6 +278,7 @@
 		"initialSize": 44643,
 		"inputAbbreviatedPath": "\/default\/images\/media\/electronics_laptops.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/electronics_laptops.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -253,6 +289,7 @@
 		"initialSize": 31312,
 		"inputAbbreviatedPath": "\/default\/images\/media\/furniture_callout_spot.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/furniture_callout_spot.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -263,6 +300,7 @@
 		"initialSize": 2193,
 		"inputAbbreviatedPath": "\/default\/images\/media\/furnitures_bed_room.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/furnitures_bed_room.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -273,6 +311,7 @@
 		"initialSize": 2541,
 		"inputAbbreviatedPath": "\/default\/images\/media\/furnitures_living_room.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/furnitures_living_room.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -283,6 +322,7 @@
 		"initialSize": 12145,
 		"inputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid1.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -293,6 +333,7 @@
 		"initialSize": 10540,
 		"inputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid2.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -303,6 +344,7 @@
 		"initialSize": 11699,
 		"inputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid3.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_mid3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -313,6 +355,7 @@
 		"initialSize": 30482,
 		"inputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_spot.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/laptop_callout_spot.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -323,6 +366,7 @@
 		"initialSize": 27352,
 		"inputAbbreviatedPath": "\/default\/images\/media\/shirts_landing_banner1.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/media\/shirts_landing_banner1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -333,6 +377,7 @@
 		"initialSize": 14035,
 		"inputAbbreviatedPath": "\/default\/images\/ph_callout_left_rebel.jpg",
 		"outputAbbreviatedPath": "\/default\/images\/ph_callout_left_rebel.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -343,6 +388,7 @@
 		"initialSize": 573,
 		"inputAbbreviatedPath": "\/default\/images\/shopping_cart.png",
 		"outputAbbreviatedPath": "\/default\/images\/shopping_cart.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -352,6 +398,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/app-ck.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/app-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -362,6 +409,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/app.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/app-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -372,6 +420,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/bundle.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/bundle-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -382,6 +431,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/checkout\/review.js",
 		"outputAbbreviatedPath": "\/default\/js\/checkout\/min\/review-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -392,6 +442,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/giftmessage.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/giftmessage-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -402,6 +453,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/ie6.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/ie6-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -412,6 +464,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/jquery.flexnav.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/jquery.flexnav-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -422,6 +475,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/jquery.flexnav.min.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/jquery.flexnav.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -432,6 +486,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/modernizr.custom.60681.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/modernizr.custom.60681-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -442,6 +497,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/msrp.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/msrp-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -452,6 +508,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/opcheckout.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/opcheckout-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -462,6 +519,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/default\/js\/min\/respond.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -475,6 +533,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/_normalize.scss",
 		"outputAbbreviatedPath": "\/default\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -490,6 +549,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/_oauth-simple.scss",
 		"outputAbbreviatedPath": "\/default\/css\/_oauth-simple.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -505,6 +565,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/_styles-ie.scss",
 		"outputAbbreviatedPath": "\/default\/css\/_styles-ie.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -520,6 +581,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/_styles.scss",
 		"outputAbbreviatedPath": "\/default\/css\/_styles.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -535,6 +597,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/app.scss",
 		"outputAbbreviatedPath": "\/default\/css\/app.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -550,6 +613,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_buttons.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -565,6 +629,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_category.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_category.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -580,6 +645,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_checkout.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_checkout.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -595,6 +661,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_clearfix.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_clearfix.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -610,6 +677,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_defaults.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_defaults.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -625,6 +693,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_inputs.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_inputs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -640,6 +709,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_lists.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_lists.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -655,6 +725,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_price.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_price.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -670,6 +741,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_typography.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -685,6 +757,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_vars.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_vars.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -700,6 +773,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/modules\/_widgets.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_widgets.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -715,6 +789,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_footer.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -730,6 +805,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_header.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_header.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -745,6 +821,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_main.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_main.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -760,6 +837,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_nav.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -775,6 +853,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_product.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_product.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -790,6 +869,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default\/scss\/partials\/_sidebar.scss",
 		"outputAbbreviatedPath": "\/default\/scss\/css\/_sidebar.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -923,7 +1003,7 @@
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/magrwd.dev",
 	"externalServerPreviewPathAddition": "",
-	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, phtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
 	"hamlAutoOutputPathReplace2": "",
