@@ -29,30 +29,41 @@
  */
 ?>
 <?php if ($this->includeTax() && $this->getTotalExclTax()>=0):?>
-<tr>
+    <dl class="grandtotal">
+        <dt><strong><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></dt>
+        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></strong></dd>
+
+        <dt><strong><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></strong></dt>
+        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong></dd>
+    </dl>
+<!-- <tr>
     <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
         <strong><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></strong>
     </td>
     <td style="<?php echo $this->getStyle() ?>" class="a-right">
         <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></strong>
     </td>
-</tr>
+</tr> -->
 <?php echo $this->renderTotals('taxes', $this->getColspan()); ?>
-<tr>
+<!-- <tr>
     <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
         <strong><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></strong>
     </td>
     <td style="<?php echo $this->getStyle() ?>" class="a-right">
         <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong>
     </td>
-</tr>
+</tr> -->
 <?php else:?>
-<tr>
+    <dl class="grandtotal">
+        <dt><strong><?php echo $this->getTotal()->getTitle() ?></strong></dt>
+        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong></dd>
+    </dl>
+<!-- <tr>
     <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
         <strong><?php echo $this->getTotal()->getTitle() ?></strong>
     </td>
     <td style="<?php echo $this->getStyle() ?>" class="a-right">
         <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong>
     </td>
-</tr>
+</tr> -->
 <?php endif;?>

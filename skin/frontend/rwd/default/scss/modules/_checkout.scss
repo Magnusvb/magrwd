@@ -123,9 +123,11 @@ tfoot {
     // background-color: #666;
     @include right-border;
     display: inline-block;
-    width: 30%;
-    margin-right: 3%;
-    padding-right: 3%;
+    @include breakpoint(small) {
+      width: 30%;
+      margin-right: 3%;
+      padding-right: 3%;
+    }
     @include breakpoint(medium) {
       width: 22%;
       margin-right: 3%;
@@ -168,15 +170,27 @@ tfoot {
     width: 70%;
     margin-left: 4%;
   }
+  ul {
+    padding-left: 0;
+  }
+  select {
+  width: 100%;
+  margin-bottom: 1em;
+}
 }
 
 // ------------------------ Grand totals
 .totals {
-  background-color: #eee;
+  // background-color: #eee;
+  padding: 1em 2em;
+  text-align: right;
   @extend %clear;
   width: 100%;
   @include breakpoint(medium) {
     float: right;
     width: 70%;
+  }
+  .grandtotal {
+    font-size: 1.5em;
   }
 }
