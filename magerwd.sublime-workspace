@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fl",
+				"fl	float: ${1:left};"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"marg",
 				"margin"
 			],
@@ -30,10 +38,6 @@
 			[
 				"mr",
 				"margin-right"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"ma",
@@ -152,10 +156,34 @@
 	"buffers":
 	[
 		{
-			"file": "skin/frontend/rwd/default/scss/partials/_main.scss",
+			"file": "app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml",
 			"settings":
 			{
-				"buffer_size": 439,
+				"buffer_size": 1643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/page/template/links.phtml",
+			"settings":
+			{
+				"buffer_size": 1529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skin/frontend/rwd/default/scss/partials/_header.scss",
+			"settings":
+			{
+				"buffer_size": 2110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/page/html/header.phtml",
+			"settings":
+			{
+				"buffer_size": 758,
 				"line_ending": "Unix"
 			}
 		},
@@ -168,42 +196,18 @@
 			}
 		},
 		{
-			"file": "skin/frontend/rwd/default/scss/modules/_checkout.scss",
+			"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
 			"settings":
 			{
-				"buffer_size": 2957,
+				"buffer_size": 788,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/design/frontend/rwd/default/template/checkout/cart/totals.phtml",
+			"file": "skin/frontend/rwd/default/scss/modules/_buttons.scss",
 			"settings":
 			{
-				"buffer_size": 1576,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/design/frontend/rwd/default/template/checkout/cart/shipping.phtml",
-			"settings":
-			{
-				"buffer_size": 8252,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/design/frontend/rwd/default/template/checkout/cart/item/default.phtml",
-			"settings":
-			{
-				"buffer_size": 15452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/design/frontend/rwd/default/template/checkout/cart/coupon.phtml",
-			"settings":
-			{
-				"buffer_size": 2780,
+				"buffer_size": 1779,
 				"line_ending": "Unix"
 			}
 		}
@@ -300,38 +304,73 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/oauth/authorize/button-simple.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/Authorize/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/oauth/authorize/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/oauth/authorize/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/api2/role/buttons.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/api2/attribute/buttons.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Sales/Block/Order/Info/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Api2/Block/Adminhtml/Roles/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Api2/Block/Adminhtml/Attribute/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Oauth/Block/Authorize/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Widget/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Permissions/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Api/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Dojo/View/Helper/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Dojo/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Varien/Data/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/js/tiny_mce/classes/ui/Button.js",
+		"/Library/WebServer/Documents/magrwd/js/extjs/resources/css/button.css",
+		"/Library/WebServer/Documents/magrwd/js/extjs/css/button.css",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/View/Helper/BaseUrl.php",
+		"/Library/WebServer/Documents/magrwd/js/blank.html",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/page.xml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/local.xml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/checkout.xml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/catalog.xml",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_category.scss",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/headercart.phtml",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_checkout.scss",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/totals.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/tax/checkout/grandtotal.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/shipping.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/tax/checkout/subtotal.phtml",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_vars.scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_main.scss",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/coupon.phtml",
+		"/Library/WebServer/Documents/magrwd/magerwd.sublime-project",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/images/shopping_cart.svg",
+		"/Library/WebServer/Documents/magrwd/app/etc/modules/Alice_Rwd.xml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Gdata/Geo/Extension/GeoRssWhere.php",
+		"/Library/WebServer/Documents/magrwd/RELEASE_NOTES.txt",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/js/giftmessage.js",
+		"/Library/WebServer/Documents/magrwd/get.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Pdf/Action/GoToR.php",
+		"/Library/WebServer/Documents/magrwd/lib/Mage/Connect/Structures/Graph.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Tax/Block/Checkout/Grandtotal.php",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_buttons.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/crosssell.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/link.phtml",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_header.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/html/header.phtml",
-		"/Library/WebServer/Documents/magrwd/app/etc/modules/Alice_Rwd.xml",
-		"/Library/WebServer/Documents/magrwd/lib/Zend/Gdata/Geo/Extension/GeoRssWhere.php",
-		"/Library/WebServer/Documents/magrwd/RELEASE_NOTES.txt",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml",
-		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/checkout.xml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/item/default.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart.phtml",
-		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_checkout.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/checkout-ori.xml",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/config.codekit",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/js/bundle.js",
-		"/Library/WebServer/Documents/magrwd/js/blank.html",
-		"/Library/WebServer/Documents/magrwd/lib/Zend/View/Helper/BaseUrl.php",
-		"/Library/WebServer/Documents/magrwd/js/extjs/css/button.css",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/app.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/template/links.phtml",
-		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/local.xml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/html/footer.phtml",
-		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_category.scss",
-		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_vars.scss",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_clearfix.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/list.phtml",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_sidebar.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/list/toolbar.phtml",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_nav.scss",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_product.scss",
-		"/Library/WebServer/Documents/magrwd/magerwd.sublime-project",
 		"/Users/magnus/Documents/websites/alstromerska-fs/alstromerska.sublime-project",
 		"/Applications/MAMP/htdocs/magrwd/app/design/frontend/rwd/default/layout/page.xml",
 		"/Applications/MAMP/htdocs/magrwd/app/code/local/Alice/Rwd/etc/config.xml",
@@ -392,42 +431,7 @@
 		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js",
 		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/pushd/a/dummy",
 		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/docs/uglify-examples.md",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-watch/test/fixtures/patterns/lib/sub/dontedit.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/boolean_double.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/docs/uglify-options.md",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/default_singles.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/default_hash.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/divide.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/drop-unused.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/dead-code.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-connect/node_modules/connect/lib/public/directory.html",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/debugger.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/legacy/system/test-multi-video-upload.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-jshint/node_modules/jshint/tests/stable/unit/fixtures/max-nested-block-depth-per-function.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/example/upload.js",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-watch/node_modules/tiny-lr/bin/update-livereload",
-		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/login/.htaccess",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/login/.htpasswd",
-		"/Users/magnus/Desktop/Blad1-Table1.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/fragor.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/kalendarium.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/lankar.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/kontakt.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/medlemmar.html",
-		"/Users/magnus/Documents/websites/alstromerska-fs/node_modules/bower/node_modules/mout/lang/kindOf.js",
-		"/Users/magnus/Documents/websites/alstromerska-fs/node_modules/bower/lib/core/resolvers/FsResolver.js",
-		"/Users/magnus/Documents/websites/alstromerska-fs/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_except.js",
-		"/Users/magnus/Documents/websites/alstromerska-fs/node_modules/bower/node_modules/mout/lang/isNull.js",
-		"/Users/magnus/Documents/websites/alstromerska-fs/app/index.html",
-		"/Applications/MAMP/htdocs/tlust-2013/stylesheet/modules/_config.scss",
-		"/Applications/MAMP/htdocs/tlust-2013/index.html",
-		"/Applications/MAMP/htdocs/tlust-2013/din-tradgard.html",
-		"/Applications/MAMP/htdocs/tlust-2013/projekt.html",
-		"/Applications/MAMP/htdocs/tlust-2013/priser.html",
-		"/Applications/MAMP/htdocs/tlust-2013/stylesheet/vendor/_styles-nav.scss",
-		"/Applications/MAMP/htdocs/tlust-2013/stylesheet/vendor/_responsive-nav.scss",
-		"/Applications/MAMP/htdocs/tlust-2013/stylesheet/modules/_buttons.scss"
+		"/Users/magnus/Documents/websites/magrwd-fs/node_modules/grunt-contrib-watch/test/fixtures/patterns/lib/sub/dontedit.js"
 	],
 	"find":
 	{
@@ -435,9 +439,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 94.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -445,6 +450,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sidebar.phtml",
 			"input",
 			"cart-price",
 			"1column",
@@ -476,19 +482,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "skin/frontend/rwd/default/scss/partials/_main.scss",
+					"file": "app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 1643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1022,
+								1022
 							]
 						],
 						"settings":
@@ -496,6 +502,162 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/design/frontend/rwd/default/template/page/template/links.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1466,
+								1345
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "skin/frontend/rwd/default/scss/partials/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -508,22 +670,10 @@
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -532,117 +682,21 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
-								"bh_regex_close"
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
 							],
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
 							"incomplete_sync": null,
 							"remote_loading": false,
-							"sublime_auto_complete": true,
 							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
@@ -652,11 +706,92 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
+					"file": "app/design/frontend/rwd/default/template/page/html/header.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
 					"file": "skin/frontend/rwd/default/scss/modules/_vars.scss",
 					"semi_transient": false,
 					"settings":
@@ -668,8 +803,8 @@
 						"selection":
 						[
 							[
-								1726,
-								1715
+								191,
+								191
 							]
 						],
 						"settings":
@@ -677,10 +812,14 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -689,14 +828,6 @@
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -709,389 +840,24 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
-								"bh_regex_close"
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
 							"incomplete_sync": null,
 							"remote_loading": false,
-							"sublime_auto_complete": true,
 							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 266.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "skin/frontend/rwd/default/scss/modules/_checkout.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2957,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2745,
-								2745
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
-							],
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"sftp_duplicate_views": 0,
-							"sublime_auto_complete": true,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1966.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "app/design/frontend/rwd/default/template/checkout/cart/totals.phtml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1111,
-								1111
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1102,20 +868,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/design/frontend/rwd/default/template/checkout/cart/shipping.phtml",
+					"buffer": 5,
+					"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8252,
+						"buffer_size": 788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1120,
-								1120
+								191,
+								191
 							]
 						],
 						"settings":
@@ -1123,52 +889,52 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1179,20 +945,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/design/frontend/rwd/default/template/checkout/cart/item/default.phtml",
-					"semi_transient": true,
+					"buffer": 6,
+					"file": "skin/frontend/rwd/default/scss/modules/_buttons.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15452,
+						"buffer_size": 1779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								471,
+								471
 							]
 						],
 						"settings":
@@ -1200,10 +966,14 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1212,14 +982,6 @@
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1232,104 +994,31 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
-								"bh_regex_close"
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 98.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/design/frontend/rwd/default/template/checkout/cart/coupon.phtml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1168,
-								1168
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1392,6 +1081,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"butsc",
+				"skin/frontend/rwd/default/scss/modules/_buttons.scss"
+			],
+			[
+				"rwdsub",
+				"app/design/frontend/rwd/default/template/tax/checkout/subtotal.phtml"
+			],
+			[
+				"rwdgrand",
+				"app/design/frontend/rwd/default/template/tax/checkout/grandtotal.phtml"
+			],
 			[
 				"rwdhead",
 				"skin/frontend/rwd/default/scss/partials/_header.scss"
@@ -1462,7 +1163,7 @@
 		[
 			[
 				"",
-				"~/Documents/websites/vsd-2014-susy.sublime-project"
+				"~/Documents/websites/vsd-2014-susy/vsd2014-susy.sublime-workspace"
 			]
 		],
 		"width": 380.0

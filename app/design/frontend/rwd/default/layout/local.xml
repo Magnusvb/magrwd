@@ -12,6 +12,10 @@
         <action method="setTemplate"><template>page/html/logotyp.phtml</template></action>
       </block>
     </reference>
+    <!-- <reference name="header">
+        <action method="setTemplate"><template>template/checkout/cart/sidebar.phtml</template></action>
+      </block>
+    </reference> -->
     <reference name="before_body_end"> <!-- Load app.js after page is loaded - MVB -->
         <block type="core/template" name="trackgoober" template="page/js/menu.phtml" />
     </reference>
