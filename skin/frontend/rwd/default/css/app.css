@@ -410,7 +410,7 @@ th {
   text-align: right; }
 
 /* line 74, ../scss/modules/_vars.scss */
-.layernav, .recent, .add-to-box, .add-info, .cart-items, #discount-coupon-form, .shipping {
+.layernav, .recent, .add-to-box, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
   border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
@@ -467,6 +467,10 @@ a {
   /* line 30, ../scss/modules/_defaults.scss */
   a:visited {
     color: #32516c; }
+
+/* line 35, ../scss/modules/_defaults.scss */
+fieldset {
+  border: 0; }
 
 /* line 1, ../scss/partials/_header.scss */
 .header {
@@ -805,6 +809,663 @@ section {
 .no-display {
   display: none; }
 
+/* One Page Checkout */
+/* line 2, ../scss/partials/_onepagecheckout.scss */
+.block-progress {
+  border: 0;
+  margin: 0; }
+
+/* line 3, ../scss/partials/_onepagecheckout.scss */
+.block-progress .block-title {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0 0 5px; }
+
+/* line 4, ../scss/partials/_onepagecheckout.scss */
+.block-progress .block-title strong {
+  font-size: 13px;
+  color: #0a263c; }
+
+/* line 5, ../scss/partials/_onepagecheckout.scss */
+.block-progress .block-content {
+  background: none; }
+
+/* line 6, ../scss/partials/_onepagecheckout.scss */
+.block-progress dt {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.35;
+  background: #eee;
+  border: 1px solid #a3aeb3;
+  margin: 0 0 6px;
+  padding: 2px 8px;
+  color: #999; }
+
+/* line 7, ../scss/partials/_onepagecheckout.scss */
+.block-progress dd {
+  background: #eee;
+  border: 1px solid #a3aeb3;
+  border-top: 0;
+  padding: 8px 13px;
+  margin: 0 0 6px; }
+
+/* line 8, ../scss/partials/_onepagecheckout.scss */
+.block-progress dt.complete {
+  margin: 0;
+  background: #d0dce1;
+  color: #5e8ab4; }
+
+/* line 10, ../scss/partials/_onepagecheckout.scss */
+.block-progress p {
+  margin: 0; }
+
+/* line 11, ../scss/partials/_onepagecheckout.scss */
+.block-progress .cards-list dt {
+  background: none;
+  border: 0 none;
+  color: inherit;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 0; }
+
+/* line 12, ../scss/partials/_onepagecheckout.scss */
+.block-progress .cards-list dd {
+  border: 0 none;
+  margin: 0;
+  padding: 0; }
+
+/* line 13, ../scss/partials/_onepagecheckout.scss */
+.block-progress .cards-list .info-table th {
+  font-weight: normal; }
+
+/* show/hide "change" link for progress step depend on complete status
+* should be placed in .css file */
+/* line 17, ../scss/partials/_onepagecheckout.scss */
+.opc-block-progress dt.complete a,
+.opc-block-progress dt.complete .separator {
+  display: inline; }
+
+/* line 19, ../scss/partials/_onepagecheckout.scss */
+.opc-block-progress dt a,
+.opc-block-progress dt .separator {
+  display: none; }
+
+/* line 22, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set {
+  margin-top: 0;
+  padding-top: 2em; }
+
+/* line 23, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set p.required {
+  margin: 0;
+  padding: 0 0 10px; }
+
+/* line 24, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set .back-link small {
+  display: none; }
+
+/* line 25, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set .back-link a {
+  background: url(../images/i_arrow-top.gif) 0 50% no-repeat;
+  padding-left: 16px; }
+
+/* line 26, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set.disabled button.button, .opc .buttons-set.disabled button.addcart, .opc .buttons-set.disabled button.checkout, .opc .buttons-set.disabled button.btn-proceed-checkout, .opc .buttons-set.disabled button.small-button {
+  display: none; }
+
+/* line 27, ../scss/partials/_onepagecheckout.scss */
+.opc .buttons-set .please-wait {
+  height: 21px;
+  line-height: 21px; }
+
+/* line 28, ../scss/partials/_onepagecheckout.scss */
+.opc .ul {
+  list-style: disc outside;
+  padding-left: 18px; }
+
+/* line 30, ../scss/partials/_onepagecheckout.scss */
+.opc {
+  position: relative;
+  width: 100%; }
+
+/* line 36, ../scss/partials/_onepagecheckout.scss */
+.opc .step-title {
+  padding: .2em 0;
+  text-align: left; }
+
+/* line 45, ../scss/partials/_onepagecheckout.scss */
+.opc .step-title .number {
+  background: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 0 4px;
+  margin: 0 5px 0 0; }
+
+/* line 54, ../scss/partials/_onepagecheckout.scss */
+.opc .step-title h2 {
+  margin: 0;
+  font-size: 1em;
+  display: inline-block;
+  color: #999; }
+
+/* line 62, ../scss/partials/_onepagecheckout.scss */
+.opc .step-title a {
+  display: none;
+  float: right;
+  font-size: 11px;
+  line-height: 16px; }
+
+/* line 64, ../scss/partials/_onepagecheckout.scss */
+.opc .allow .step-title {
+  color: #a4b3b9;
+  cursor: pointer; }
+
+/* line 72, ../scss/partials/_onepagecheckout.scss */
+.opc .allow .step-title .number {
+  background: #f0f0f0;
+  border-radius: 50%;
+  padding: .3em;
+  padding-left: .7em;
+  border: 0;
+  color: #000;
+  width: 2em; }
+
+/* line 86, ../scss/partials/_onepagecheckout.scss */
+.opc .allow .step-title h2 {
+  color: #a4b3b9; }
+
+/*.opc .allow .step-title a { display:block; }*/
+/* line 89, ../scss/partials/_onepagecheckout.scss */
+.opc .active .step-title {
+  padding-bottom: .5em;
+  cursor: default; }
+
+/* line 97, ../scss/partials/_onepagecheckout.scss */
+.opc .active .step-title .number {
+  background: #e0f255;
+  border-radius: 50%;
+  padding: .3em;
+  padding-left: .7em;
+  border: 0;
+  color: #000;
+  width: 2em; }
+
+/*.opc .active .step-title a { display:none; }*/
+/* line 113, ../scss/partials/_onepagecheckout.scss */
+.opc .step {
+  position: relative; }
+
+/* line 122, ../scss/partials/_onepagecheckout.scss */
+.form-list {
+  padding-left: 0; }
+
+/* line 126, ../scss/partials/_onepagecheckout.scss */
+.opc .step .tool-tip {
+  right: 30px; }
+
+/* line 128, ../scss/partials/_onepagecheckout.scss */
+#opc-login .buttons-set {
+  border-top: 0; }
+
+/* line 129, ../scss/partials/_onepagecheckout.scss */
+#opc-login h3 {
+  font-size: 13px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 2px;
+  text-transform: uppercase; }
+
+/* line 130, ../scss/partials/_onepagecheckout.scss */
+#opc-login h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  color: #2f2f2f; }
+
+/* line 132, ../scss/partials/_onepagecheckout.scss */
+#opc-shipping_method .buttons-set {
+  border-top: 0; }
+
+/* line 133, ../scss/partials/_onepagecheckout.scss */
+.opc .gift-messages-form {
+  margin: 0 -30px;
+  background: #f6f1eb;
+  border: 1px solid #e9e4de;
+  border-width: 1px 0;
+  padding: 22px 24px 22px 30px; }
+
+/* line 134, ../scss/partials/_onepagecheckout.scss */
+.opc .gift-messages-form .inner-box {
+  padding: 5px;
+  height: 260px;
+  overflow: auto; }
+
+/* line 136, ../scss/partials/_onepagecheckout.scss */
+#opc-review .step {
+  border: 0;
+  padding: 0; }
+
+/* line 137, ../scss/partials/_onepagecheckout.scss */
+#opc-review .product-name {
+  font-weight: bold;
+  color: #0a263c; }
+
+/* line 138, ../scss/partials/_onepagecheckout.scss */
+#opc-review .item-options {
+  margin: 5px 0 0; }
+
+/* line 139, ../scss/partials/_onepagecheckout.scss */
+#opc-review .buttons-set {
+  padding: 20px 30px;
+  border: 1px solid #d9dde3;
+  border-width: 0 1px 1px; }
+
+/* line 140, ../scss/partials/_onepagecheckout.scss */
+#opc-review .buttons-set p {
+  margin: 0;
+  line-height: 40px; }
+
+/* line 141, ../scss/partials/_onepagecheckout.scss */
+#opc-review .buttons-set .please-wait {
+  height: 40px;
+  line-height: 40px; }
+
+/* line 142, ../scss/partials/_onepagecheckout.scss */
+#opc-review .authentication {
+  margin: 0 auto;
+  width: 570px; }
+
+/* line 143, ../scss/partials/_onepagecheckout.scss */
+#opc-review .warning-message {
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px 0; }
+
+/* Multiple Addresses Checkout */
+/* line 146, ../scss/partials/_onepagecheckout.scss */
+.checkout-progress {
+  padding: 0 90px;
+  margin: 0 0 20px; }
+
+/* line 147, ../scss/partials/_onepagecheckout.scss */
+.checkout-progress li {
+  float: left;
+  width: 19%;
+  margin: 0 3px 0 0;
+  border-top: 10px solid #999;
+  padding: 2px 0 0;
+  font-weight: bold;
+  text-align: center;
+  color: #abb5ba; }
+
+/* line 148, ../scss/partials/_onepagecheckout.scss */
+.checkout-progress li.active {
+  border-top-color: #e96200;
+  color: #e96200; }
+
+/* line 150, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout h2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0 10px; }
+
+/* line 151, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout h3,
+.multiple-checkout h4 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #E26703; }
+
+/* line 153, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout h2 a,
+.multiple-checkout h3 a,
+.multiple-checkout h4 a {
+  font-weight: normal; }
+
+/* line 156, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .data-table .product-name {
+  font-size: 1em !important;
+  font-weight: bold !important;
+  color: #1e7ec8 !important; }
+
+/* line 157, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .data-table .product-name a {
+  font-weight: bold !important; }
+
+/* line 158, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .data-table .item-options {
+  margin: 5px 0 0; }
+
+/* line 160, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages {
+  margin: 15px 0 0; }
+
+/* line 162, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .tool-tip {
+  top: 50%;
+  margin-top: -120px;
+  right: 20px; }
+
+/* line 164, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .col2-set,
+.multiple-checkout .col3-set {
+  background: #fbfaf6 url(../images/bkg_checkout.gif) 0 0 repeat-x;
+  border: 1px solid #bbb6a5;
+  margin: 0 0 25px;
+  padding: 20px; }
+
+/* line 166, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .col2-set h2.legend {
+  margin: -20px -20px 15px;
+  padding: 5px 10px;
+  background: #f9f3e3;
+  border-bottom: 1px solid #bbafa0;
+  position: relative; }
+
+/* line 167, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .col2-set h3.legend {
+  margin: 0 0 10px;
+  color: #0a263c; }
+
+/* line 168, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .col2-set .divider {
+  margin: 0 -20px;
+  padding: 25px 0;
+  position: relative; }
+
+/* line 169, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .box {
+  margin: 0 0 15px; }
+
+/* line 170, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .box h2 {
+  color: #e26703; }
+
+/* line 172, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .please-wait {
+  float: right;
+  padding: 27px 7px 0 0; }
+
+/* line 173, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total {
+  float: right;
+  height: 71px;
+  font-size: 1.5em;
+  padding: 0 0 0 21px;
+  background: url(../images/bkg_grand-total.gif) 0 0 no-repeat;
+  overflow: hidden; }
+
+/* line 174, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total .inner {
+  float: left;
+  height: 57px;
+  padding: 14px 21px 0 0;
+  background: url(../images/bkg_grand-total.gif) 100% 0 no-repeat; }
+
+/* line 175, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total .inner div {
+  display: inline; }
+
+/* line 176, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total big {
+  display: inline;
+  margin-right: 12px; }
+
+/* line 177, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total .price {
+  color: #E26703; }
+
+/* line 178, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total button.button span, .multiple-checkout .place-order .grand-total button.addcart span, .multiple-checkout .place-order .grand-total button.checkout span, .multiple-checkout .place-order .grand-total button.btn-proceed-checkout span, .multiple-checkout .place-order .grand-total button.small-button span {
+  font-size: 16px; }
+
+/* line 179, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .place-order .grand-total button.button span span, .multiple-checkout .place-order .grand-total button.addcart span span, .multiple-checkout .place-order .grand-total button.checkout span span, .multiple-checkout .place-order .grand-total button.btn-proceed-checkout span span, .multiple-checkout .place-order .grand-total button.small-button span span {
+  padding: 0 45px 0 36px; }
+
+/* Step 1 */
+/* line 182, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .title-buttons button.button span, .multiple-checkout .title-buttons button.addcart span, .multiple-checkout .title-buttons button.checkout span, .multiple-checkout .title-buttons button.btn-proceed-checkout span, .multiple-checkout .title-buttons button.small-button span {
+  border-color: #406a83;
+  background: #618499; }
+
+/* line 183, ../scss/partials/_onepagecheckout.scss */
+#multiship-addresses-table td {
+  padding: 10px; }
+
+/* line 184, ../scss/partials/_onepagecheckout.scss */
+#multiship-addresses-table tfoot td {
+  padding: 5px 10px; }
+
+/* line 185, ../scss/partials/_onepagecheckout.scss */
+#multiship-addresses-table tfoot button.button span, #multiship-addresses-table tfoot button.addcart span, #multiship-addresses-table tfoot button.checkout span, #multiship-addresses-table tfoot button.btn-proceed-checkout span, #multiship-addresses-table tfoot button.small-button span {
+  border-color: #406a83;
+  background: #618499; }
+
+/* Step 2 */
+/* line 188, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list {
+  width: 100%;
+  overflow: hidden; }
+
+/* line 193, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list li {
+  margin-right: -15px; }
+
+/* line 194, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list .field {
+  width: 230px; }
+
+/* line 195, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list .input-box {
+  width: 215px; }
+
+/* line 196, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list input.input-text {
+  width: 209px; }
+
+/* line 197, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list li.wide .input-box {
+  width: 445px; }
+
+/* line 198, ../scss/partials/_onepagecheckout.scss */
+.multiple-checkout .gift-messages-form .item .details .form-list li.wide textarea {
+  width: 439px; }
+
+/* line 199, ../scss/partials/_onepagecheckout.scss */
+.checkout-multishipping-shipping .box-sp-methods {
+  border: 1px solid #d9d2be;
+  background: #f9f3e3;
+  padding: 13px;
+  position: relative; }
+
+/* line 200, ../scss/partials/_onepagecheckout.scss */
+.checkout-multishipping-shipping .box-sp-methods .pointer {
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  width: 178px;
+  height: 41px;
+  background: url(../images/bkg_sp-methods.gif) 0 0 no-repeat;
+  overflow: hidden; }
+
+/* Step 3 */
+/* line 203, ../scss/partials/_onepagecheckout.scss */
+.checkout-multishipping-billing .multiple-checkout {
+  position: relative; }
+
+/* ======================================================================================= */
+/* Account Login/Create Pages ============================================================ */
+/* line 208, ../scss/partials/_onepagecheckout.scss */
+.account-login .content {
+  min-height: 345px;
+  padding: 14px 21px;
+  background: #faf7ee url(../images/bkg_login-box.gif) 0 0 repeat-x;
+  border: 1px solid #bbb6a5;
+  border-bottom: 0; }
+
+/* line 209, ../scss/partials/_onepagecheckout.scss */
+.account-login .content h2 {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 0 14px;
+  padding: 0 0 5px 23px;
+  border-bottom: 1px solid #ddd;
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  color: #e76200; }
+
+/* line 210, ../scss/partials/_onepagecheckout.scss */
+.account-login .new-users h2 {
+  background-image: url(../images/i_page1.gif); }
+
+/* line 211, ../scss/partials/_onepagecheckout.scss */
+.account-login .registered-users h2 {
+  background-image: url(../images/i_page2.gif); }
+
+/* line 212, ../scss/partials/_onepagecheckout.scss */
+.account-login .buttons-set {
+  border: 1px solid #bbb6a5;
+  border-top: 0;
+  margin: 0;
+  padding: 8px 13px;
+  background: #dee5e8 url(../images/bkg_buttons-set1.gif) 0 0 repeat-x; }
+
+/* Captcha ================================================================================ */
+/* line 217, ../scss/partials/_onepagecheckout.scss */
+.captcha-note {
+  clear: left;
+  padding-top: 5px; }
+
+/* line 218, ../scss/partials/_onepagecheckout.scss */
+.captcha-image {
+  float: left;
+  display: inline;
+  margin: 0;
+  position: relative;
+  width: 258px; }
+
+/* line 219, ../scss/partials/_onepagecheckout.scss */
+.captcha-image .captcha-img {
+  border: 1px solid #b6b6b6;
+  vertical-align: bottom;
+  width: 100%; }
+
+/* line 220, ../scss/partials/_onepagecheckout.scss */
+.registered-users .captcha-image {
+  margin: 0; }
+
+/* line 221, ../scss/partials/_onepagecheckout.scss */
+.captcha-reload {
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  right: 2px; }
+
+/* line 222, ../scss/partials/_onepagecheckout.scss */
+.captcha-reload.refreshing {
+  animation: rotate 1.5s infinite linear;
+  -webkit-animation: rotate 1.5s infinite linear;
+  -moz-animation: rotate 1.5s infinite linear; }
+
+@-webkit-keyframes rotate {
+  /* line 225, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    -webkit-transform: rotate(0); }
+
+  /* line 226, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    -webkit-transform: rotate(-360deg); } }
+@-moz-keyframes rotate {
+  /* line 229, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    -moz-transform: rotate(0); }
+
+  /* line 230, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    -moz-transform: rotate(-360deg); } }
+@keyframes rotate {
+  /* line 233, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    transform: rotate(0); }
+
+  /* line 234, ../scss/partials/_onepagecheckout.scss */
+  0% {
+    transform: rotate(-360deg); } }
+/* Remember Me Popup ===================================================================== */
+/* line 238, ../scss/partials/_onepagecheckout.scss */
+.window-overlay {
+  background: url(../images/window_overlay.png) repeat;
+  background: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 990; }
+
+/* line 240, ../scss/partials/_onepagecheckout.scss */
+.remember-me label {
+  float: none;
+  margin: 0 6px; }
+
+/* line 241, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup {
+  background: #fff;
+  border: 1px solid #ccc;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin: -85px 0 0 -200px;
+  width: 400px;
+  text-align: left;
+  -moz-box-shadow: 0 0 6px #ccc;
+  -webkit-box-shadow: 0 0 6px #ccc;
+  -box-shadow: 0 0 6px #ccc;
+  z-index: 1000; }
+
+/* line 242, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup h3 {
+  background: #d9e5ee;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding: 5px 10px; }
+
+/* line 243, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup .remember-me-popup-head {
+  position: relative; }
+
+/* line 244, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup .remember-me-popup-head .remember-me-popup-close {
+  background: url(../images/btn_window_close.gif) no-repeat;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  height: 15px;
+  width: 15px;
+  text-indent: -9999em; }
+
+/* line 245, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup .remember-me-popup-body {
+  padding: 10px; }
+
+/* line 246, ../scss/partials/_onepagecheckout.scss */
+.remember-me-popup .remember-me-popup-body a {
+  display: inline-block;
+  height: 19px;
+  border: 1px solid #de5400;
+  background: #f18200;
+  padding: 0 8px;
+  font: bold 12px/19px Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff; }
+
+/* Remember Me Popup ===================================================================== */
 /* line 7, ../scss/modules/_price.scss */
 .regular-price {
   font-weight: bold;
@@ -842,10 +1503,8 @@ section {
   margin-top: -2px;
   padding: 0.8em 1em;
   font-size: 1rem;
-  text-transform: uppercase;
   line-height: 1;
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'clear_sansbold';
   text-align: center;
   text-decoration: none;
   -webkit-box-shadow: 1px 1px 3px #000;
@@ -858,17 +1517,17 @@ section {
   user-select: none;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 39, ../scss/modules/_buttons.scss */
+/* line 40, ../scss/modules/_buttons.scss */
 .addcart {
   color: #fff;
   background-color: #dd6a12; }
 
-/* line 45, ../scss/modules/_buttons.scss */
+/* line 46, ../scss/modules/_buttons.scss */
 .checkout {
   color: #fff;
   background-color: #0764a6; }
 
-/* line 51, ../scss/modules/_buttons.scss */
+/* line 52, ../scss/modules/_buttons.scss */
 .btn-proceed-checkout {
   color: #000;
   background-color: #ff8227;
@@ -890,12 +1549,13 @@ section {
     display: inline-block;
   }
 }*/
-/* line 75, ../scss/modules/_buttons.scss */
+/* line 76, ../scss/modules/_buttons.scss */
 .small-button {
   font-size: 1em; }
 
 /* line 1, ../scss/modules/_inputs.scss */
-input[type=text] {
+input[type=text],
+input[type=password] {
   padding: 0.85em 1.2em;
   font-size: 0.875em;
   background-color: #FFFFFF;
@@ -903,6 +1563,11 @@ input[type=text] {
   outline: none;
   color: rgba(0, 0, 0, 0.7);
   border-radius: .4em; }
+
+/* line 12, ../scss/modules/_inputs.scss */
+select {
+  width: 100%;
+  margin-bottom: 1em; }
 
 /* line 3, ../scss/modules/_lists.scss */
 .add-info h2 {
@@ -1446,10 +2111,6 @@ tfoot .cart-buttons {
 /* line 173, ../scss/modules/_checkout.scss */
 .shipping ul {
   padding-left: 0; }
-/* line 176, ../scss/modules/_checkout.scss */
-.shipping select {
-  width: 100%;
-  margin-bottom: 1em; }
 
 /* line 183, ../scss/modules/_checkout.scss */
 .totals {

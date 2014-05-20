@@ -1,4 +1,5 @@
-input[type=text] {
+input[type=text],
+input[type=password] {
   padding: 0.85em 1.2em;
   font-size: 0.875em;
   background-color: #FFFFFF;
@@ -6,4 +7,9 @@ input[type=text] {
   outline: none;
   color: rgba(0, 0, 0, 0.7);
   border-radius: .4em;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 1em;
 }
