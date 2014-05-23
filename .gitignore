@@ -2,3 +2,5 @@
 /media/catalog/product/cache/*
 
 /skin/frontend/rwd/default/scss/.sass-cache/*
+
+/magerwd.sublime-workspace

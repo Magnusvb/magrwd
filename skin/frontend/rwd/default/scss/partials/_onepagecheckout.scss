@@ -19,7 +19,10 @@
 .opc-block-progress dt a,
 .opc-block-progress dt .separator { display: none; }
 
-.opc .buttons-set { margin-top:0; padding-top:2em; }
+.opc .buttons-set { 
+  margin-top:0;
+  // padding-top:2em; 
+}
 .opc .buttons-set p.required { margin:0; padding:0 0 10px; }
 .opc .buttons-set .back-link small { display:none; }
 .opc .buttons-set .back-link a { background:url(../images/i_arrow-top.gif) 0 50% no-repeat; padding-left:16px; }
@@ -75,22 +78,15 @@
   padding: .3em;
   padding-left: .7em;
   border: 0;
-  // border-color: #f19900;
   color: #000;
   width: 2em;
-  // background:#dbe6eb;
-  // border-color:#dbe6eb;
-  // color:#a4b3b9;
 }
 
 .opc .allow .step-title h2 { color:#a4b3b9; }
 /*.opc .allow .step-title a { display:block; }*/
 
 .opc .active .step-title {
-  // background:#f9f3e3;
-  // border-bottom: 1px dotted $headerbg;
   padding-bottom: .5em;
-  // color: #f18200;
   cursor:default;
 }
 
@@ -100,7 +96,16 @@
   padding: .3em;
   padding-left: .7em;
   border: 0;
-  // border-color: #f19900;
+  color: #000;
+  width: 2em;
+}
+
+.opc .step-title .number {
+  background: lighten($logobg, 25%);
+  border-radius: 50%;
+  padding: .3em;
+  padding-left: .7em;
+  border: 0;
   color: #000;
   width: 2em;
 }
@@ -111,16 +116,44 @@
 /*.opc .active .step-title a { display:none; }*/
 
 .opc .step { 
-  // border:1px solid #bbafa0; 
-  // border-top:0;
-  // background: lighten($sidebarbg, 15%);
-  // padding:15px 30px; 
   @extend %dotted-boxborder;
-  position:relative;
+  position: relative;
 }
 
 .form-list {
   padding-left: 0;
+}
+
+#checkoutSteps {
+  .col2-set {
+    .radio {
+      margin-right: .6em;
+    }
+    label {
+      display: inline-block;
+      margin-left: .6em;
+    }
+    // border: 2px solid black;
+    input[type=text],
+    input[type=password],
+    input[type=email] {
+      width: 100%;
+    }
+  }
+  .col-1 {
+    // background-color: lightblue;
+    @include breakpoint(small) {
+      float: left;
+      width: 45%;
+    }
+  }
+  .col-2 {
+    // background-color: red;
+    @include breakpoint(small) {
+      float: right;
+      width: 45%;
+    }
+  }
 }
 
 .opc .step .tool-tip { right:30px; }
