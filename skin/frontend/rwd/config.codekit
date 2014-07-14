@@ -1018,7 +1018,7 @@
 			"flagValue": -1
 			},
 		"no_unnecessary_fat_arrows": {
-			"active": true,
+			"active": 1,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
