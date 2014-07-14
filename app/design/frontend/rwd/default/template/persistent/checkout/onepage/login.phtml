@@ -38,10 +38,11 @@
             <input type="radio" name="checkout_method" id="login:register" value="register"<?php if($this->getQuote()->getCheckoutMethod()==Mage_Checkout_Model_Type_Onepage::METHOD_REGISTER || !$this->getQuote()->isAllowedGuestCheckout()): ?> checked="checked"<?php endif ?> class="radio" /><label for="login:register"><?php echo $this->__('Register') ?></label>
           </li>
         </ul>
+        <br />
         <h4><?php echo $this->__('Register and save time!') ?></h4>
         <p><?php echo $this->__('Register with us for future convenience:') ?></p>
-        <h5><?php echo $this->__('Fast and easy check out') ?></h5>
-        <h5><?php echo $this->__('Easy access to your order history and status') ?></h5>
+        <p>+ <?php echo $this->__('Fast and easy check out') ?><br />
+        + <?php echo $this->__('Easy access to your order history and status') ?></p>
 
             <!-- <ul class="ul">
                 <li><?php echo $this->__('Fast and easy check out') ?></li>
@@ -98,8 +99,8 @@
           <div class="col-2 clear">
             <div class="buttons-set">
               <p class="required"><?php echo $this->__('* Required Fields') ?></p>
-              <a href="<?php echo $this->getUrl('customer/account/forgotpassword') ?>" class="f-left"><?php echo $this->__('Forgot your password?') ?></a>
               <button type="submit" class="button" onclick="onepageLogin(this)"><span><span><?php echo $this->__('Login') ?></span></span></button>
+              <p><a href="<?php echo $this->getUrl('customer/account/forgotpassword') ?>" class="f-left"><?php echo $this->__('Forgot your password?') ?></a></p>
             </div>
           </div>
         </div>

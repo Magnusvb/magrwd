@@ -22,3 +22,15 @@
     padding-left: .5em;
   }
 }
+
+ul.messages {
+  padding-left: 0;
+  li.error-msg {
+    ul {
+      padding-left: 0;  
+    }
+    span {
+      color: $inputerrors;
+    }
+  }
+}

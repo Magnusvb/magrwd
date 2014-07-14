@@ -43,7 +43,7 @@
 }
 
 p {
-  font-family: "clear_sansregular"; 
+  font-family: "clear_sansregular";
   font-size: 1em;
   margin-top: 0.3em;
   margin-bottom: 1.2em;
@@ -51,6 +51,9 @@ p {
     font-size: 1.7em;
     font-weight: bold;
     color: grey;
+  }
+  &.required {
+    font-size: .8em;
   }
 }
 
@@ -68,8 +71,8 @@ h1 {
   }
 }
 
-h2, h3, h4 {
-  font-family: "clear_sansbold"; 
+h2, h3, h4, h5 {
+  font-family: "clear_sansbold";
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;

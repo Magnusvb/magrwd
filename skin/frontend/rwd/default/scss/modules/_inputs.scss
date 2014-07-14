@@ -14,3 +14,9 @@ select {
   width: 100%;
   margin-bottom: 1em;
 }
+
+.validation-advice {
+  color: $inputerrors;
+  font-size: .8em;
+  text-align: right;
+}

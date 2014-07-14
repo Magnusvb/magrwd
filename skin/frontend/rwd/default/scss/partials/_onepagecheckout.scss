@@ -19,9 +19,9 @@
 .opc-block-progress dt a,
 .opc-block-progress dt .separator { display: none; }
 
-.opc .buttons-set { 
+.opc .buttons-set {
   margin-top:0;
-  // padding-top:2em; 
+  // padding-top:2em;
 }
 .opc .buttons-set p.required { margin:0; padding:0 0 10px; }
 .opc .buttons-set .back-link small { display:none; }
@@ -64,11 +64,11 @@
 }
 .opc .step-title a { display:none; float:right; font-size:11px; line-height:16px; }
 
-.opc .allow .step-title { 
-  // background:#d0dce1; 
-  // border:1px solid #a3aeb3; 
-  // border-bottom:0; 
-  color:#a4b3b9; 
+.opc .allow .step-title {
+  // background:#d0dce1;
+  // border:1px solid #a3aeb3;
+  // border-bottom:0;
+  color:#a4b3b9;
   cursor:pointer;
 }
 
@@ -115,7 +115,7 @@
 }
 /*.opc .active .step-title a { display:none; }*/
 
-.opc .step { 
+.opc .step {
   @extend %dotted-boxborder;
   position: relative;
 }
@@ -131,7 +131,7 @@
     }
     label {
       display: inline-block;
-      margin-left: .6em;
+      // margin-left: .6em;
     }
     // border: 2px solid black;
     input[type=text],
@@ -160,7 +160,12 @@
 
 #opc-login .buttons-set { border-top:0; }
 #opc-login h3 { font-size:13px; border-bottom:1px solid #e4e4e4; padding-bottom:2px; text-transform:uppercase; }
-#opc-login h4 { font-size:1em; font-weight:bold; margin:0; color:#2f2f2f; }
+#opc-login h4 {
+  font-size: 1em;
+  // font-weight:bold;
+  margin:0;
+  // color:#2f2f2f;
+}
 
 #opc-shipping_method .buttons-set { border-top:0; }
 .opc .gift-messages-form { margin:0 -30px; background:#f6f1eb; border:1px solid #e9e4de; border-width:1px 0; padding:22px 24px 22px 30px; }
@@ -219,8 +224,8 @@
 
 /* Step 2 */
 .multiple-checkout .gift-messages-form .item .details .form-list {
-  width:100%; 
-  overflow:hidden; 
+  width:100%;
+  overflow:hidden;
 }
 
 .multiple-checkout .gift-messages-form .item .details .form-list li { margin-right:-15px; }
