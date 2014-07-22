@@ -98,7 +98,7 @@ will be rendered on all checkout pages
   <label>Multishipping Checkout</label>
   <!-- Mage_Checkout -->
   <remove name="right"/>
-  <remove name="left"/>
+  <!-- <remove name="left"/> -->
 
   <reference name="root">
     <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
