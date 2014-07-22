@@ -8,11 +8,33 @@ input[type=email] {
   outline: none;
   color: rgba(0, 0, 0, 0.7);
   border-radius: .4em;
+  // width: 100%;
 }
 
-select {
-  width: 100%;
+input[type=radio], input[type=checkbox] {
+  margin: .3em;
+}
+
+// select {
+//   width: 100%;
+//   margin-bottom: 1em;
+//   @include breakpoint(medium) {
+//     width: 50%;
+//   }
+// }
+
+.input-box {
+  input[type=text] {
+    width: 100%;
+  }
   margin-bottom: 1em;
+  select {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  @include breakpoint(medium) {
+    width: 90%;
+  }
 }
 
 .validation-advice {
