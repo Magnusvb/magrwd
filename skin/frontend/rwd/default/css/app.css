@@ -400,7 +400,7 @@ th {
   Mixin
 */
 /* line 66, ../scss/modules/_vars.scss */
-.back-link, .crosssell .item .add-to-links {
+.back-link, .add-to-links li, .crosssell .item .add-to-links {
   border: 1px dotted #d4d6db;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -1506,8 +1506,7 @@ section {
   border: none;
   background-color: #ccddf0;
   color: black;
-  margin: 0;
-  margin-top: -2px;
+  margin: .1em 0 1em;
   padding: 0.8em 1em;
   font-size: 1rem;
   line-height: 1;
@@ -1628,11 +1627,17 @@ ul.messages {
   ul.messages li.error-msg span {
     color: #e93529; }
 
-/* line 47, ../scss/modules/_lists.scss */
+/* line 39, ../scss/modules/_lists.scss */
+.add-to-links li {
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: .5em; }
+
+/* line 56, ../scss/modules/_lists.scss */
 dt {
   font-weight: bold; }
 
-/* line 50, ../scss/modules/_lists.scss */
+/* line 59, ../scss/modules/_lists.scss */
 dd {
   margin-left: 0; }
 
