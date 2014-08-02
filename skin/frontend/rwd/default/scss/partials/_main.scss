@@ -1,5 +1,5 @@
 .wrapper {
-   
+
 }
 
 .main {
@@ -27,4 +27,25 @@
 article {
   // padding: 0.5em 2%;
   margin-bottom: 2em;
+}
+
+.new-user {
+  @extend %listborder;
+  padding-bottom: 1em;
+  @include breakpoint(medium) {
+    border-bottom: 0;
+    float: left;
+    margin-top: 1em;
+    width: 45%;
+  }
+}
+
+.registered-users {
+  @include breakpoint (medium) {
+    float: left;
+    @include vertical-border(left);
+    margin-top: 1em;
+    padding-left: 2%;
+    width: 45%;
+  }
 }

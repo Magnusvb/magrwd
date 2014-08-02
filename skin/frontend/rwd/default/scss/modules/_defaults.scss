@@ -3,7 +3,7 @@
   -webkit-font-smoothing:antialiased;
   font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
-/*  @include vendor(box-sizing, border-box);*/
+  /*  @include vendor(box-sizing, border-box);*/
 }
 
 html {
@@ -38,4 +38,10 @@ p > a {
 
 fieldset {
   border: 0;
+}
+
+.dashboard {
+  a {
+    @extend %add-to-links;
+  }
 }

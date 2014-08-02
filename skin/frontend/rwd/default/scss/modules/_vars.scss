@@ -53,9 +53,14 @@ $inputerrors: #e93529;
   font-size: $size;
 }
 
-@mixin right-border {
-  border-right: 1px dotted lighten($headerbg, 50%);
+// @mixin right-border {
+//   border-right: 1px dotted lighten($headerbg, 50%);
+// }
+
+@mixin vertical-border($side) {
+  border-#{$side}: 1px dotted lighten($headerbg, 50%);
 }
+
 
 @mixin button-border-light {
   border: 1px dotted lighten($headerbg, 50%);

@@ -142,7 +142,7 @@ tfoot {
   }
   .item {
     // background-color: #666;
-    @include right-border;
+    @include vertical-border(right);
     display: inline-block;
     @include breakpoint(small) {
       width: 30%;
