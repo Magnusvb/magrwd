@@ -44,18 +44,48 @@ ul.messages {
   }
 }
 
-// .sp-methods {
-//   dt {
-//     font-weight: bold;
-//   }
-//   dd {
-//     margin-left: 0;
-//   }
-// }
 
 dt {
   font-weight: bold;
 }
 dd {
   margin-left: 0;
+}
+
+.account-links {
+  padding: 1em;
+  overflow: hidden;
+  li {
+    @extend .account-button;
+    float: left;
+    /* background-color: red; */
+    margin: 2%;
+    padding: .5em;
+    width: 45%;
+    &:nth-child(odd) {
+      clear: left;
+    }
+  }
+  @include breakpoint(medium) {
+    li {
+      width: 28%;
+      &:nth-child(3n+1) {
+        clear: left;
+      }
+      &:nth-child(odd) {
+        clear: none;
+      }
+    }
+  }
+  @include breakpoint(large) {
+    li {
+      width: 20%;
+      &:nth-child(4n+1) {
+        clear: left;
+      }
+      &:nth-child(3n+1) {
+        clear: none;
+      }
+    }
+  }
 }

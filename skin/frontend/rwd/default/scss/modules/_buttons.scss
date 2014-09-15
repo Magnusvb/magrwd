@@ -77,3 +77,11 @@
   @extend .button;
   font-size: 1em;
 }
+
+.account-button {
+  @extend .button;
+  background-color: $footerbg;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
