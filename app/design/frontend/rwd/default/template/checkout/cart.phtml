@@ -35,26 +35,26 @@
     <div class="cart-items">
       <fieldset>
         <table id="shopping-cart-table" class="data-table cart-table">
-          <col width="1" />
+          <!-- <col width="1" />
           <col />
-          <col width="1" />
+          <col width="1" /> -->
           <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
-            <col width="1" />
+            <!-- <col width="1" /> -->
           <?php endif ?>
           <?php if ($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
-            <col width="1" />
+            <!-- <col width="1" /> -->
           <?php endif; ?>
           <?php if ($this->helper('tax')->displayCartPriceInclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
-            <col width="1" />
+            <!-- <col width="1" /> -->
           <?php endif; ?>
-          <col width="1" />
+          <!-- <col width="1" /> -->
           <?php if ($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
-            <col width="1" />
+            <!-- <col width="1" /> -->
           <?php endif; ?>
           <?php if ($this->helper('tax')->displayCartPriceInclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
-            <col width="1" />
+            <!-- <col width="1" /> -->
           <?php endif; ?>
-          <col width="1" />
+          <!-- <col width="1" /> -->
 
           <?php $mergedCells = ($this->helper('tax')->displayCartBothPrices() ? 2 : 1); ?>
           <thead>

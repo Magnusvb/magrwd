@@ -1,7 +1,7 @@
 .add-info {
   @extend %dotted-boxborder;
   h2 {
-    border-bottom: 1px #eee solid;
+    border-bottom: 1px $light-accent solid;
   }
 }
 
@@ -11,11 +11,11 @@
   width: 100%;
   text-align: left;
   tr {
-    border-bottom: 1px #eee solid;
+    border-bottom: 1px $light-accent solid;
     padding: .3em;
   }
   th {
-    border-right: 1px #eee solid;
+    border-right: 1px $light-accent solid;
     padding: .3em;
   }
   td.data {
@@ -26,6 +26,8 @@
 ul.messages {
   padding-left: 0;
   li.error-msg {
+    text-align: center;
+    background-color: $verylight-accent;
     ul {
       padding-left: 0;  
     }

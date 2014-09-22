@@ -33,6 +33,9 @@ $headlines: rgb(33, 55, 104);
 $specialprice: rgb(240, 98, 2);
 $proceedbtn: rgb(255, 130, 39);
 $inputerrors: #e93529;
+$light-accent: rgb(238, 238, 238);
+$verylight-accent: rgb(250, 250, 250);
+$secondary-button: rgb(187, 201, 217);
 
 /*
   Mixin
@@ -71,10 +74,12 @@ $inputerrors: #e93529;
 %add-to-links {
   @include button-border-light;
   font-size: .8em;
+  font-weight: bold;
+  font-style: normal;
   display: inline-block;
-  // padding: .2em .5em;
-  text-align: right;
-  // background-color: lighten($logobg, 30%);
+  padding: .2em .5em;
+  /* text-align: right; */
+  /* background-color: lighten($logobg, 30%); */
 }
 
 %dotted-boxborder {
