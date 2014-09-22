@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font: 300 16px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font: 300 16px/1.6;
+  font-family: "clear_sansregular";
   background: #fff;
   color: #444;
   margin: 0;
@@ -40,8 +41,3 @@ fieldset {
   border: 0;
 }
 
-.dashboard {
-  a {
-    @extend %add-to-links;
-  }
-}

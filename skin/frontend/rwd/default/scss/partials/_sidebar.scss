@@ -46,6 +46,12 @@
 
 .recent {
   @extend %dotted-boxborder;
-  height: 10em;
+}
+
+.block-reorder {
+  @extend %dotted-boxborder;
+  ol {
+    padding-left: 0;
+  }
 }
 

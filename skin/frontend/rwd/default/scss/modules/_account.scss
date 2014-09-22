@@ -24,6 +24,9 @@ thead {
       display: none;
     }
   }
+  .shipping {
+    border: none;
+  }
 }
 
 .block-cart {
@@ -48,10 +51,28 @@ thead {
     @extend %add-to-links;
     margin-right: .4em;
   }
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
     li {
      @include vertical-border(right);
      border-bottom: none; 
     }
   }
+}
+
+.addresses-list {
+  a {
+    @extend %add-to-links;
+  }
+}
+
+.dashboard {
+  a {
+    @extend %add-to-links;
+  }
+}
+
+.my-account {
+  /* a {
+    @extend %add-to-links;
+  } */
 }

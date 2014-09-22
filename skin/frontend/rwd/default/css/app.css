@@ -400,7 +400,7 @@ th {
   Mixin
 */
 /* line 74, ../scss/modules/_vars.scss */
-.dashboard a, .back-link, .add-to-links li, .crosssell .item .add-to-links, .mini-products-list .btn-remove, .mini-products-list .btn-edit {
+.back-link, .add-to-links li, .crosssell .item .add-to-links, .mini-products-list .btn-remove, .mini-products-list .btn-edit, .addresses-list a, .dashboard a {
   border: 1px dotted #d4d6db;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -410,11 +410,12 @@ th {
   font-style: normal;
   display: inline-block;
   padding: .2em .5em;
+  margin: .4em;
   /* text-align: right; */
   /* background-color: lighten($logobg, 30%); */ }
 
-/* line 85, ../scss/modules/_vars.scss */
-.layernav, .recent, .add-to-box, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
+/* line 86, ../scss/modules/_vars.scss */
+.layernav, .recent, .block-reorder, .add-to-box, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
   border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
@@ -422,7 +423,7 @@ th {
   width: 80%;
   margin: 0.5em 10%; }
 
-/* line 93, ../scss/modules/_vars.scss */
+/* line 94, ../scss/modules/_vars.scss */
 .new-user, .products-grid, .products-list li {
   border-bottom: 1px solid #f1f9b4; }
 
@@ -452,27 +453,28 @@ html {
 
 /* line 13, ../scss/modules/_defaults.scss */
 body {
-  font: 300 16px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font: 300 16px/1.6;
+  font-family: "clear_sansregular";
   background: #fff;
   color: #444;
   margin: 0;
   padding: 0; }
 
-/* line 21, ../scss/modules/_defaults.scss */
+/* line 22, ../scss/modules/_defaults.scss */
 img {
   max-width: 100%; }
 
-/* line 25, ../scss/modules/_defaults.scss */
+/* line 26, ../scss/modules/_defaults.scss */
 a {
   text-decoration: none; }
-  /* line 27, ../scss/modules/_defaults.scss */
+  /* line 28, ../scss/modules/_defaults.scss */
   a:link {
     color: #32516c; }
-  /* line 30, ../scss/modules/_defaults.scss */
+  /* line 31, ../scss/modules/_defaults.scss */
   a:visited {
     color: #32516c; }
 
-/* line 39, ../scss/modules/_defaults.scss */
+/* line 40, ../scss/modules/_defaults.scss */
 fieldset {
   border: 0; }
 
@@ -774,9 +776,9 @@ article {
     margin-top: 0;
     padding: 0; }
 
-/* line 47, ../scss/partials/_sidebar.scss */
-.recent {
-  height: 10em; }
+/* line 53, ../scss/partials/_sidebar.scss */
+.block-reorder ol {
+  padding-left: 0; }
 
 /* line 1, ../scss/partials/_product.scss */
 section {
@@ -2286,16 +2288,19 @@ thead {
     /* line 20, ../scss/modules/_account.scss */
     #my-orders-table .column-label {
       display: none; } }
+/* line 27, ../scss/modules/_account.scss */
+#my-orders-table .shipping {
+  border: none; }
 
-/* line 29, ../scss/modules/_account.scss */
+/* line 32, ../scss/modules/_account.scss */
 .block-cart {
   margin-top: 1.4em; }
 
-/* line 34, ../scss/modules/_account.scss */
+/* line 37, ../scss/modules/_account.scss */
 .mini-products-list ol {
   display: block;
   border: 1px solid #999; }
-/* line 38, ../scss/modules/_account.scss */
+/* line 41, ../scss/modules/_account.scss */
 .mini-products-list li {
   border-bottom: 1px dotted #d4d6db;
   /* border: 1px solid #999; */
@@ -2304,11 +2309,17 @@ thead {
   padding-right: .6em;
   padding-left: .6em;
   width: auto; }
-/* line 47, ../scss/modules/_account.scss */
+/* line 50, ../scss/modules/_account.scss */
 .mini-products-list .btn-remove, .mini-products-list .btn-edit {
   margin-right: .4em; }
-@media (min-width: 56em) {
-  /* line 52, ../scss/modules/_account.scss */
+@media (min-width: 47em) {
+  /* line 55, ../scss/modules/_account.scss */
   .mini-products-list li {
     border-right: 1px dotted #d4d6db;
     border-bottom: none; } }
+
+/* line 74, ../scss/modules/_account.scss */
+.my-account {
+  /* a {
+    @extend %add-to-links;
+  } */ }

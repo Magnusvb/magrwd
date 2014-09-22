@@ -87,7 +87,7 @@ Layout for customer log out page
   <label>Customer Account Logout Success</label>
   <!-- Mage_Customer -->
   <remove name="right"/>
-  <remove name="left"/>
+  <!-- <remove name="left"/> -->
 
   <reference name="root">
     <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
