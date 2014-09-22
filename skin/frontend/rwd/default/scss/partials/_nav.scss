@@ -33,7 +33,7 @@
       li {
         font-size: 0.85em;
         background-color: transparent !important; // TODO
-        border-bottom: none !important;
+        border-bottom: none;
         ul {
           li {
             padding-left: 0.8em;
@@ -49,13 +49,18 @@
     }
   }
   @include breakpoint(small) {
-    padding-top: 1.5em;
+    padding-top: 4em;
     padding-left: .5em;
   }
   @include breakpoint(medium) {
+    margin-top: 3em;
     padding-top: 1.5em;
     padding-left: 2.2em;
   }
+}
+
+li.level0 {
+  border-top: 1px dotted #ffffff;
 }
 
 .showmenu {
