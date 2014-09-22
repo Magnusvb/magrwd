@@ -21,6 +21,7 @@
     </reference>
     <!-- block override here -->
     <remove name="left.permanent.callout" /> <!--the dog-->
+    <remove name="right.permanent.callout" /> <!--back to school-->
     <remove name="store_language" /> <!-- drop menu for language -->
     <remove name="welcome" /> <!-- Default message -->
   </default>
