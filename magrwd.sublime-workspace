@@ -1,0 +1,1042 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"t",
+				"table-cell"
+			],
+			[
+				"t-a",
+				"ta-r	text-align: right;"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"m-t",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"cu",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"to",
+				"toggleClass  (function)"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"mt",
+				"margin-top"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"O",
+				"OpenSans-Regular-webfont"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+			"settings":
+			{
+				"buffer_size": 1705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skin/frontend/rwd/default/scss/modules/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 2082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/sales/order/recent.phtml",
+			"settings":
+			{
+				"buffer_size": 2637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/catalog/product/list/related.phtml",
+			"settings":
+			{
+				"buffer_size": 3339,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"uod",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"paup",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Snippet: ren",
+				"Snippet: link_to (controller, action)"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/magrwd"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php",
+		"/Library/WebServer/Documents/magrwd/downloader/Maged/View.php",
+		"/Library/WebServer/Documents/magrwd/app/etc/modules/Alice_Rwd.xml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Gdata/Geo/Extension/GeoRssWhere.php",
+		"/Library/WebServer/Documents/magrwd/RELEASE_NOTES.txt",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/review/customer/recent.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/list/related.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Checkout/Block/Cart/Sidebar.php",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Locale/Data/sa_IN.xml",
+		"/Library/WebServer/Documents/magrwd/downloader/template/settings.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/order/recent.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/review/customer/recent.phtml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Tool/Framework/Client/Console/ResponseDecorator/AlignCenter.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/order/comments.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/review/product/view/count.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/price_msrp_noform.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/view/price_clone.phtml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/WindowsAzure/Diagnostics/PerformanceCounterSubscription.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/crosssell.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/order/creditmemo.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/price_msrp_rss.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/redirect.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/recurring/profiles.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/recurring/grid.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/page/html/breadcrumbs.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/headercart.phtml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/WindowsAzure/Diagnostics/DirectoryConfigurationSubscription.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/sales/recurring_profile.xml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Review/Block/Customer/Recent.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/DeveloperGarden/Request/ConferenceCall/RemoveConferenceRequest.php",
+		"/Library/WebServer/Documents/magrwd/var/cache/mage--d/mage---1ec_Zend_LocaleC_en_US_country_RW",
+		"/Library/WebServer/Documents/magrwd/var/cache/mage--0/mage---1ec_Zend_LocaleC_en_US_day_gregorian_format_wide_fri",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Captcha/ReCaptcha.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Validate/Db/RecordExists.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/SlideShare.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Locale/Data/sid_ET.xml",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Tool/Project/Context/Zf/SearchIndexesDirectory.php",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/customer/tab/cart.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/default/modern/template/checkout/cart.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/default/iphone/template/checkout/cart.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/checkout/cart.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Checkout/Block/Cart.php",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/fonts/cambo-regular-webfont.svg",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Feed/Pubsubhubbub/CallbackAbstract.php",
+		"/Library/WebServer/Documents/magrwd/config.codekit",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/page.xml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/review/item.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/multishipping/item/default.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/multishipping/link.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/multishipping/state.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/multishipping/addresses.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Paypal/Helper/Checkout.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Form/Element/Checkbox.php",
+		"/Library/WebServer/Documents/magrwd/lib/Mage/Connect/Command/Channels_Header.php",
+		"/Library/WebServer/Documents/magrwd/cron.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/layout/checkout.xml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/review/info.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/cart/item/default.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/billing.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/shipping_method/available.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/shipping_method.phtml",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_lists.scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_inputs.scss",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/review/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/shipping.phtml",
+		"/Library/WebServer/Documents/magrwd/js/tiny_mce/classes/ui/MenuButton.js",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/sales/order/info/buttons.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/paypal/hss/review/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/oauth/authorize/button-simple.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/checkout/onepage/review/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/oauth/authorize/button-simple.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Oauth/Block/Authorize/ButtonBaseAbstract.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/Authorize/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/base/default/template/oauth/authorize/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/oauth/authorize/button.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/api2/role/buttons.phtml",
+		"/Library/WebServer/Documents/magrwd/app/design/adminhtml/default/default/template/api2/attribute/buttons.phtml",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Sales/Block/Order/Info/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Api2/Block/Adminhtml/Roles/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Api2/Block/Adminhtml/Attribute/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Oauth/Block/Authorize/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Widget/Button.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Permissions/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Adminhtml/Block/Api/Buttons.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Dojo/View/Helper/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Dojo/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Varien/Data/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Form/Element/Button.php",
+		"/Library/WebServer/Documents/magrwd/js/tiny_mce/classes/ui/Button.js",
+		"/Library/WebServer/Documents/magrwd/js/extjs/resources/css/button.css",
+		"/Library/WebServer/Documents/magrwd/js/extjs/css/button.css",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/View/Helper/BaseUrl.php",
+		"/Library/WebServer/Documents/magrwd/js/blank.html",
+		"/Library/WebServer/Documents/magrwd/js/mage/adminhtml/variables.js",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/payment.phtml",
+		"/Users/magnus/Documents/websites/vsd-2014-susy/vsd_2014.sublime-project",
+		"/Library/WebServer/Documents/snus2-red/snus2-red.sublime-project",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/page/2columns-left.phtml",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/page/html/head.phtml",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/page/1column.phtml",
+		"/Library/WebServer/Documents/snus2-red/js/prototype/prototype.js",
+		"/Library/WebServer/Documents/snus2-red/js/advancedreports/prototype.js",
+		"/Library/WebServer/Documents/snus2-red/downloader/js/prototype.js",
+		"/Library/WebServer/Documents/snus2-red/errors/processor.php",
+		"/Library/WebServer/Documents/snus2-red/lib/Zend/Filter/PregReplace.php",
+		"/Library/WebServer/Documents/snus2-red/php.ini.sample",
+		"/Library/WebServer/Documents/snus2-red/skin/frontend/red/default/css/responsive-nav.css",
+		"/Library/WebServer/Documents/snus2-red/skin/frontend/red/default/js/responsive-nav.js",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/catalog/layer/state.phtml",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/base/default/template/svea/payment/service/paymentplan.phtml",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/snus2-red/lib/SveaWebPay/SveaPaymentRequest.php",
+		"/Library/WebServer/Documents/snus2-red/lib/SveaWebPay/SveaAddress.php",
+		"/Library/WebServer/Documents/snus2-red/var/session/sess_v4mu0vrbb41fit4gur0itisbu5",
+		"/Library/WebServer/Documents/snus2-red/js/blank.html",
+		"/Library/WebServer/Documents/snus2-red/lib/Zend/Amf/Value/ByteArray.php",
+		"/Library/WebServer/Documents/snus2-red/lib/PEAR/SOAP/Base.php",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/layout/page.xml",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/checkout/cart/sidebar.phtml",
+		"/Library/WebServer/Documents/snus2-red/skin/frontend/red/default/css/skeleton.css",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/page/html/footer.phtml",
+		"/Library/WebServer/Documents/snus2-red/app/design/adminhtml/default/default/template/page/footer.phtml",
+		"/Library/WebServer/Documents/snus2-red/app/design/frontend/base/default/template/fooman/pdfcustomiser/footer.phtml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 145.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"unit",
+			"jquery-1,8",
+			"level-top",
+			"$_menu",
+			"/**",
+			"left",
+			"class=\"primary\"",
+			"primary",
+			"type=\"password\"",
+			"related",
+			">\n",
+			"font-size: 14px;",
+			"font-wei",
+			"chapter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-size: 15px;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "skin/frontend/rwd/default/scss/modules/_vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/design/frontend/rwd/default/template/sales/order/recent.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1005,
+								1005
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/design/frontend/rwd/default/template/catalog/product/list/related.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "magrwd.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"vars",
+				"skin/frontend/rwd/default/scss/modules/_vars.scss"
+			],
+			[
+				"rwdrela",
+				"app/design/frontend/rwd/default/template/catalog/product/list/related.phtml"
+			],
+			[
+				"rwdrece",
+				"app/design/frontend/rwd/default/template/sales/order/recent.phtml"
+			],
+			[
+				"sidesc",
+				"skin/frontend/rwd/default/scss/partials/_sidebar.scss"
+			],
+			[
+				"rwdrele",
+				"app/design/frontend/rwd/default/template/catalog/product/list/related.phtml"
+			],
+			[
+				"rwdrecent",
+				"app/design/frontend/rwd/default/template/sales/order/recent.phtml"
+			],
+			[
+				"rwdrecen",
+				"app/design/frontend/rwd/default/template/review/customer/recent.phtml"
+			],
+			[
+				"cartpht",
+				"app/design/frontend/rwd/default/template/checkout/cart.phtml"
+			],
+			[
+				"protoy",
+				"js/prototype/prototype.js"
+			],
+			[
+				"sveapaymentphtm",
+				"app/design/frontend/base/default/template/svea/payment/service/paymentplan.phtml"
+			],
+			[
+				"ske",
+				"skin/frontend/red/default/css/skeleton.css"
+			],
+			[
+				"redsideb",
+				"app/design/frontend/red/default/template/checkout/cart/sidebar.phtml"
+			],
+			[
+				"redstat",
+				"app/design/frontend/red/default/template/catalog/layer/state.phtml"
+			],
+			[
+				"skel",
+				"skin/frontend/red/default/css/skeleton.css"
+			],
+			[
+				"redrespo",
+				"skin/frontend/red/default/css/response.css"
+			],
+			[
+				"redhead",
+				"app/design/frontend/red/default/template/page/html/header.phtml"
+			],
+			[
+				"redbre",
+				"app/design/frontend/red/default/template/page/html/breadcrumbs.phtml"
+			],
+			[
+				"red/succ",
+				"app/design/frontend/red/default/template/checkout/success.phtml"
+			],
+			[
+				"relaphtml",
+				"app/design/frontend/red/default/template/catalog/product/list/related.phtml"
+			],
+			[
+				"productview",
+				"app/design/frontend/red/default/template/catalog/product/view.phtml"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"rwdhea",
+				"app/design/frontend/rwd/default/template/page/html/header.phtml"
+			],
+			[
+				"l",
+				"app/lankar.html"
+			],
+			[
+				"kal",
+				"app/kalendarium.html"
+			],
+			[
+				"kon",
+				"app/kontakt.html"
+			],
+			[
+				"fra",
+				"app/fragor.html"
+			],
+			[
+				"med",
+				"app/medlemskap.html"
+			],
+			[
+				"cour",
+				"app/controllers/courses_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/websites/vsd-2014-susy/vsd2014-susy.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -35,6 +35,16 @@ ul.messages {
       color: $inputerrors;
     }
   }
+  li.success-msg {
+    text-align: center;
+    background-color: $verylight-accent;
+    ul {
+      padding-left: 0;
+    }
+    span {
+      color: $inputsuccess;
+    }
+  }
 }
 
 .add-to-links {

@@ -23,8 +23,8 @@ $navlistsecond: lighten($navlistfirst, 10%);
 $menulinks: rgb(50, 81, 108);
 $headerbg: rgb(80, 85, 96);
 $sidebarbg: rgb(187, 201, 217);
-$menubutton: #E3E2C8;
-$logobg: #e0f255;
+$menubutton: rgb(227, 226, 200);
+$logobg: rgb(232, 242, 90);
 $footerbg: rgb(240, 240, 240);
 $basicbtn: rgb(204, 221, 240);
 $addcartbtn: rgb(221, 106, 18);
@@ -32,10 +32,11 @@ $checkoutbtn: rgb(7, 100, 166);
 $headlines: rgb(33, 55, 104);
 $specialprice: rgb(240, 98, 2);
 $proceedbtn: rgb(255, 130, 39);
-$inputerrors: #e93529;
 $light-accent: rgb(238, 238, 238);
 $verylight-accent: rgb(250, 250, 250);
 $secondary-button: rgb(187, 201, 217);
+$inputerrors: rgb(233, 53, 41);
+$inputsuccess: rgb(110, 188, 44);
 
 /*
   Mixin

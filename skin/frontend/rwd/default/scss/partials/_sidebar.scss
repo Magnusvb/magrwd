@@ -63,3 +63,46 @@
   }
 }
 
+.mini-products-list {
+  ol {
+    display: block;
+    border: 1px solid #999;
+  }
+  li {
+    @include vertical-border(bottom);
+    /* border: 1px solid #999; */
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-right: .6em;
+    padding-left: .6em;
+    width: auto;
+  }
+  .btn-remove, .btn-edit {
+    @extend %add-to-links;
+    margin-right: .4em;
+  }
+  @include breakpoint(small) {
+    li {
+     @include vertical-border(right);
+     border-bottom: none; 
+    }
+  }
+  .link-wishlist {
+    @extend %add-to-links;
+    background-color: $footerbg;
+  }
+}
+
+#block-related, #recently-viewed-items, #compare-items {
+  padding: 0;
+  li {
+    @include vertical-border(bottom);
+    border-right: none;
+    border-bottom-color: $footerbg;
+  }
+}
+
+.paypal-logo {
+  margin-top: 1em;
+}
+

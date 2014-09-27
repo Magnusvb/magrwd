@@ -15,13 +15,9 @@ input[type=radio], input[type=checkbox] {
   margin: .3em;
 }
 
-// select {
-//   width: 100%;
-//   margin-bottom: 1em;
-//   @include breakpoint(medium) {
-//     width: 50%;
-//   }
-// }
+#search {
+  width: 14em;
+}
 
 .input-box {
   input[type=text], input[type=password] {
