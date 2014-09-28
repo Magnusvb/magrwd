@@ -33,32 +33,6 @@ thead {
   margin-top: 1.4em;
 }
 
-.mini-products-list {
-  ol {
-    display: block;
-    border: 1px solid #999;
-  }
-  li {
-    @include vertical-border(bottom);
-    /* border: 1px solid #999; */
-    display: inline-block;
-    margin-bottom: 1em;
-    padding-right: .6em;
-    padding-left: .6em;
-    width: auto;
-  }
-  .btn-remove, .btn-edit {
-    @extend %add-to-links;
-    margin-right: .4em;
-  }
-  @include breakpoint(small) {
-    li {
-     @include vertical-border(right);
-     border-bottom: none; 
-    }
-  }
-}
-
 .addresses-list {
   a {
     @extend %add-to-links;

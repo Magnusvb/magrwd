@@ -23,17 +23,19 @@
   }
 }
 
-ul.messages {
+.messages {
+  font-size: .9em;
   padding-left: 0;
-  li.error-msg {
-    text-align: center;
-    background-color: $verylight-accent;
-    ul {
-      padding-left: 0;  
-    }
-    span {
-      color: $inputerrors;
-    }
+  text-align: center;
+  background-color: $verylight-accent;
+  ul {
+    padding-left: 0;  
+  }
+  .error-msg {
+    @include message-type($inputerrors);
+  }
+  .success-msg {
+    @include message-type($inputsuccess);
   }
 }
 
@@ -60,7 +62,6 @@ dd {
   li {
     @extend .account-button;
     float: left;
-    /* background-color: red; */
     margin: 2%;
     padding: .5em;
     width: 45%;

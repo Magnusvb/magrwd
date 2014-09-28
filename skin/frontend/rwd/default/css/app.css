@@ -399,8 +399,8 @@ th {
 /*
   Mixin
 */
-/* line 74, ../scss/modules/_vars.scss */
-.back-link, .add-to-links li, .crosssell .item .add-to-links, .mini-products-list .btn-remove, .mini-products-list .btn-edit, .addresses-list a, .dashboard a {
+/* line 75, ../scss/modules/_vars.scss */
+.mini-products-list .btn-remove, .mini-products-list .btn-edit, .mini-products-list .link-wishlist, .back-link, .add-to-links li, .crosssell .item .add-to-links, .addresses-list a, .dashboard a {
   border: 1px dotted #d4d6db;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -414,18 +414,18 @@ th {
   /* text-align: right; */
   /* background-color: lighten($logobg, 30%); */ }
 
-/* line 86, ../scss/modules/_vars.scss */
+/* line 87, ../scss/modules/_vars.scss */
 .layernav, .recent, .block-reorder, .add-to-box, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
-  border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
+  border: 1px dotted #808796;
   padding: 0.5em;
   width: 80%;
   margin: 0.5em 10%; }
 
-/* line 94, ../scss/modules/_vars.scss */
+/* line 95, ../scss/modules/_vars.scss */
 .new-user, .products-grid, .products-list li {
-  border-bottom: 1px solid #f1f9b4; }
+  border-bottom: 1px solid #f5f9b9; }
 
 /* line 1, ../scss/modules/_clearfix.scss */
 .clear:before, .clear:after, .products-list li, .totals {
@@ -444,15 +444,14 @@ th {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  /*  @include vendor(box-sizing, border-box);*/ }
+  text-rendering: optimizeLegibility; }
 
-/* line 9, ../scss/modules/_defaults.scss */
+/* line 8, ../scss/modules/_defaults.scss */
 html {
   font-size: 100%;
   height: 100%; }
 
-/* line 14, ../scss/modules/_defaults.scss */
+/* line 13, ../scss/modules/_defaults.scss */
 body {
   font: 300 16px/1.6;
   font-family: "clear_sansregular";
@@ -462,22 +461,22 @@ body {
   padding: 0;
   height: 100%; }
 
-/* line 24, ../scss/modules/_defaults.scss */
+/* line 23, ../scss/modules/_defaults.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 29, ../scss/modules/_defaults.scss */
+/* line 28, ../scss/modules/_defaults.scss */
 a {
   text-decoration: none; }
-  /* line 31, ../scss/modules/_defaults.scss */
+  /* line 30, ../scss/modules/_defaults.scss */
   a:link {
     color: #32516c; }
-  /* line 34, ../scss/modules/_defaults.scss */
+  /* line 33, ../scss/modules/_defaults.scss */
   a:visited {
     color: #32516c; }
 
-/* line 43, ../scss/modules/_defaults.scss */
+/* line 42, ../scss/modules/_defaults.scss */
 fieldset {
   border: 0; }
 
@@ -510,7 +509,7 @@ fieldset {
 
 /* line 27, ../scss/partials/_header.scss */
 .linksblock {
-  background-color: #f1f9b4;
+  background-color: #f5f9b9;
   padding: 2em 2em; }
   @media (min-width: 47em) {
     /* line 27, ../scss/partials/_header.scss */
@@ -568,7 +567,7 @@ fieldset {
   /* line 86, ../scss/partials/_header.scss */
   .cart a {
     color: #fff;
-    border-bottom: 1px dotted #f1f9b4; }
+    border-bottom: 1px dotted #f5f9b9; }
   @media (min-width: 47em) {
     /* line 75, ../scss/partials/_header.scss */
     .cart {
@@ -671,7 +670,7 @@ li.level0 {
 
 /* line 75, ../scss/partials/_nav.scss */
 .menubutton {
-  background-color: #E3E2C8;
+  background-color: #e3e2c8;
   font-weight: bold;
   font-size: 1.2em;
   text-align: center;
@@ -682,39 +681,44 @@ li.level0 {
     .menubutton {
       display: none; } }
 
-/* line 5, ../scss/partials/_main.scss */
+/* line 1, ../scss/partials/_main.scss */
+.wrapper {
+  overflow: hidden;
+  width: 100%; }
+
+/* line 8, ../scss/partials/_main.scss */
 .main {
   max-width: 63em;
   margin: 0 auto;
   padding: 2%;
-  /*  height: 30em;*/ }
+  height: 100%; }
   @media (min-width: 47em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       float: left;
       width: 78%;
       margin-left: 2%;
       padding: 0; } }
   @media (min-width: 65em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       width: 70%;
       margin-left: 3%; } }
   @media (min-width: 97em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       margin-left: 10%;
       width: 100%; } }
 
-/* line 27, ../scss/partials/_main.scss */
+/* line 30, ../scss/partials/_main.scss */
 article {
   margin-bottom: 2em; }
 
-/* line 32, ../scss/partials/_main.scss */
+/* line 35, ../scss/partials/_main.scss */
 .new-user {
   padding-bottom: 1em; }
   @media (min-width: 56em) {
-    /* line 32, ../scss/partials/_main.scss */
+    /* line 35, ../scss/partials/_main.scss */
     .new-user {
       border-bottom: 0;
       float: left;
@@ -722,7 +726,7 @@ article {
       width: 45%; } }
 
 @media (min-width: 56em) {
-  /* line 43, ../scss/partials/_main.scss */
+  /* line 46, ../scss/partials/_main.scss */
   .registered-users {
     float: left;
     border-left: 1px dotted #d4d6db;
@@ -730,12 +734,12 @@ article {
     padding-left: 2%;
     width: 45%; } }
 
-/* line 54, ../scss/partials/_main.scss */
+/* line 57, ../scss/partials/_main.scss */
 .box h4 {
   margin-top: 1em; }
 
 /* line 1, ../scss/partials/_footer.scss */
-.footer {
+footer {
   background-color: #f0f0f0;
   height: 8em;
   border-top: 1px solid black;
@@ -745,15 +749,14 @@ article {
 .sidebar {
   background-color: #dce3eb;
   text-align: center;
-  padding-bottom: 2em;
-  min-height: 100%; }
+  padding-bottom: 2em; }
   @media (min-width: 47em) {
     /* line 1, ../scss/partials/_sidebar.scss */
     .sidebar {
       text-align: left;
-      /* position: relative; */
       /* top: -10em; */
       float: left;
+      padding-bottom: 15%;
       width: 20%; } }
 
 /* line 19, ../scss/partials/_sidebar.scss */
@@ -762,7 +765,7 @@ article {
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   padding: 2em .3em;
-  background-color: #e0f255;
+  background-color: #e8f25a;
   text-align: center; }
   @media (min-width: 47em) {
     /* line 19, ../scss/partials/_sidebar.scss */
@@ -795,6 +798,44 @@ article {
 /* line 61, ../scss/partials/_sidebar.scss */
 .block-reorder ol {
   padding-left: 0; }
+
+/* line 67, ../scss/partials/_sidebar.scss */
+.mini-products-list ol {
+  display: block;
+  border: 1px solid #999; }
+/* line 71, ../scss/partials/_sidebar.scss */
+.mini-products-list li {
+  border-bottom: 1px dotted #d4d6db;
+  /* border: 1px solid #999; */
+  display: inline-block;
+  margin-bottom: 1em;
+  padding-right: .6em;
+  padding-left: .6em;
+  width: auto; }
+/* line 80, ../scss/partials/_sidebar.scss */
+.mini-products-list .btn-remove, .mini-products-list .btn-edit {
+  margin-right: .4em; }
+@media (min-width: 47em) {
+  /* line 85, ../scss/partials/_sidebar.scss */
+  .mini-products-list li {
+    border-right: 1px dotted #d4d6db;
+    border-bottom: none; } }
+/* line 90, ../scss/partials/_sidebar.scss */
+.mini-products-list .link-wishlist {
+  background-color: #f0f0f0; }
+
+/* line 96, ../scss/partials/_sidebar.scss */
+#block-related, #recently-viewed-items, #compare-items {
+  padding: 0; }
+  /* line 98, ../scss/partials/_sidebar.scss */
+  #block-related li, #recently-viewed-items li, #compare-items li {
+    border-bottom: 1px dotted #d4d6db;
+    border-right: none;
+    border-bottom-color: #f0f0f0; }
+
+/* line 105, ../scss/partials/_sidebar.scss */
+.paypal-logo {
+  margin-top: 1em; }
 
 /* line 1, ../scss/partials/_product.scss */
 section {
@@ -1028,7 +1069,7 @@ section {
 
 /* line 108, ../scss/partials/_onepagecheckout.scss */
 .opc .active .step-title .number {
-  background: #e0f255;
+  background: #e8f25a;
   border-radius: 50%;
   padding: .3em;
   padding-left: .7em;
@@ -1038,7 +1079,7 @@ section {
 
 /* line 118, ../scss/partials/_onepagecheckout.scss */
 .opc .step-title .number {
-  background: #f6fbcb;
+  background: #f8fbd0;
   border-radius: 50%;
   padding: .3em;
   padding-left: .7em;
@@ -1619,22 +1660,26 @@ input[type=email] {
 input[type=radio], input[type=checkbox] {
   margin: .3em; }
 
-/* line 26, ../scss/modules/_inputs.scss */
+/* line 18, ../scss/modules/_inputs.scss */
+#search {
+  width: 14em; }
+
+/* line 22, ../scss/modules/_inputs.scss */
 .input-box {
   margin-bottom: 1em; }
-  /* line 27, ../scss/modules/_inputs.scss */
+  /* line 23, ../scss/modules/_inputs.scss */
   .input-box input[type=text], .input-box input[type=password] {
     width: 100%; }
-  /* line 31, ../scss/modules/_inputs.scss */
+  /* line 27, ../scss/modules/_inputs.scss */
   .input-box select {
     width: 100%;
     margin-bottom: 1em; }
   @media (min-width: 56em) {
-    /* line 26, ../scss/modules/_inputs.scss */
+    /* line 22, ../scss/modules/_inputs.scss */
     .input-box {
       width: 90%; } }
 
-/* line 40, ../scss/modules/_inputs.scss */
+/* line 36, ../scss/modules/_inputs.scss */
 .validation-advice {
   color: #e93529;
   font-size: .8em;
@@ -1662,65 +1707,68 @@ input[type=radio], input[type=checkbox] {
     padding-left: .5em; }
 
 /* line 26, ../scss/modules/_lists.scss */
-ul.messages {
-  padding-left: 0; }
-  /* line 28, ../scss/modules/_lists.scss */
-  ul.messages li.error-msg {
-    text-align: center;
-    background-color: #fafafa; }
-    /* line 31, ../scss/modules/_lists.scss */
-    ul.messages li.error-msg ul {
-      padding-left: 0; }
-    /* line 34, ../scss/modules/_lists.scss */
-    ul.messages li.error-msg span {
-      color: #e93529; }
+.messages {
+  font-size: .9em;
+  padding-left: 0;
+  text-align: center;
+  background-color: #fafafa; }
+  /* line 31, ../scss/modules/_lists.scss */
+  .messages ul {
+    padding-left: 0; }
+  /* line 34, ../scss/modules/_lists.scss */
+  .messages .error-msg {
+    border: 1px dotted #e93529;
+    color: #e93529; }
+  /* line 37, ../scss/modules/_lists.scss */
+  .messages .success-msg {
+    border: 1px dotted #6ebc2c;
+    color: #6ebc2c; }
 
-/* line 41, ../scss/modules/_lists.scss */
+/* line 43, ../scss/modules/_lists.scss */
 .add-to-links li {
   display: inline-block;
   font-size: 1em;
   margin: .7em 0; }
 
-/* line 50, ../scss/modules/_lists.scss */
+/* line 52, ../scss/modules/_lists.scss */
 dt {
   font-weight: bold; }
 
-/* line 53, ../scss/modules/_lists.scss */
+/* line 55, ../scss/modules/_lists.scss */
 dd {
   margin-left: 0; }
 
-/* line 57, ../scss/modules/_lists.scss */
+/* line 59, ../scss/modules/_lists.scss */
 .account-links {
   padding: 1em;
   overflow: hidden; }
-  /* line 60, ../scss/modules/_lists.scss */
+  /* line 62, ../scss/modules/_lists.scss */
   .account-links li {
     float: left;
-    /* background-color: red; */
     margin: 2%;
     padding: .5em;
     width: 45%; }
-    /* line 67, ../scss/modules/_lists.scss */
+    /* line 68, ../scss/modules/_lists.scss */
     .account-links li:nth-child(odd) {
       clear: left; }
   @media (min-width: 56em) {
-    /* line 72, ../scss/modules/_lists.scss */
+    /* line 73, ../scss/modules/_lists.scss */
     .account-links li {
       width: 28%; }
-      /* line 74, ../scss/modules/_lists.scss */
+      /* line 75, ../scss/modules/_lists.scss */
       .account-links li:nth-child(3n+1) {
         clear: left; }
-      /* line 77, ../scss/modules/_lists.scss */
+      /* line 78, ../scss/modules/_lists.scss */
       .account-links li:nth-child(odd) {
         clear: none; } }
   @media (min-width: 65em) {
-    /* line 83, ../scss/modules/_lists.scss */
+    /* line 84, ../scss/modules/_lists.scss */
     .account-links li {
       width: 20%; }
-      /* line 85, ../scss/modules/_lists.scss */
+      /* line 86, ../scss/modules/_lists.scss */
       .account-links li:nth-child(4n+1) {
         clear: left; }
-      /* line 88, ../scss/modules/_lists.scss */
+      /* line 89, ../scss/modules/_lists.scss */
       .account-links li:nth-child(3n+1) {
         clear: none; } }
 
@@ -1798,7 +1846,7 @@ h2 {
 
 /* line 92, ../scss/modules/_typography.scss */
 h3 {
-  font-size: 1.5em; }
+  font-size: 1.3em; }
 
 /* line 96, ../scss/modules/_typography.scss */
 .firstparagraph {
@@ -2312,29 +2360,7 @@ thead {
 .block-cart {
   margin-top: 1.4em; }
 
-/* line 37, ../scss/modules/_account.scss */
-.mini-products-list ol {
-  display: block;
-  border: 1px solid #999; }
-/* line 41, ../scss/modules/_account.scss */
-.mini-products-list li {
-  border-bottom: 1px dotted #d4d6db;
-  /* border: 1px solid #999; */
-  display: inline-block;
-  margin-bottom: 1em;
-  padding-right: .6em;
-  padding-left: .6em;
-  width: auto; }
-/* line 50, ../scss/modules/_account.scss */
-.mini-products-list .btn-remove, .mini-products-list .btn-edit {
-  margin-right: .4em; }
-@media (min-width: 47em) {
-  /* line 55, ../scss/modules/_account.scss */
-  .mini-products-list li {
-    border-right: 1px dotted #d4d6db;
-    border-bottom: none; } }
-
-/* line 74, ../scss/modules/_account.scss */
+/* line 48, ../scss/modules/_account.scss */
 .my-account {
   /* a {
     @extend %add-to-links;
