@@ -444,15 +444,14 @@ th {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  /*  @include vendor(box-sizing, border-box);*/ }
+  text-rendering: optimizeLegibility; }
 
-/* line 9, ../scss/modules/_defaults.scss */
+/* line 8, ../scss/modules/_defaults.scss */
 html {
   font-size: 100%;
   height: 100%; }
 
-/* line 14, ../scss/modules/_defaults.scss */
+/* line 13, ../scss/modules/_defaults.scss */
 body {
   font: 300 16px/1.6;
   font-family: "clear_sansregular";
@@ -462,22 +461,22 @@ body {
   padding: 0;
   height: 100%; }
 
-/* line 24, ../scss/modules/_defaults.scss */
+/* line 23, ../scss/modules/_defaults.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 29, ../scss/modules/_defaults.scss */
+/* line 28, ../scss/modules/_defaults.scss */
 a {
   text-decoration: none; }
-  /* line 31, ../scss/modules/_defaults.scss */
+  /* line 30, ../scss/modules/_defaults.scss */
   a:link {
     color: #32516c; }
-  /* line 34, ../scss/modules/_defaults.scss */
+  /* line 33, ../scss/modules/_defaults.scss */
   a:visited {
     color: #32516c; }
 
-/* line 43, ../scss/modules/_defaults.scss */
+/* line 42, ../scss/modules/_defaults.scss */
 fieldset {
   border: 0; }
 
@@ -684,41 +683,42 @@ li.level0 {
 
 /* line 1, ../scss/partials/_main.scss */
 .wrapper {
-  background-color: yellow; }
+  overflow: hidden;
+  width: 100%; }
 
-/* line 5, ../scss/partials/_main.scss */
+/* line 8, ../scss/partials/_main.scss */
 .main {
   max-width: 63em;
   margin: 0 auto;
   padding: 2%;
   height: 100%; }
   @media (min-width: 47em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       float: left;
       width: 78%;
       margin-left: 2%;
       padding: 0; } }
   @media (min-width: 65em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       width: 70%;
       margin-left: 3%; } }
   @media (min-width: 97em) {
-    /* line 5, ../scss/partials/_main.scss */
+    /* line 8, ../scss/partials/_main.scss */
     .main {
       margin-left: 10%;
       width: 100%; } }
 
-/* line 27, ../scss/partials/_main.scss */
+/* line 30, ../scss/partials/_main.scss */
 article {
   margin-bottom: 2em; }
 
-/* line 32, ../scss/partials/_main.scss */
+/* line 35, ../scss/partials/_main.scss */
 .new-user {
   padding-bottom: 1em; }
   @media (min-width: 56em) {
-    /* line 32, ../scss/partials/_main.scss */
+    /* line 35, ../scss/partials/_main.scss */
     .new-user {
       border-bottom: 0;
       float: left;
@@ -726,7 +726,7 @@ article {
       width: 45%; } }
 
 @media (min-width: 56em) {
-  /* line 43, ../scss/partials/_main.scss */
+  /* line 46, ../scss/partials/_main.scss */
   .registered-users {
     float: left;
     border-left: 1px dotted #d4d6db;
@@ -734,7 +734,7 @@ article {
     padding-left: 2%;
     width: 45%; } }
 
-/* line 54, ../scss/partials/_main.scss */
+/* line 57, ../scss/partials/_main.scss */
 .box h4 {
   margin-top: 1em; }
 
@@ -756,9 +756,10 @@ footer {
       text-align: left;
       /* top: -10em; */
       float: left;
+      padding-bottom: 15%;
       width: 20%; } }
 
-/* line 18, ../scss/partials/_sidebar.scss */
+/* line 19, ../scss/partials/_sidebar.scss */
 .logo {
   -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
@@ -767,42 +768,42 @@ footer {
   background-color: #e8f25a;
   text-align: center; }
   @media (min-width: 47em) {
-    /* line 18, ../scss/partials/_sidebar.scss */
+    /* line 19, ../scss/partials/_sidebar.scss */
     .logo {
       position: absolute;
       top: 1.5em;
       left: 1.5em;
       width: 20%; } }
 
-/* line 35, ../scss/partials/_sidebar.scss */
+/* line 36, ../scss/partials/_sidebar.scss */
 #narrow-by-list {
   font-size: 1em; }
   @media (min-width: 47em) {
-    /* line 35, ../scss/partials/_sidebar.scss */
+    /* line 36, ../scss/partials/_sidebar.scss */
     #narrow-by-list {
       font-size: .8em; } }
-  /* line 40, ../scss/partials/_sidebar.scss */
+  /* line 41, ../scss/partials/_sidebar.scss */
   #narrow-by-list dt {
     font-weight: bold;
     margin-left: 0; }
-  /* line 44, ../scss/partials/_sidebar.scss */
+  /* line 45, ../scss/partials/_sidebar.scss */
   #narrow-by-list dd {
     padding-left: .6em;
     margin-left: 0; }
-  /* line 48, ../scss/partials/_sidebar.scss */
+  /* line 49, ../scss/partials/_sidebar.scss */
   #narrow-by-list ol {
     margin-top: 0;
     padding: 0; }
 
-/* line 60, ../scss/partials/_sidebar.scss */
+/* line 61, ../scss/partials/_sidebar.scss */
 .block-reorder ol {
   padding-left: 0; }
 
-/* line 66, ../scss/partials/_sidebar.scss */
+/* line 67, ../scss/partials/_sidebar.scss */
 .mini-products-list ol {
   display: block;
   border: 1px solid #999; }
-/* line 70, ../scss/partials/_sidebar.scss */
+/* line 71, ../scss/partials/_sidebar.scss */
 .mini-products-list li {
   border-bottom: 1px dotted #d4d6db;
   /* border: 1px solid #999; */
@@ -811,28 +812,28 @@ footer {
   padding-right: .6em;
   padding-left: .6em;
   width: auto; }
-/* line 79, ../scss/partials/_sidebar.scss */
+/* line 80, ../scss/partials/_sidebar.scss */
 .mini-products-list .btn-remove, .mini-products-list .btn-edit {
   margin-right: .4em; }
 @media (min-width: 47em) {
-  /* line 84, ../scss/partials/_sidebar.scss */
+  /* line 85, ../scss/partials/_sidebar.scss */
   .mini-products-list li {
     border-right: 1px dotted #d4d6db;
     border-bottom: none; } }
-/* line 89, ../scss/partials/_sidebar.scss */
+/* line 90, ../scss/partials/_sidebar.scss */
 .mini-products-list .link-wishlist {
   background-color: #f0f0f0; }
 
-/* line 95, ../scss/partials/_sidebar.scss */
+/* line 96, ../scss/partials/_sidebar.scss */
 #block-related, #recently-viewed-items, #compare-items {
   padding: 0; }
-  /* line 97, ../scss/partials/_sidebar.scss */
+  /* line 98, ../scss/partials/_sidebar.scss */
   #block-related li, #recently-viewed-items li, #compare-items li {
     border-bottom: 1px dotted #d4d6db;
     border-right: none;
     border-bottom-color: #f0f0f0; }
 
-/* line 104, ../scss/partials/_sidebar.scss */
+/* line 105, ../scss/partials/_sidebar.scss */
 .paypal-logo {
   margin-top: 1em; }
 
@@ -1845,7 +1846,7 @@ h2 {
 
 /* line 92, ../scss/modules/_typography.scss */
 h3 {
-  font-size: 1.5em; }
+  font-size: 1.3em; }
 
 /* line 96, ../scss/modules/_typography.scss */
 .firstparagraph {
