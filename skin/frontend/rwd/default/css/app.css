@@ -416,9 +416,9 @@ th {
 
 /* line 87, ../scss/modules/_vars.scss */
 .layernav, .recent, .block-reorder, .add-to-box, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
-  border: 1px dotted #808796;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
+  border: 1px dotted #808796;
   padding: 0.5em;
   width: 80%;
   margin: 0.5em 10%; }
@@ -682,12 +682,16 @@ li.level0 {
     .menubutton {
       display: none; } }
 
+/* line 1, ../scss/partials/_main.scss */
+.wrapper {
+  background-color: yellow; }
+
 /* line 5, ../scss/partials/_main.scss */
 .main {
   max-width: 63em;
   margin: 0 auto;
   padding: 2%;
-  /*  height: 30em;*/ }
+  height: 100%; }
   @media (min-width: 47em) {
     /* line 5, ../scss/partials/_main.scss */
     .main {
@@ -735,7 +739,7 @@ article {
   margin-top: 1em; }
 
 /* line 1, ../scss/partials/_footer.scss */
-.footer {
+footer {
   background-color: #f0f0f0;
   height: 8em;
   border-top: 1px solid black;
@@ -745,18 +749,16 @@ article {
 .sidebar {
   background-color: #dce3eb;
   text-align: center;
-  padding-bottom: 2em;
-  min-height: 100%; }
+  padding-bottom: 2em; }
   @media (min-width: 47em) {
     /* line 1, ../scss/partials/_sidebar.scss */
     .sidebar {
       text-align: left;
-      /* position: relative; */
       /* top: -10em; */
       float: left;
       width: 20%; } }
 
-/* line 19, ../scss/partials/_sidebar.scss */
+/* line 18, ../scss/partials/_sidebar.scss */
 .logo {
   -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
@@ -765,42 +767,42 @@ article {
   background-color: #e8f25a;
   text-align: center; }
   @media (min-width: 47em) {
-    /* line 19, ../scss/partials/_sidebar.scss */
+    /* line 18, ../scss/partials/_sidebar.scss */
     .logo {
       position: absolute;
       top: 1.5em;
       left: 1.5em;
       width: 20%; } }
 
-/* line 36, ../scss/partials/_sidebar.scss */
+/* line 35, ../scss/partials/_sidebar.scss */
 #narrow-by-list {
   font-size: 1em; }
   @media (min-width: 47em) {
-    /* line 36, ../scss/partials/_sidebar.scss */
+    /* line 35, ../scss/partials/_sidebar.scss */
     #narrow-by-list {
       font-size: .8em; } }
-  /* line 41, ../scss/partials/_sidebar.scss */
+  /* line 40, ../scss/partials/_sidebar.scss */
   #narrow-by-list dt {
     font-weight: bold;
     margin-left: 0; }
-  /* line 45, ../scss/partials/_sidebar.scss */
+  /* line 44, ../scss/partials/_sidebar.scss */
   #narrow-by-list dd {
     padding-left: .6em;
     margin-left: 0; }
-  /* line 49, ../scss/partials/_sidebar.scss */
+  /* line 48, ../scss/partials/_sidebar.scss */
   #narrow-by-list ol {
     margin-top: 0;
     padding: 0; }
 
-/* line 61, ../scss/partials/_sidebar.scss */
+/* line 60, ../scss/partials/_sidebar.scss */
 .block-reorder ol {
   padding-left: 0; }
 
-/* line 67, ../scss/partials/_sidebar.scss */
+/* line 66, ../scss/partials/_sidebar.scss */
 .mini-products-list ol {
   display: block;
   border: 1px solid #999; }
-/* line 71, ../scss/partials/_sidebar.scss */
+/* line 70, ../scss/partials/_sidebar.scss */
 .mini-products-list li {
   border-bottom: 1px dotted #d4d6db;
   /* border: 1px solid #999; */
@@ -809,28 +811,28 @@ article {
   padding-right: .6em;
   padding-left: .6em;
   width: auto; }
-/* line 80, ../scss/partials/_sidebar.scss */
+/* line 79, ../scss/partials/_sidebar.scss */
 .mini-products-list .btn-remove, .mini-products-list .btn-edit {
   margin-right: .4em; }
 @media (min-width: 47em) {
-  /* line 85, ../scss/partials/_sidebar.scss */
+  /* line 84, ../scss/partials/_sidebar.scss */
   .mini-products-list li {
     border-right: 1px dotted #d4d6db;
     border-bottom: none; } }
-/* line 90, ../scss/partials/_sidebar.scss */
+/* line 89, ../scss/partials/_sidebar.scss */
 .mini-products-list .link-wishlist {
   background-color: #f0f0f0; }
 
-/* line 96, ../scss/partials/_sidebar.scss */
+/* line 95, ../scss/partials/_sidebar.scss */
 #block-related, #recently-viewed-items, #compare-items {
   padding: 0; }
-  /* line 98, ../scss/partials/_sidebar.scss */
+  /* line 97, ../scss/partials/_sidebar.scss */
   #block-related li, #recently-viewed-items li, #compare-items li {
     border-bottom: 1px dotted #d4d6db;
     border-right: none;
     border-bottom-color: #f0f0f0; }
 
-/* line 105, ../scss/partials/_sidebar.scss */
+/* line 104, ../scss/partials/_sidebar.scss */
 .paypal-logo {
   margin-top: 1em; }
 
@@ -1704,75 +1706,68 @@ input[type=radio], input[type=checkbox] {
     padding-left: .5em; }
 
 /* line 26, ../scss/modules/_lists.scss */
-ul.messages {
-  padding-left: 0; }
-  /* line 28, ../scss/modules/_lists.scss */
-  ul.messages li.error-msg {
-    text-align: center;
-    background-color: #fafafa; }
-    /* line 31, ../scss/modules/_lists.scss */
-    ul.messages li.error-msg ul {
-      padding-left: 0; }
-    /* line 34, ../scss/modules/_lists.scss */
-    ul.messages li.error-msg span {
-      color: #e93529; }
-  /* line 38, ../scss/modules/_lists.scss */
-  ul.messages li.success-msg {
-    text-align: center;
-    background-color: #fafafa; }
-    /* line 41, ../scss/modules/_lists.scss */
-    ul.messages li.success-msg ul {
-      padding-left: 0; }
-    /* line 44, ../scss/modules/_lists.scss */
-    ul.messages li.success-msg span {
-      color: #6ebc2c; }
+.messages {
+  font-size: .9em;
+  padding-left: 0;
+  text-align: center;
+  background-color: #fafafa; }
+  /* line 31, ../scss/modules/_lists.scss */
+  .messages ul {
+    padding-left: 0; }
+  /* line 34, ../scss/modules/_lists.scss */
+  .messages .error-msg {
+    border: 1px dotted #e93529;
+    color: #e93529; }
+  /* line 37, ../scss/modules/_lists.scss */
+  .messages .success-msg {
+    border: 1px dotted #6ebc2c;
+    color: #6ebc2c; }
 
-/* line 51, ../scss/modules/_lists.scss */
+/* line 43, ../scss/modules/_lists.scss */
 .add-to-links li {
   display: inline-block;
   font-size: 1em;
   margin: .7em 0; }
 
-/* line 60, ../scss/modules/_lists.scss */
+/* line 52, ../scss/modules/_lists.scss */
 dt {
   font-weight: bold; }
 
-/* line 63, ../scss/modules/_lists.scss */
+/* line 55, ../scss/modules/_lists.scss */
 dd {
   margin-left: 0; }
 
-/* line 67, ../scss/modules/_lists.scss */
+/* line 59, ../scss/modules/_lists.scss */
 .account-links {
   padding: 1em;
   overflow: hidden; }
-  /* line 70, ../scss/modules/_lists.scss */
+  /* line 62, ../scss/modules/_lists.scss */
   .account-links li {
     float: left;
-    /* background-color: red; */
     margin: 2%;
     padding: .5em;
     width: 45%; }
-    /* line 77, ../scss/modules/_lists.scss */
+    /* line 68, ../scss/modules/_lists.scss */
     .account-links li:nth-child(odd) {
       clear: left; }
   @media (min-width: 56em) {
-    /* line 82, ../scss/modules/_lists.scss */
+    /* line 73, ../scss/modules/_lists.scss */
     .account-links li {
       width: 28%; }
-      /* line 84, ../scss/modules/_lists.scss */
+      /* line 75, ../scss/modules/_lists.scss */
       .account-links li:nth-child(3n+1) {
         clear: left; }
-      /* line 87, ../scss/modules/_lists.scss */
+      /* line 78, ../scss/modules/_lists.scss */
       .account-links li:nth-child(odd) {
         clear: none; } }
   @media (min-width: 65em) {
-    /* line 93, ../scss/modules/_lists.scss */
+    /* line 84, ../scss/modules/_lists.scss */
     .account-links li {
       width: 20%; }
-      /* line 95, ../scss/modules/_lists.scss */
+      /* line 86, ../scss/modules/_lists.scss */
       .account-links li:nth-child(4n+1) {
         clear: left; }
-      /* line 98, ../scss/modules/_lists.scss */
+      /* line 89, ../scss/modules/_lists.scss */
       .account-links li:nth-child(3n+1) {
         clear: none; } }
 

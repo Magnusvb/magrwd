@@ -2,10 +2,9 @@
   background-color: lighten($sidebarbg, 10%);
   text-align: center;
   padding-bottom: 2em;
-  min-height: 100%;
   @include breakpoint(small) {
     text-align: left;
-    /* position: relative; */
+    // position: relative;
     /* top: -10em; */
     float: left;
     width: 20%;
@@ -34,23 +33,23 @@
 }
 
 #narrow-by-list {
-    font-size: 1em;
-    @include breakpoint(small) {
-      font-size: .8em;
-    }
-    dt {
-      font-weight: bold;
-      margin-left: 0;
-    }
-    dd {
-        padding-left: .6em;
-        margin-left: 0;
-      }
-    ol {
-      margin-top: 0;
-      padding: 0;
-    } 
+  font-size: 1em;
+  @include breakpoint(small) {
+    font-size: .8em;
   }
+  dt {
+    font-weight: bold;
+    margin-left: 0;
+  }
+  dd {
+    padding-left: .6em;
+    margin-left: 0;
+  }
+  ol {
+    margin-top: 0;
+    padding: 0;
+  } 
+}
 
 .recent {
   @extend %dotted-boxborder;
@@ -85,12 +84,12 @@
     li {
      @include vertical-border(right);
      border-bottom: none; 
-    }
-  }
-  .link-wishlist {
-    @extend %add-to-links;
-    background-color: $footerbg;
-  }
+   }
+ }
+ .link-wishlist {
+  @extend %add-to-links;
+  background-color: $footerbg;
+}
 }
 
 #block-related, #recently-viewed-items, #compare-items {

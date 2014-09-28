@@ -34,17 +34,16 @@
       
   </aside>
 
-  <main class="main" role="main">
+  <main class="main clear" role="main">
 
       <?php echo $this->getChildHtml('breadcrumbs') ?>
       <article>
         <?php echo $this->getChildHtml('global_messages') ?>
         <?php echo $this->getChildHtml('content') ?>
       </article>
-
   </main>
+  
 </div>
-
 <footer class="footer" role="contentinfo">
   <?php $this->getChildHtml('footer') ?>
   <?php echo $this->getChildHtml('global_cookie_notice') ?>

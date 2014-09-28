@@ -85,8 +85,8 @@ $inputsuccess: rgb(110, 188, 44);
 }
 
 %dotted-boxborder {
-  border: 1px dotted lighten($headerbg, 20%);
   @include borderradius(0.5em);
+  border: 1px dotted lighten($headerbg, 20%);
   padding: 0.5em;
   width: 80%;
   margin: 0.5em 10%;
@@ -95,3 +95,10 @@ $inputsuccess: rgb(110, 188, 44);
 %listborder {
   border-bottom: 1px solid lighten($logobg, 20%);
 }
+
+@mixin message-type($message-color) {
+  border: 1px dotted $message-color;
+  color: $message-color;
+}
+
+
