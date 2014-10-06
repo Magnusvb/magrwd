@@ -1,6 +1,42 @@
 footer {
   background-color: $footerbg;
-  height: 8em;
   border-top: 1px solid black;
   padding: 1em 2em 0.5em 2em;
+  .subsrcibe-link {
+  @include breakpoint(small) {
+    @include vertical-border(right);
+    float: left;
+    width: 30%;
+    }
+  }
+.service-links {
+  @include breakpoint(small) {
+    @include vertical-border(right);
+    float: left;
+    margin-left: 2%;
+    width: 20%
+    }
+  }
+  .payment-icons {
+  @include breakpoint(small) {
+    @include vertical-border(right);
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+    }
+  }
+.search-links {
+  @include breakpoint(small) {
+    float: right;
+    margin-left: 2%;
+    width: 20%;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: .6em;
+  }
 }
+

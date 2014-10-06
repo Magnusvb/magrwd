@@ -741,9 +741,40 @@ article {
 /* line 1, ../scss/partials/_footer.scss */
 footer {
   background-color: #f0f0f0;
-  height: 8em;
   border-top: 1px solid black;
   padding: 1em 2em 0.5em 2em; }
+  @media (min-width: 47em) {
+    /* line 5, ../scss/partials/_footer.scss */
+    footer .subsrcibe-link {
+      border-right: 1px dotted #d4d6db;
+      float: left;
+      width: 30%; } }
+  @media (min-width: 47em) {
+    /* line 12, ../scss/partials/_footer.scss */
+    footer .service-links {
+      border-right: 1px dotted #d4d6db;
+      float: left;
+      margin-left: 2%;
+      width: 20%; } }
+  @media (min-width: 47em) {
+    /* line 20, ../scss/partials/_footer.scss */
+    footer .payment-icons {
+      border-right: 1px dotted #d4d6db;
+      float: left;
+      margin-left: 2%;
+      width: 20%; } }
+  @media (min-width: 47em) {
+    /* line 28, ../scss/partials/_footer.scss */
+    footer .search-links {
+      float: right;
+      margin-left: 2%;
+      width: 20%; } }
+  /* line 35, ../scss/partials/_footer.scss */
+  footer ul {
+    padding-left: 0; }
+  /* line 38, ../scss/partials/_footer.scss */
+  footer li {
+    margin-bottom: .6em; }
 
 /* line 1, ../scss/partials/_sidebar.scss */
 .sidebar {
