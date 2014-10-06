@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fons",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"in",
+				"inputsuccess"
+			],
+			[
 				"bor",
 				"border-bottom"
 			],
@@ -14,10 +26,6 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"fon",
-				"font-style"
 			],
 			[
 				"t",
@@ -152,10 +160,18 @@
 	"buffers":
 	[
 		{
-			"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+			"file": "skin/frontend/rwd/default/scss/partials/_main.scss",
 			"settings":
 			{
-				"buffer_size": 1705,
+				"buffer_size": 904,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skin/frontend/rwd/default/scss/partials/_product.scss",
+			"settings":
+			{
+				"buffer_size": 980,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +179,31 @@
 			"file": "skin/frontend/rwd/default/scss/modules/_vars.scss",
 			"settings":
 			{
-				"buffer_size": 2082,
+				"buffer_size": 2251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skin/frontend/rwd/default/scss/partials/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/catalog/product/list/upsell.phtml",
+			"settings":
+			{
+				"buffer_size": 2645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/catalog/product/view/attributes.phtml",
+			"settings":
+			{
+				"buffer_size": 1113,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,6 +212,14 @@
 			"settings":
 			{
 				"buffer_size": 2637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml",
+			"settings":
+			{
+				"buffer_size": 1616,
 				"line_ending": "Unix"
 			}
 		},
@@ -272,19 +320,37 @@
 	},
 	"expanded_folders":
 	[
-		"/Library/WebServer/Documents/magrwd"
+		"/Library/WebServer/Documents/magrwd",
+		"/Library/WebServer/Documents/magrwd/skin",
+		"/Library/WebServer/Documents/magrwd/skin/frontend",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials"
 	],
 	"file_history":
 	[
-		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php",
-		"/Library/WebServer/Documents/magrwd/downloader/Maged/View.php",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/css/app.css",
 		"/Library/WebServer/Documents/magrwd/app/etc/modules/Alice_Rwd.xml",
 		"/Library/WebServer/Documents/magrwd/lib/Zend/Gdata/Geo/Extension/GeoRssWhere.php",
 		"/Library/WebServer/Documents/magrwd/RELEASE_NOTES.txt",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_defaults.scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_lists.scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_typography.scss",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+		"/Library/WebServer/Documents/magrwd/magrwd.sublime-project",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/list/upsell.phtml",
+		"/Library/WebServer/Documents/magrwd/js/prototype/windows/themes/alert_lite.css",
+		"/Library/WebServer/Documents/magrwd/api.php",
+		"/Library/WebServer/Documents/magrwd/app/etc/modules/Mage_ImportExport.xml",
+		"/Library/WebServer/Documents/magrwd/app/locale/en_US/Mage_Index.csv",
+		"/Library/WebServer/Documents/magrwd/mage",
+		"/Library/WebServer/Documents/magrwd/lib/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php",
+		"/Library/WebServer/Documents/magrwd/downloader/Maged/View.php",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/review/customer/recent.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/catalog/product/list/related.phtml",
 		"/Library/WebServer/Documents/magrwd/app/code/core/Mage/Checkout/Block/Cart/Sidebar.php",
-		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/partials/_sidebar.scss",
 		"/Library/WebServer/Documents/magrwd/lib/Zend/Locale/Data/sa_IN.xml",
 		"/Library/WebServer/Documents/magrwd/downloader/template/settings.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/sales/order/recent.phtml",
@@ -340,7 +406,6 @@
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/billing.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/shipping_method/available.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/shipping_method.phtml",
-		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_lists.scss",
 		"/Library/WebServer/Documents/magrwd/skin/frontend/rwd/default/scss/modules/_inputs.scss",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage/review/button.phtml",
 		"/Library/WebServer/Documents/magrwd/app/design/frontend/rwd/default/template/checkout/onepage.phtml",
@@ -393,21 +458,11 @@
 		"/Library/WebServer/Documents/snus2-red/app/design/frontend/base/default/template/svea/payment/service/paymentplan.phtml",
 		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Library/WebServer/Documents/snus2-red/lib/SveaWebPay/SveaPaymentRequest.php",
-		"/Library/WebServer/Documents/snus2-red/lib/SveaWebPay/SveaAddress.php",
-		"/Library/WebServer/Documents/snus2-red/var/session/sess_v4mu0vrbb41fit4gur0itisbu5",
-		"/Library/WebServer/Documents/snus2-red/js/blank.html",
-		"/Library/WebServer/Documents/snus2-red/lib/Zend/Amf/Value/ByteArray.php",
-		"/Library/WebServer/Documents/snus2-red/lib/PEAR/SOAP/Base.php",
-		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/layout/page.xml",
-		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/checkout/cart/sidebar.phtml",
-		"/Library/WebServer/Documents/snus2-red/skin/frontend/red/default/css/skeleton.css",
-		"/Library/WebServer/Documents/snus2-red/app/design/frontend/red/default/template/page/html/footer.phtml",
-		"/Library/WebServer/Documents/snus2-red/app/design/adminhtml/default/default/template/page/footer.phtml",
-		"/Library/WebServer/Documents/snus2-red/app/design/frontend/base/default/template/fooman/pdfcustomiser/footer.phtml"
+		"/Library/WebServer/Documents/snus2-red/lib/SveaWebPay/SveaAddress.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -422,6 +477,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"messages",
 			"unit",
 			"jquery-1,8",
 			"level-top",
@@ -459,19 +515,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "skin/frontend/rwd/default/scss/partials/_sidebar.scss",
+					"file": "skin/frontend/rwd/default/scss/partials/_main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1705,
+						"buffer_size": 904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								308,
+								308
 							]
 						],
 						"settings":
@@ -479,11 +535,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -494,46 +560,128 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "skin/frontend/rwd/default/scss/partials/_product.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -550,20 +698,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "skin/frontend/rwd/default/scss/modules/_vars.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2082,
+						"buffer_size": 2251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1037,
-								1037
+								1672,
+								1672
 							]
 						],
 						"settings":
@@ -571,41 +719,224 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "skin/frontend/rwd/default/scss/partials/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "app/design/frontend/rwd/default/template/catalog/product/list/upsell.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2418,
+								2418
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -621,18 +952,20 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -640,15 +973,101 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
+					"buffer": 5,
+					"file": "app/design/frontend/rwd/default/template/catalog/product/view/attributes.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "app/design/frontend/rwd/default/template/sales/order/recent.phtml",
 					"semi_transient": false,
 					"settings":
@@ -669,61 +1088,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -736,11 +1155,103 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
+					"file": "app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1112,
+								1112
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "app/design/frontend/rwd/default/template/catalog/product/list/related.phtml",
 					"semi_transient": false,
 					"settings":
@@ -761,61 +1272,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -828,7 +1339,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -891,6 +1402,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"rwdattr",
+				"app/design/frontend/rwd/default/template/catalog/product/view/attributes.phtml"
+			],
+			[
+				"rwdups",
+				"app/design/frontend/rwd/default/template/catalog/product/list/upsell.phtml"
+			],
+			[
+				"alice",
+				"app/design/frontend/rwd/default/template/page/alice-two-col-rwd.phtml"
+			],
 			[
 				"vars",
 				"skin/frontend/rwd/default/scss/modules/_vars.scss"
@@ -1013,7 +1536,7 @@
 		[
 			[
 				"",
-				"~/Documents/websites/vsd-2014-susy/vsd2014-susy.sublime-workspace"
+				"/Library/WebServer/Documents/snus2-red/snus2-red.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1026,7 +1549,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
