@@ -78,6 +78,18 @@
   font-size: 1em;
 }
 
+%add-to-links {
+  @include button-border-light;
+  font-size: .8em;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  padding: .2em .5em;
+  margin: .4em;
+  /* text-align: right; */
+  /* background-color: lighten($logobg, 30%); */
+}
+
 .account-button {
   @extend .button;
   background-color: $footerbg;

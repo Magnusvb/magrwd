@@ -26,19 +26,13 @@
 
 .linksblock {
   background-color: lighten($logobg, 20%);
-  padding: 2em 2em;
+  padding: 2em 1em;
   @include breakpoint(small) {
     // background-color: red;
     position: relative;
     float: right;
     width: 13em;
     margin-top: -5.2em;
-    // top: 0;
-    // right: 0;
-    // display: inline-block;
-    // margin-left: 11%;
-    // float: right;
-    // padding-bottom: 3em;
   }
   @include breakpoint(medium) {
     margin-top: 0;
@@ -49,24 +43,43 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: left;
+/*   float: left; */
+/*   border: 1px solid #cc1515; */
   li {
-    margin-bottom: 0.6em;
-    margin-right: 1em;
-    float: left;
+    @include button-border-light;
+    margin-bottom: 0.8em;
+    margin-right: 2.5%;
+/*     float: left; */
+    display: inline-block;
+/*     border: 1px solid blue; */
+    padding-left: .1em;
+    padding-right: .1em;
+    width: 30%;
+    text-align: center;
+    line-height: 2em;
     &:a {
-      float: left;
+/*       float: left; */
     }
     &:last-child {
       margin-right: 0;
     }
   }
+  @include breakpoint(extra-small) {
+    li {
+      width: 17%;
+    }
+  }
   @include breakpoint(small) {
     float: none;
     li {
-      float: none;
+/*       float: none; */
+        border: 0;
+        display: block;
+        line-height: 1.2em;
+        text-align: left;
+        width: 80%;
       &:a {
-        float: none;
+/*         float: none; */
       }
     }
   }
