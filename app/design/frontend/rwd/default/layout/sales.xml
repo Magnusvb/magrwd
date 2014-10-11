@@ -37,6 +37,10 @@ Customer account pages, rendered for all tabs in dashboard
         <reference name="right">
             <block type="sales/reorder_sidebar" name="sale.reorder.sidebar" as="reorder" template="sales/reorder/sidebar.phtml"/>
         </reference>
+        <!-- Remove Last order from left sidebar - MVB -->
+        <reference name="left">
+          <remove name="sale.reorder.sidebar" />
+        </reference>
     </customer_logged_in>
     <checkout_onepage_index>
         <remove name="sale.reorder.sidebar"/>
@@ -53,7 +57,9 @@ Customer account pages, rendered for all tabs in dashboard
             <action method="addLink" translate="label" module="sales"><name>orders</name><path>sales/order/history/</path><label>My Orders</label></action>
         </reference>
         <reference name="left">
-            <block type="sales/reorder_sidebar" name="sale.reorder.sidebar" as="reorder" template="sales/reorder/sidebar.phtml"/>
+          <!-- Remove Last order from left sidebar - MVB -->
+          <remove name="sale.reorder.sidebar" />
+           <!-- <block type="sales/reorder_sidebar" name="sale.reorder.sidebar" as="reorder" template="sales/reorder/sidebar.phtml"/> -->
         </reference>
 
     </customer_account>

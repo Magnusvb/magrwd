@@ -194,8 +194,10 @@ Customer account pages, rendered for all tabs in dashboard
 
 <customer_account translate="label">
   <label>Customer My Account (All Pages)</label>
-        <!--remove name="catalog.compare.sidebar"/>
-        <remove name="sale.reorder.sidebar"/-->
+        <!--
+<remove name="catalog.compare.sidebar"/>
+        <remove name="sale.reorder.sidebar"/
+-->
           <!-- Mage_Customer -->
           <reference name="root">
             <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
@@ -257,6 +259,14 @@ Customer account home dashboard layout
       <block type="customer/account_dashboard_address" name="customer_account_dashboard_address" as="address" template="customer/account/dashboard/address.phtml"/>
     </block>
   </reference>
+
+<!--
+Remove latest order from sidebar - MVB
+-->
+  <reference name="left">
+    <remove name="sale.reorder.sidebar" />
+  </reference>
+
 
 </customer_account_index>
 
