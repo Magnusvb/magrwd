@@ -755,6 +755,11 @@ article {
   .add-info ul li {
     margin-bottom: .3em; }
 
+@media (min-width: 56em) {
+  /* line 65, ../scss/partials/_main.scss */
+  .buybutton-mobile {
+    display: none; } }
+
 /* line 1, ../scss/partials/_footer.scss */
 footer {
   background-color: #f0f0f0;
