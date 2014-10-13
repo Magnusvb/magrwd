@@ -2190,41 +2190,52 @@ ul, ol, li {
     display: inline-block;
     list-style-type: none;
     margin-right: 5%;
+    margin-left: 5%;
     text-align: center;
-    width: 40%;
+    width: 90%;
     margin-bottom: .5em;
     margin-top: .5em; }
+    @media (min-width: 40em) {
+      /* line 51, ../scss/modules/_category.scss */
+      .products-grid .item {
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 40%; } }
     @media (min-width: 47em) {
       /* line 51, ../scss/modules/_category.scss */
       .products-grid .item {
-        width: 25%; } }
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 22%; } }
     @media (min-width: 56em) {
       /* line 51, ../scss/modules/_category.scss */
       .products-grid .item {
-        width: 20%; } }
-  /* line 68, ../scss/modules/_category.scss */
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 18%; } }
+  /* line 78, ../scss/modules/_category.scss */
   .products-grid .last {
     margin-right: 0; }
-  /* line 71, ../scss/modules/_category.scss */
+  /* line 81, ../scss/modules/_category.scss */
   .products-grid .add-to-links {
     font-size: .8em;
     padding: 0; }
 
-/* line 80, ../scss/modules/_category.scss */
+/* line 90, ../scss/modules/_category.scss */
 .products-list {
   padding-left: 0; }
-  /* line 83, ../scss/modules/_category.scss */
+  /* line 93, ../scss/modules/_category.scss */
   .products-list li {
     margin-bottom: 1em; }
-  /* line 89, ../scss/modules/_category.scss */
+  /* line 99, ../scss/modules/_category.scss */
   .products-list .product-shop {
     width: 70%;
     float: right; }
     @media (min-width: 56em) {
-      /* line 89, ../scss/modules/_category.scss */
+      /* line 99, ../scss/modules/_category.scss */
       .products-list .product-shop {
         width: 80%; } }
-    /* line 97, ../scss/modules/_category.scss */
+    /* line 107, ../scss/modules/_category.scss */
     .products-list .product-shop .add-to-links li {
       display: inline-block;
       border: none;
