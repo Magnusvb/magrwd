@@ -37,7 +37,7 @@ Customer account pages, rendered for all tabs in dashboard
         <reference name="right">
             <block type="sales/reorder_sidebar" name="sale.reorder.sidebar" as="reorder" template="sales/reorder/sidebar.phtml"/>
         </reference>
-        <!-- Remove Last order from left sidebar - MVB -->
+        <!-- Remove Last order from left sidebar om inloggad - MVB -->
         <reference name="left">
           <remove name="sale.reorder.sidebar" />
         </reference>

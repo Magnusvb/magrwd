@@ -61,7 +61,7 @@ var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail'
   <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links')->toHtml() ?>
 </div>
 <div class="payment-icons">
-  <p>Payment</p>
+  <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_payment')->toHtml() ?>
 </div>
 <div class="search-links">
   <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_site')->toHtml() ?>
