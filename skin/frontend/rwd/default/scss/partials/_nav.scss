@@ -61,6 +61,13 @@
 
 li.level0 {
   border-top: 1px dotted #ffffff;
+  &:before {
+    content: "» ";
+  }
+}
+
+li.level1:before {
+  content: "› ";
 }
 
 .showmenu {

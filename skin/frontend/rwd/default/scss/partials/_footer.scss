@@ -2,6 +2,10 @@ footer {
   background-color: $footerbg;
   border-top: 1px solid black;
   padding: 1em 2em 0.5em 2em;
+  text-align: center;
+  @include breakpoint(small) {
+    text-align: left;
+  }
   .subsrcibe-link {
   @include breakpoint(small) {
     @include vertical-border(right);
