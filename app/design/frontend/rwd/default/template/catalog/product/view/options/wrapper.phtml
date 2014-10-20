@@ -24,6 +24,8 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
+
+<div class="add-to-box">
 <div class="product-options" id="product-options-wrapper">
     <?php echo $this->getChildHtml('', true, true);?>
     <?php if ($this->hasRequiredOptions()):?>
@@ -31,3 +33,4 @@
     <?php endif;?>
 </div>
 <script type="text/javascript">decorateGeneric($$('#product-options-wrapper dl'), ['last']);</script>
+</div>
