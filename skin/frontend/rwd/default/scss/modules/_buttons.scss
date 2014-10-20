@@ -75,7 +75,9 @@
 
 .small-button {
   @extend .button;
-  font-size: 1em;
+  font-size: .8em;
+  padding: .2em .5em;
+  margin: .4em;
 }
 
 %add-to-links {

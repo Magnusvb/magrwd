@@ -83,6 +83,12 @@ $inputsuccess: rgb(110, 188, 44);
   margin: 0.5em 10%;
 }
 
+%box-with-bg {
+  @include borderradius(0.5em);
+  background-color: lighten($logobg, 20%);
+  padding: .5em;
+}
+
 %listborder {
   border-bottom: 1px solid lighten($logobg, 20%);
 }

@@ -401,7 +401,7 @@ th {
   Mixin
 */
 /* line 78, ../scss/modules/_vars.scss */
-.layernav, .recent, .block-reorder, .add-to-box, .product-options-bottom, .opc .step, .add-info, .cart-items, #discount-coupon-form, .shipping {
+.layernav, .recent, .block-reorder, .add-to-box, .product-options-bottom, .opc .step, .add-info, .cart-items, .shipping {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
   border: 1px dotted #808796;
@@ -410,6 +410,13 @@ th {
   margin: 0.5em 10%; }
 
 /* line 86, ../scss/modules/_vars.scss */
+#discount-coupon-form {
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  background-color: #f5f9b9;
+  padding: .5em; }
+
+/* line 92, ../scss/modules/_vars.scss */
 .new-user, .products-grid, .products-list li {
   border-bottom: 1px solid #f5f9b9; }
 
@@ -1713,9 +1720,11 @@ section {
 }*/
 /* line 76, ../scss/modules/_buttons.scss */
 .small-button {
-  font-size: 1em; }
+  font-size: .8em;
+  padding: .2em .5em;
+  margin: .4em; }
 
-/* line 81, ../scss/modules/_buttons.scss */
+/* line 83, ../scss/modules/_buttons.scss */
 .mini-products-list .btn-remove, .mini-products-list .btn-edit, .mini-products-list .link-wishlist, .back-link, .add-to-links li, .crosssell .item .add-to-links, .addresses-list a, .dashboard a {
   border: 1px dotted #d4d6db;
   -webkit-border-radius: 0.3em;
@@ -1730,7 +1739,7 @@ section {
   /* text-align: right; */
   /* background-color: lighten($logobg, 30%); */ }
 
-/* line 93, ../scss/modules/_buttons.scss */
+/* line 95, ../scss/modules/_buttons.scss */
 .account-button, .account-links li {
   background-color: #f0f0f0;
   -webkit-box-shadow: none;
@@ -2292,8 +2301,7 @@ ul, ol, li {
   @media (min-width: 56em) {
     /* line 34, ../scss/modules/_checkout.scss */
     .shopping-cart tbody .a-center, .shopping-cart tbody .a-right {
-      display: table-cell;
-      width: 5%; } }
+      display: table-cell; } }
 /* line 45, ../scss/modules/_checkout.scss */
 .shopping-cart .cart-image {
   margin-top: 2em; }
@@ -2370,12 +2378,14 @@ tfoot .cart-buttons {
   padding: 0; }
 /* line 142, ../scss/modules/_checkout.scss */
 .crosssell .item {
-  border-right: 1px dotted #d4d6db;
+  border-bottom: 1px dotted #d4d6db;
   display: inline-block;
   vertical-align: top; }
   @media (min-width: 47em) {
     /* line 142, ../scss/modules/_checkout.scss */
     .crosssell .item {
+      border-right: 1px dotted #d4d6db;
+      border-bottom: none;
       width: 30%;
       margin-right: 3%;
       padding-right: 3%; } }
@@ -2385,46 +2395,46 @@ tfoot .cart-buttons {
       width: 22%;
       margin-right: 3%;
       padding-right: 3%; } }
-  /* line 157, ../scss/modules/_checkout.scss */
+  /* line 159, ../scss/modules/_checkout.scss */
   .crosssell .item:last-child {
     margin-right: 0; }
-  /* line 164, ../scss/modules/_checkout.scss */
+  /* line 166, ../scss/modules/_checkout.scss */
   .crosssell .item button {
     margin: 1em 0; }
 
-/* line 174, ../scss/modules/_checkout.scss */
+/* line 176, ../scss/modules/_checkout.scss */
 #discount-coupon-form .buttons-set {
   margin-top: 1em; }
 @media (min-width: 56em) {
-  /* line 171, ../scss/modules/_checkout.scss */
+  /* line 173, ../scss/modules/_checkout.scss */
   #discount-coupon-form {
     float: left;
     margin: 0;
     width: 25%; } }
 
 @media (min-width: 56em) {
-  /* line 184, ../scss/modules/_checkout.scss */
+  /* line 186, ../scss/modules/_checkout.scss */
   .shipping {
     float: left;
     margin: 0;
     margin-right: 0;
     width: 70%;
     margin-left: 4%; } }
-/* line 193, ../scss/modules/_checkout.scss */
+/* line 195, ../scss/modules/_checkout.scss */
 .shipping ul {
   padding-left: 0; }
 
-/* line 203, ../scss/modules/_checkout.scss */
+/* line 205, ../scss/modules/_checkout.scss */
 .totals {
   padding: 1em 2em;
   text-align: right;
   width: 100%; }
   @media (min-width: 56em) {
-    /* line 203, ../scss/modules/_checkout.scss */
+    /* line 205, ../scss/modules/_checkout.scss */
     .totals {
       float: right;
       width: 70%; } }
-  /* line 213, ../scss/modules/_checkout.scss */
+  /* line 215, ../scss/modules/_checkout.scss */
   .totals .grandtotal {
     font-size: 1.5em; }
 

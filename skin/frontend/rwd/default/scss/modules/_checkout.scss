@@ -37,7 +37,7 @@
     margin-right: 2em;
     @include breakpoint(medium) {
       display: table-cell;
-      width: 5%;
+      //width: 5%;
     }
   }
 }
@@ -140,10 +140,12 @@ tfoot {
     padding: 0;
   }
   .item {
-    // background-color: #666;
-    @include vertical-border(right);
+    //background-color: yellow;
+    @include vertical-border(bottom);
     display: inline-block;
     @include breakpoint(small) {
+      @include vertical-border(right);
+      border-bottom: none;
       width: 30%;
       margin-right: 3%;
       padding-right: 3%;
@@ -169,8 +171,8 @@ tfoot {
 
 // ------------------------ Discount and shipping
 #discount-coupon-form {
-  // background-color: red;
-  @extend %dotted-boxborder;
+  @extend %box-with-bg;
+  //@extend %dotted-boxborder;
   .buttons-set {
     margin-top: 1em;
   }
