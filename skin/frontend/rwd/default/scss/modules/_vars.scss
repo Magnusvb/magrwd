@@ -87,6 +87,8 @@ $inputsuccess: rgb(110, 188, 44);
   @include borderradius(0.5em);
   background-color: lighten($logobg, 20%);
   padding: .5em;
+  margin: 1em auto;
+  width: 80%;
 }
 
 %listborder {

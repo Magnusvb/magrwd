@@ -172,7 +172,7 @@ tfoot {
 // ------------------------ Discount and shipping
 #discount-coupon-form {
   @extend %box-with-bg;
-  //@extend %dotted-boxborder;
+  // @extend %dotted-boxborder;
   .buttons-set {
     margin-top: 1em;
   }
