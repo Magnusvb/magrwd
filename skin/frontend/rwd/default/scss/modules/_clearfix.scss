@@ -13,3 +13,9 @@
     clear: both;
   }
 }
+
+.btcf:after {
+    content:"";
+    display:table;
+    clear:both;
+}

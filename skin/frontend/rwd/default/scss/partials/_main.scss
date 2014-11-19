@@ -78,3 +78,25 @@ text-align: center;
     display: none;
   }
 }
+
+// Image group on index page
+.index-banner-group {
+  // border: 1px solid red;
+}
+
+.index-banner-left {
+  border: 2px solid #ffffff;
+  float: left;
+  width: 66.66666%;
+}
+
+.index-banner-right {
+  border: 2px solid #ffffff;
+  float: left;
+  width: 33.33333%;
+}
+
+.index-banner-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}

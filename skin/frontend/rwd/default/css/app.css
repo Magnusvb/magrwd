@@ -434,6 +434,12 @@ th {
   .clear:after {
     clear: both; }
 
+/* line 17, ../scss/modules/_clearfix.scss */
+.btcf:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /* line 1, ../scss/modules/_defaults.scss */
 * {
   box-sizing: border-box;
@@ -782,6 +788,23 @@ article {
     .buybutton-mobile {
       display: none; } }
 
+/* line 87, ../scss/partials/_main.scss */
+.index-banner-left {
+  border: 2px solid #ffffff;
+  float: left;
+  width: 66.66666%; }
+
+/* line 93, ../scss/partials/_main.scss */
+.index-banner-right {
+  border: 2px solid #ffffff;
+  float: left;
+  width: 33.33333%; }
+
+/* line 99, ../scss/partials/_main.scss */
+.index-banner-item {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 /* line 1, ../scss/partials/_footer.scss */
 footer {
   background-color: #f0f0f0;
@@ -824,6 +847,15 @@ footer {
   /* line 42, ../scss/partials/_footer.scss */
   footer li {
     margin-bottom: .6em; }
+
+/* line 47, ../scss/partials/_footer.scss */
+#newsletter {
+  width: 90%;
+  margin: 0 .4em .5em 0; }
+  @media (min-width: 56em) {
+    /* line 47, ../scss/partials/_footer.scss */
+    #newsletter {
+      width: 60%; } }
 
 /* line 1, ../scss/partials/_sidebar.scss */
 .sidebar {
@@ -1763,30 +1795,30 @@ input[type=email] {
   color: rgba(0, 0, 0, 0.7);
   border-radius: .4em; }
 
-/* line 14, ../scss/modules/_inputs.scss */
+/* line 13, ../scss/modules/_inputs.scss */
 input[type=radio], input[type=checkbox] {
   margin: .3em; }
 
-/* line 18, ../scss/modules/_inputs.scss */
+/* line 17, ../scss/modules/_inputs.scss */
 #search {
   width: 14em; }
 
-/* line 22, ../scss/modules/_inputs.scss */
+/* line 21, ../scss/modules/_inputs.scss */
 .input-box {
   margin-bottom: 1em; }
-  /* line 23, ../scss/modules/_inputs.scss */
+  /* line 22, ../scss/modules/_inputs.scss */
   .input-box input[type=text], .input-box input[type=password] {
     width: 100%; }
-  /* line 27, ../scss/modules/_inputs.scss */
+  /* line 26, ../scss/modules/_inputs.scss */
   .input-box select {
     width: 100%;
     margin-bottom: 1em; }
   @media (min-width: 56em) {
-    /* line 22, ../scss/modules/_inputs.scss */
+    /* line 21, ../scss/modules/_inputs.scss */
     .input-box {
       width: 90%; } }
 
-/* line 36, ../scss/modules/_inputs.scss */
+/* line 35, ../scss/modules/_inputs.scss */
 .validation-advice {
   color: #e93529;
   font-size: .8em;
