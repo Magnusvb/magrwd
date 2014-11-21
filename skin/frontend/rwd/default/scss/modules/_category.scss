@@ -20,6 +20,7 @@ section {
   text-align: center;
   .pager {
     // background-color: lightblue;
+    margin-bottom: 1em;
     @include breakpoint(small) {
       float: left;
       text-align: left;
@@ -27,7 +28,11 @@ section {
     }
   }
   .limiter {
-    // background-color: red;
+//     background-color: red;
+    select {
+      display: inline-block;
+      margin-right: .6em;
+  }
   }
   .sorter {
     // background-color: yellow;
@@ -39,6 +44,15 @@ section {
   }
   .sort-by {
     // background-color: green;
+    select {
+      display: inline-block;
+      margin-right: .6em;
+    }
+  }
+  .grid, .list {
+    @extend %add-to-links;
+    font-size: 1em;
+    font-weight: bold;
   }
 }
 
@@ -83,7 +97,7 @@ section {
     padding: 0;
   }
   .actions {
-    
+
   }
 }
 

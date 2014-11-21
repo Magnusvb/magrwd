@@ -625,23 +625,23 @@ fieldset {
   /* line 4, ../scss/partials/_nav.scss */
   .nav ul {
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    margin-top: 0; }
     /* line 8, ../scss/partials/_nav.scss */
     .nav ul li {
       font-family: "clear_sansregular";
+      border-top: 1px dotted #9ca1ad;
       background-color: #c8c8c8;
       font-weight: bold;
       font-size: 1.1em;
-      /*      margin-bottom: 0.6em;*/
-      padding-left: 0;
-      border-bottom: 1px solid white; }
-      /* line 16, ../scss/partials/_nav.scss */
+      padding-left: 0; }
+      /* line 15, ../scss/partials/_nav.scss */
       .nav ul li a {
         line-height: 2.5; }
-      /* line 19, ../scss/partials/_nav.scss */
+      /* line 18, ../scss/partials/_nav.scss */
       .nav ul li ul {
         padding-left: 0; }
-        /* line 21, ../scss/partials/_nav.scss */
+        /* line 20, ../scss/partials/_nav.scss */
         .nav ul li ul li {
           background-color: #e2e2e2;
           font-size: 1em;
@@ -649,20 +649,19 @@ fieldset {
   @media (min-width: 47em) {
     /* line 1, ../scss/partials/_nav.scss */
     .nav {
-      display: block;
-      height: 100%; }
-      /* line 33, ../scss/partials/_nav.scss */
+      height: auto; }
+      /* line 31, ../scss/partials/_nav.scss */
       .nav ul li {
         font-size: 0.85em;
         background-color: transparent !important;
-        border-bottom: none; }
-        /* line 38, ../scss/partials/_nav.scss */
+        border: 0; }
+        /* line 37, ../scss/partials/_nav.scss */
         .nav ul li ul li {
           padding-left: 0.8em; }
-          /* line 40, ../scss/partials/_nav.scss */
+          /* line 39, ../scss/partials/_nav.scss */
           .nav ul li ul li:first-child {
             margin-top: -0.5em; }
-          /* line 43, ../scss/partials/_nav.scss */
+          /* line 42, ../scss/partials/_nav.scss */
           .nav ul li ul li:last-child {
             margin-bottom: 0.3em; } }
   @media (min-width: 47em) {
@@ -677,27 +676,30 @@ fieldset {
       padding-top: 1.5em;
       padding-left: 2.2em; } }
 
-/* line 62, ../scss/partials/_nav.scss */
+/* line 61, ../scss/partials/_nav.scss */
 li.level0 {
-  border-top: 1px dotted #ffffff; }
-  /* line 64, ../scss/partials/_nav.scss */
+  border-top: 1px dotted #d4d6db !important; }
+  /* line 63, ../scss/partials/_nav.scss */
   li.level0:before {
     content: "» "; }
 
-/* line 69, ../scss/partials/_nav.scss */
+/* line 70, ../scss/partials/_nav.scss */
 li.level1:before {
   content: "› "; }
 
-/* line 73, ../scss/partials/_nav.scss */
+/* line 76, ../scss/partials/_nav.scss */
+li.level2:before {
+  content: "⊦ "; }
+
+/* line 81, ../scss/partials/_nav.scss */
 .showmenu {
-  /*  display: block;*/
-  height: 100%;
   -moz-transition: width 2s, height 2s, background-color 2s, -moz-transform 2s;
   -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
   -o-transition: width 2s, height 2s, background-color 2s, -o-transform 2s;
-  transition: width 2s, height 2s, background-color 2s, transform 2s; }
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  height: 100%; }
 
-/* line 82, ../scss/partials/_nav.scss */
+/* line 90, ../scss/partials/_nav.scss */
 .menubutton {
   background-color: #e3e2c8;
   font-weight: bold;
@@ -705,8 +707,11 @@ li.level1:before {
   text-align: center;
   line-height: 3em;
   cursor: pointer; }
+  /* line 97, ../scss/partials/_nav.scss */
+  .menubutton span {
+    font-size: 1.5em; }
   @media (min-width: 47em) {
-    /* line 82, ../scss/partials/_nav.scss */
+    /* line 90, ../scss/partials/_nav.scss */
     .menubutton {
       display: none; } }
 
@@ -959,6 +964,10 @@ section {
   /* line 6, ../scss/partials/_product.scss */
   section h2 {
     font-size: 1em; }
+
+/* line 17, ../scss/partials/_product.scss */
+.product-shop {
+  border: 1px dotted red; }
 
 /* line 21, ../scss/partials/_product.scss */
 #upsell-product-table {
@@ -1740,21 +1749,6 @@ section {
   padding-top: 1em;
   padding-bottom: 1em; }
 
-/*.button {
-  font-size: 1.2em;
-  text-align: center;
-  background-color: silver;
-  display: block;
-  padding: 0.4em 1em;
-  border-radius: 6px;
-  border: 1px solid black;
-  color: white;
-  font-weight: bold;
-  @include breakpoint(medium) {
-    font-size: 1.6em;
-    display: inline-block;
-  }
-}*/
 /* line 76, ../scss/modules/_buttons.scss */
 .small-button {
   font-size: .8em;
@@ -1762,13 +1756,13 @@ section {
   margin: .4em; }
 
 /* line 83, ../scss/modules/_buttons.scss */
-.mini-products-list .btn-remove, .mini-products-list .btn-edit, .mini-products-list .link-wishlist, .back-link, .add-to-links li, .crosssell .item .add-to-links, .addresses-list a, .dashboard a {
+.mini-products-list .btn-remove, .mini-products-list .btn-edit, .mini-products-list .link-wishlist, .back-link, .add-to-links li, .toolbar .grid, .toolbar .list, .crosssell .item .add-to-links, .addresses-list a, .dashboard a {
   border: 1px dotted #d4d6db;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   padding: .2em .3em;
   font-size: .8em;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   display: inline-block;
   padding: .2em .5em;
@@ -2229,24 +2223,39 @@ ul, ol, li {
 .toolbar {
   font-size: .8em;
   text-align: center; }
+  /* line 21, ../scss/modules/_category.scss */
+  .toolbar .pager {
+    margin-bottom: 1em; }
+    @media (min-width: 47em) {
+      /* line 21, ../scss/modules/_category.scss */
+      .toolbar .pager {
+        float: left;
+        text-align: left;
+        width: 40%; } }
+  /* line 32, ../scss/modules/_category.scss */
+  .toolbar .limiter select {
+    display: inline-block;
+    margin-right: .6em; }
   @media (min-width: 47em) {
-    /* line 21, ../scss/modules/_category.scss */
-    .toolbar .pager {
-      float: left;
-      text-align: left;
-      width: 40%; } }
-  @media (min-width: 47em) {
-    /* line 32, ../scss/modules/_category.scss */
+    /* line 37, ../scss/modules/_category.scss */
     .toolbar .sorter {
       float: right;
       text-align: right;
       width: 40%; } }
+  /* line 47, ../scss/modules/_category.scss */
+  .toolbar .sort-by select {
+    display: inline-block;
+    margin-right: .6em; }
+  /* line 52, ../scss/modules/_category.scss */
+  .toolbar .grid, .toolbar .list {
+    font-size: 1em;
+    font-weight: bold; }
 
-/* line 45, ../scss/modules/_category.scss */
+/* line 59, ../scss/modules/_category.scss */
 .products-grid {
   padding: 0;
   margin: 0; }
-  /* line 51, ../scss/modules/_category.scss */
+  /* line 65, ../scss/modules/_category.scss */
   .products-grid .item {
     vertical-align: top;
     display: inline-block;
@@ -2258,46 +2267,46 @@ ul, ol, li {
     margin-bottom: .5em;
     margin-top: .5em; }
     @media (min-width: 40em) {
-      /* line 51, ../scss/modules/_category.scss */
+      /* line 65, ../scss/modules/_category.scss */
       .products-grid .item {
         margin-left: 4%;
         margin-right: 4%;
         width: 40%; } }
     @media (min-width: 47em) {
-      /* line 51, ../scss/modules/_category.scss */
+      /* line 65, ../scss/modules/_category.scss */
       .products-grid .item {
         margin-left: 4%;
         margin-right: 4%;
         width: 22%; } }
     @media (min-width: 56em) {
-      /* line 51, ../scss/modules/_category.scss */
+      /* line 65, ../scss/modules/_category.scss */
       .products-grid .item {
         margin-left: 3%;
         margin-right: 3%;
         width: 18%; } }
-  /* line 78, ../scss/modules/_category.scss */
+  /* line 92, ../scss/modules/_category.scss */
   .products-grid .last {
     margin-right: 0; }
-  /* line 81, ../scss/modules/_category.scss */
+  /* line 95, ../scss/modules/_category.scss */
   .products-grid .add-to-links {
     font-size: .8em;
     padding: 0; }
 
-/* line 90, ../scss/modules/_category.scss */
+/* line 104, ../scss/modules/_category.scss */
 .products-list {
   padding-left: 0; }
-  /* line 93, ../scss/modules/_category.scss */
+  /* line 107, ../scss/modules/_category.scss */
   .products-list li {
     margin-bottom: 1em; }
-  /* line 99, ../scss/modules/_category.scss */
+  /* line 113, ../scss/modules/_category.scss */
   .products-list .product-shop {
     width: 70%;
     float: right; }
     @media (min-width: 56em) {
-      /* line 99, ../scss/modules/_category.scss */
+      /* line 113, ../scss/modules/_category.scss */
       .products-list .product-shop {
         width: 80%; } }
-    /* line 107, ../scss/modules/_category.scss */
+    /* line 121, ../scss/modules/_category.scss */
     .products-list .product-shop .add-to-links li {
       display: inline-block;
       border: none;

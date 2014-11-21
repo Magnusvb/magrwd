@@ -3,37 +3,36 @@
   overflow: hidden;
   ul {
     padding: 0;
-    // margin: 2em 0 0 0;
     list-style:none;
+    margin-top: 0;
     li {
       font-family: "clear_sansregular";
+      border-top: 1px dotted lighten($headerbg, 30%);
       background-color: $navlistfirst;
       font-weight: bold;
       font-size: 1.1em;
-/*      margin-bottom: 0.6em;*/
       padding-left: 0;
-      border-bottom: 1px solid white;
-      a {
-        line-height: 2.5;
-      }
-      ul {
-        padding-left: 0;
-        li {
-          background-color: $navlistsecond;
-          font-size: 1em;
-          font-weight: normal;
-        }
-      }
-    }
+a {
+  line-height: 2.5;
+}
+ul {
+  padding-left: 0;
+  li {
+    background-color: $navlistsecond;
+    font-size: 1em;
+    font-weight: normal;
   }
-  @include breakpoint(small) {
-    display: block;
-    height: 100%;
-    ul {
-      li {
-        font-size: 0.85em;
+}
+}
+}
+@include breakpoint(small) {
+  height: auto;
+ul {
+  li {
+    font-size: 0.85em;
         background-color: transparent !important; // TODO
-        border-bottom: none;
+        border: 0;
+        // border-bottom: none;
         ul {
           li {
             padding-left: 0.8em;
@@ -60,23 +59,32 @@
 }
 
 li.level0 {
-  border-top: 1px dotted #ffffff;
+  border-top: 1px dotted lighten($headerbg, 50%) !important;
   &:before {
     content: "» ";
   }
 }
 
-li.level1:before {
-  content: "› ";
+li.level1 {
+  // border-top: 1px dotted lighten($headerbg, 50%);
+  &:before {
+    content: "› ";
+  }
+}
+
+li.level2 {
+  &:before {
+    content: "⊦ ";
+  }
 }
 
 .showmenu {
-/*  display: block;*/
-  height: 100%;
+  
   -moz-transition:width 2s, height 2s, background-color 2s, -moz-transform 2s;
   -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
   -o-transition:width 2s, height 2s, background-color 2s, -o-transform 2s;
   transition:width 2s, height 2s, background-color 2s, transform 2s;
+  height: 100%;
 }
 
 .menubutton {
@@ -86,6 +94,9 @@ li.level1:before {
   text-align: center;
   line-height: 3em;
   cursor: pointer;
+  span {
+    font-size: 1.5em;
+  }
   @include breakpoint(small) {
     display: none;
   }

@@ -57,21 +57,21 @@
   padding-bottom: 1em;
 }
 
-/*.button {
-  font-size: 1.2em;
-  text-align: center;
-  background-color: silver;
-  display: block;
-  padding: 0.4em 1em;
-  border-radius: 6px;
-  border: 1px solid black;
-  color: white;
-  font-weight: bold;
-  @include breakpoint(medium) {
-    font-size: 1.6em;
-    display: inline-block;
-  }
-}*/
+// .button {
+//   font-size: 1.2em;
+//   text-align: center;
+//   background-color: silver;
+//   display: block;
+//   padding: 0.4em 1em;
+//   border-radius: 6px;
+//   border: 1px solid black;
+//   color: white;
+//   font-weight: bold;
+//   @include breakpoint(medium) {
+//     font-size: 1.6em;
+//     display: inline-block;
+//   }
+// }
 
 .small-button {
   @extend .button;
@@ -83,7 +83,7 @@
 %add-to-links {
   @include button-border-light;
   font-size: .8em;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   display: inline-block;
   padding: .2em .5em;
