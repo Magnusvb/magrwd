@@ -3,9 +3,33 @@
 .block-progress .block-title { background:none; border:0; padding:0; margin:0 0 5px; }
 .block-progress .block-title strong { font-size:13px; color:#0a263c; }
 .block-progress .block-content { background:none; }
-.block-progress dt { font-size:13px; font-weight:bold; line-height:1.35; background:#eee; border:1px solid #a3aeb3; margin:0 0 6px; padding:2px 8px; color:#999; }
-.block-progress dd { background:#eee; border:1px solid #a3aeb3; border-top:0; padding:8px 13px; margin:0 0 6px; }
-.block-progress dt.complete { margin:0; background:#d0dce1; color:#5e8ab4; }
+
+.block-progress dt {
+  font-size: .9em;
+  font-weight: bold;
+  line-height: 1.35;
+  background: #eee;
+  border: 1px solid #a3aeb3;
+  margin: 0 0 6px;
+  padding: 2px 8px;
+  color: #999;
+}
+
+.block-progress dd {
+//  background: #eee;
+  border-bottom: 1px solid #a3aeb3;
+  border-top: 0;
+  font-size: .8em;
+  padding: 8px 13px;
+  margin: 0 0 6px;
+}
+
+.block-progress dt.complete {
+  margin:0;
+  background: lighten($logobg, 20%);
+  color:#5e8ab4;
+}
+
 .block-progress dd.complete {}
 .block-progress p { margin:0; }
 .block-progress .cards-list dt { background:none; border:0 none; color:inherit; font-size:12px; margin:5px 0; padding:0; }
@@ -48,6 +72,7 @@
 .opc {
   position: relative;
   width: 100%;
+  padding: 0;
 }
 .opc li.section {}
 

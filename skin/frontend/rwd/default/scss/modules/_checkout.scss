@@ -10,7 +10,7 @@
 .cart-items {
   @extend %dotted-boxborder;
   // background-color: #555;
-  margin: 0;
+  margin: 0 auto 1em auto;
   width: 100%;
   fieldset {
     border: 0;
@@ -135,20 +135,27 @@ tfoot {
 
 // ------------------ Crosssell bellow cart table
 .crosssell {
-  // background-color: #eee;
   #crosssell-products-list {
     padding: 0;
   }
   .item {
-    //background-color: yellow;
+//    background-color: yellow;
     @include vertical-border(bottom);
-    display: inline-block;
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    width: 70%;
     @include breakpoint(small) {
       @include vertical-border(right);
       border-bottom: none;
+      display: inline-block;
       width: 30%;
       margin-right: 3%;
       padding-right: 3%;
+      &:last-child {
+        margin-right: 0;
+        border-right: 0;
+      }
     }
     @include breakpoint(medium) {
       width: 22%;
@@ -156,10 +163,6 @@ tfoot {
       padding-right: 3%;
     }
     vertical-align: top;
-    &:last-child {
-      margin-right: 0;
-      // border-right: 0;
-    }
     .add-to-links {
       @extend %add-to-links;
     }
