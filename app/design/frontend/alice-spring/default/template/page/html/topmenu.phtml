@@ -1,0 +1,28 @@
+<?php
+/**
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Template for basic page
+*
+* @category    design
+* @package     rwd_default
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+*
+* Template for Top menu
+*/
+?>
+<?php
+/**
+ * Top menu for store
+ *
+ * @see Mage_Page_Block_Html_Topmenu
+ */
+?>
+<?php $_menu = $this->getHtml('level-top') ?>
+<div class="menubutton" id="menubutton">MENY <span>≡</span></div>
+<?php if($_menu): ?>
+<nav class="nav clear menu" role="navigation" id="navmenu">
+    <ul>
+        <?php echo $_menu ?>
+    </ul>
+</nav>
+<?php endif ?>

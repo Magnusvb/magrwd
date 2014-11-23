@@ -1,0 +1,27 @@
+<?php
+/**
+ * Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+ * Template for header
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="search">
+  <?php echo $this->getChildHtml('topSearch') ?>
+  <!-- <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p> -->
+</div>
+<div class="cart">
+  <?php echo $this->getChildHtml('cart_sidebar') ?>  
+</div>
+
+<?php echo $this->getChildHtml('topLinks') ?>
+<?php echo $this->getChildHtml('store_language') ?>
+
+<?php echo $this->getChildHtml('topContainer'); ?>
+
+<?php echo $this->getChildHtml('topMenu') ?>

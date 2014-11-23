@@ -1,0 +1,52 @@
+thead {
+  display: none;
+  @include breakpoint(medium) {
+    display: table-header-group;
+  }
+}
+
+#my-orders-table {
+  td {
+    display: block;
+    margin-bottom: 1em;
+    @include breakpoint(medium) {
+      display: table-cell;
+      padding: .5em;
+    }
+  }
+  .last {
+    margin-bottom: .8em;
+  }
+  .column-label {
+    color: $sidebarbg;
+    font-family: 'clear_sansbold';
+    @include breakpoint(medium) {
+      display: none;
+    }
+  }
+  .shipping {
+    border: none;
+  }
+}
+
+.block-cart {
+  margin-top: 1.4em;
+}
+
+.addresses-list {
+  a {
+    @extend %add-to-links;
+  }
+}
+
+.dashboard {
+  a {
+    @extend %add-to-links;
+  }
+}
+
+.my-account {
+  /* a {
+    @extend %add-to-links;
+  } */
+}

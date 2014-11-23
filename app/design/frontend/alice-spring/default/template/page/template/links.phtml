@@ -1,0 +1,35 @@
+<?php
+/**
+ * Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+ * Template for account links.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * @see Mage_Page_Block_Template_Links
+ */
+?>
+<div class="linksblock clear">
+<?php $_links = $this->getLinks(); ?>
+<?php if(count($_links)>0): ?>
+<ul class="accountlinks"<?php if($this->getName()): ?> id="<?php echo $this->getName() ?>"<?php endif;?>>
+    <?php foreach($_links as $_link): ?>
+        <?php if ($_link instanceof Mage_Core_Block_Abstract):?>
+            <?php echo $_link->toHtml() ?>
+        <?php else: ?>
+            <li<?php if($_link->getIsFirst()||$_link->getIsLast()): ?> class="<?php if($_link->getIsFirst()): ?>first<?php endif; ?><?php if($_link->getIsLast()): ?> last<?php endif; ?>"<?php endif; ?> <?php echo $_link->getLiParams() ?>><?php echo $_link->getBeforeText() ?><a href="<?php echo $_link->getUrl() ?>" title="<?php echo $_link->getTitle() ?>" <?php echo $_link->getAParams() ?>><?php echo $_link->getLabel() ?></a><?php echo $_link->getAfterText() ?></li>
+        <?php endif;?>
+    <?php endforeach; ?>
+</ul>
+<?php endif; ?>
+</div>
+
+<!-- <div class="cart">
+  <p><img src="<?php echo $this->getSkinUrl('images/shopping_cart.png') ?>" width="32" height="35" alt="Shopping Cart"></p>
+  <?php echo $this->getChildHtml('cart_sidebar') ?>
+</div> -->
