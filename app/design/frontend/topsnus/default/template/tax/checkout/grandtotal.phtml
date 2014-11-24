@@ -1,0 +1,32 @@
+<?php
+/**
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Proceed button on checkout page
+ *
+ * @category    design
+* @package     rwd_default
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+ */
+/**
+ * @var $this Mage_Tax_Block_Checkout_Grandtotal
+ * @see Mage_Tax_Block_Checkout_Grandtotal
+ */
+?>
+<?php if ($this->includeTax() && $this->getTotalExclTax()>=0):?>
+  <dl class="grandtotal">
+  <dt><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></dd>
+
+    <dt><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></dd>
+  </dl>
+
+  <?php echo $this->renderTotals('taxes', $this->getColspan()); ?>
+
+<?php else:?>
+  <dl class="grandtotal">
+    <dt><?php echo $this->getTotal()->getTitle() ?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></dd>
+  </dl>
+
+<?php endif;?>

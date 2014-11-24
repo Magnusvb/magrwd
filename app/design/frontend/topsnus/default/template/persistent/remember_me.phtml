@@ -1,0 +1,25 @@
+<?php
+/**
+ * Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+ *
+ * @category    design
+ * @package     rwd
+ * @copyright   Copyright (c) 2013 Studio Alice AB.
+ */
+?>
+<?php
+/**
+ * Customer "Remember Me" template
+ *
+ * @var $this Mage_Persistent_Block_Form_Remember
+ */
+?>
+<li id="remember-me-box" class="control">
+    <?php $rememberMeId = 'remember_me' . Mage::helper('core')->getRandomString(10); ?>
+    <div class="input-box">
+    <label for="<?php echo $rememberMeId; ?>"><?php echo $this->__('Remember Me') ?></label>
+        <input type="checkbox" name="persistent_remember_me" class="checkbox" id="<?php echo $rememberMeId; ?>"<?php if ($this->isRememberMeChecked()): ?> checked="checked"<?php endif; ?> title="<?php echo $this->__('Remember Me') ?>" /> <a class="link-tip" href="#"><?php echo $this->__('(What\'s this?)') ?></a>
+    </div>
+    <!-- <label for="<?php echo $rememberMeId; ?>"><?php echo $this->__('Remember Me') ?></label> -->
+    
+</li>

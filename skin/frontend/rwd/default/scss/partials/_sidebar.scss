@@ -22,6 +22,7 @@
   @include boxshadow;
   padding: 2em .3em;
   background-color: $logobg;
+  height: 15.62em; // behövs detta????
   text-align: center;
   @include breakpoint(small) {
     position: absolute;
