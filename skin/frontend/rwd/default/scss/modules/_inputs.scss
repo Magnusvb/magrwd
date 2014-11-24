@@ -10,7 +10,8 @@ input[type=email] {
   border-radius: .4em;
 }
 
-input[type=radio], input[type=checkbox] {
+input[type=radio],
+input[type=checkbox] {
   margin: .3em;
 }
 
@@ -19,7 +20,9 @@ input[type=radio], input[type=checkbox] {
 }
 
 .input-box {
-  input[type=text], input[type=password] {
+  input[type=text],
+  input[type=password],
+  input[type=email] {
     width: 100%;
   }
   margin: 1em auto;

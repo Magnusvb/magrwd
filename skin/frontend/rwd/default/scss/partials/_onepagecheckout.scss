@@ -17,11 +17,11 @@
 
 .block-progress dd {
 //  background: #eee;
-  border-bottom: 1px solid #a3aeb3;
-  border-top: 0;
+  // border-bottom: 1px solid #a3aeb3;
+  border: 0;
   font-size: .8em;
-  padding: 8px 13px;
-  margin: 0 0 6px;
+  padding: 0;
+  margin: 0 0 .6em;
 }
 
 .block-progress dt.complete {
@@ -30,7 +30,10 @@
   color:#5e8ab4;
 }
 
-.block-progress dd.complete {}
+.block-progress dd.complete {
+  font-style: normal !important;
+  font-family: 'clear_sansitalic';
+}
 .block-progress p { margin:0; }
 .block-progress .cards-list dt { background:none; border:0 none; color:inherit; font-size:12px; margin:5px 0; padding:0; }
 .block-progress .cards-list dd { border:0 none; margin:0; padding:0; }
@@ -158,10 +161,17 @@
 .opc .step {
   @extend %dotted-boxborder;
   position: relative;
+  @include breakpoint(medium) {
+    margin-left: 5%;
+    margin-right: 15%;
+  }
 }
 
 .form-list {
   padding-left: 0;
+  ul {
+    padding-left: 0;
+  }
 }
 
 #checkoutSteps {
@@ -199,12 +209,18 @@
 .opc .step .tool-tip { right:30px; }
 
 #opc-login .buttons-set { border-top:0; }
-#opc-login h3 { font-size:13px; border-bottom:1px solid #e4e4e4; padding-bottom:2px; text-transform:uppercase; }
+
+#opc-login h3 {
+  font-size: .9em;
+  border-bottom: 1px solid #e4e4e4;
+  margin-top: 1em;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
 #opc-login h4 {
   font-size: 1em;
-  // font-weight:bold;
   margin:0;
-  // color:#2f2f2f;
 }
 
 #opc-shipping_method .buttons-set {
@@ -360,3 +376,10 @@
 .remember-me-popup .remember-me-popup-body { padding:10px; }
 .remember-me-popup .remember-me-popup-body a { display:inline-block; height:19px; border:1px solid #de5400; background:#f18200; padding:0 8px; font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; white-space:nowrap; color:#fff; }
 /* Remember Me Popup ===================================================================== */
+
+/* Step 6 */
+.grandtotal {
+  dd {
+    font-size: 1.5em;
+  }
+}

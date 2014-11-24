@@ -17,6 +17,10 @@
   }
 }
 
+.changelink {
+  @extend %add-to-links;
+}
+
 .shopping-cart {
   // background-color: #eee;
   tbody {
@@ -84,18 +88,24 @@ td.a-center.last {
   }
   td {
     display: block;
+    font-style: italic;
     margin-left: 1em;
   }
   tr {
     // text-align: center;
   }
   .cart-price {
-    // font-weight: bold;
+    font-style: normal;
   }
   tfoot {
     font-style: italic;
   }
+  .a-center {
+    font-style: normal;
+  }
   .product-name {
+    font-style: normal;
+    margin-top: .5em;
     margin-left: -1em;
     color: $headlines;
   }
@@ -114,7 +124,6 @@ thead {
 
 tfoot {
   .cart-buttons {
-    // background-color: green;
     text-align: center !important;
     button {
       margin: 1em;
@@ -139,7 +148,6 @@ tfoot {
     padding: 0;
   }
   .item {
-//    background-color: yellow;
     @include vertical-border(bottom);
     display: block;
     margin: 1em auto;
@@ -198,10 +206,6 @@ tfoot {
   ul {
     padding-left: 0;
   }
-//   select {
-//   width: 100%;
-//   margin-bottom: 1em;
-// }
 }
 
 // ------------------------ Grand totals

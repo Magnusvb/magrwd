@@ -13,41 +13,20 @@
  */
 ?>
 <?php if ($this->includeTax() && $this->getTotalExclTax()>=0):?>
-    <dl class="grandtotal">
-        <dt><strong><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></dt>
-        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></strong></dd>
+  <dl class="grandtotal">
+  <dt><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></dd>
 
-        <dt><strong><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></strong></dt>
-        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong></dd>
-    </dl>
-<!-- <tr>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
-        <strong><?php echo $this->helper('tax')->__('Grand Total Excl. Tax')?></strong>
-    </td>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right">
-        <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotalExclTax()) ?></strong>
-    </td>
-</tr> -->
-<?php echo $this->renderTotals('taxes', $this->getColspan()); ?>
-<!-- <tr>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
-        <strong><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></strong>
-    </td>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right">
-        <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong>
-    </td>
-</tr> -->
+    <dt><?php echo $this->helper('tax')->__('Grand Total Incl. Tax')?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></dd>
+  </dl>
+
+  <?php echo $this->renderTotals('taxes', $this->getColspan()); ?>
+
 <?php else:?>
-    <dl class="grandtotal">
-        <dt><strong><?php echo $this->getTotal()->getTitle() ?></strong></dt>
-        <dd><strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong></dd>
-    </dl>
-<!-- <tr>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right" colspan="<?php echo $this->getColspan(); ?>">
-        <strong><?php echo $this->getTotal()->getTitle() ?></strong>
-    </td>
-    <td style="<?php echo $this->getStyle() ?>" class="a-right">
-        <strong><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></strong>
-    </td>
-</tr> -->
+  <dl class="grandtotal">
+    <dt><?php echo $this->getTotal()->getTitle() ?></dt>
+    <dd><?php echo $this->helper('checkout')->formatPrice($this->getTotal()->getValue()) ?></dd>
+  </dl>
+
 <?php endif;?>

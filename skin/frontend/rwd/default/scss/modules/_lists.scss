@@ -48,12 +48,19 @@
   }
 }
 
+dl {
+  
+}
 
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-left: 0;
+  ul {
+    padding-left: .2em;
+  }
 }
 
 .account-links {
