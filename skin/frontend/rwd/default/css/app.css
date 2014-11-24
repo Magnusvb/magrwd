@@ -783,17 +783,23 @@ article {
 
 /* line 87, ../scss/partials/_main.scss */
 .index-banner-left {
-  border: 2px solid #ffffff;
-  float: left;
-  width: 66.66666%; }
+  border: 2px solid #ffffff; }
+  @media (min-width: 47em) {
+    /* line 87, ../scss/partials/_main.scss */
+    .index-banner-left {
+      float: left;
+      width: 66.66666%; } }
 
-/* line 93, ../scss/partials/_main.scss */
+/* line 95, ../scss/partials/_main.scss */
 .index-banner-right {
-  border: 2px solid #ffffff;
-  float: left;
-  width: 33.33333%; }
+  border: 2px solid #ffffff; }
+  @media (min-width: 47em) {
+    /* line 95, ../scss/partials/_main.scss */
+    .index-banner-right {
+      float: left;
+      width: 33.33333%; } }
 
-/* line 99, ../scss/partials/_main.scss */
+/* line 103, ../scss/partials/_main.scss */
 .index-banner-item {
   margin-top: 0;
   margin-bottom: 0; }

@@ -86,14 +86,18 @@ text-align: center;
 
 .index-banner-left {
   border: 2px solid #ffffff;
-  float: left;
-  width: 66.66666%;
+  @include breakpoint(small) {
+    float: left;
+    width: 66.66666%;
+  }
 }
 
 .index-banner-right {
   border: 2px solid #ffffff;
-  float: left;
-  width: 33.33333%;
+  @include breakpoint(small) {
+    float: left;
+    width: 33.33333%;
+  }
 }
 
 .index-banner-item {
