@@ -1,0 +1,57 @@
+<?php
+/**
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Template for basic page
+*
+* @category    design
+* @package     topsnus
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+*
+* Template for Mage_Page_Block_Html
+*/
+?>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+  <?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<header class="header clear" role="banner">
+  <?php echo $this->getChildHtml('header') ?>
+</header>
+<div class="wrapper clear">
+  <aside class="sidebar" role="complementary">
+    <?php echo $this->getChildHtml('left') ?>
+    <!-- <div class="menubutton" id="menubutton">MENY &#9660;</div> -->
+    <nav class="nav clear menu" role="navigation" id="navmenu">
+
+    </nav>
+    
+    <div class="recent">
+      <?php echo $this->getChildHtml('right') ?>
+    </div>
+
+  </aside>
+
+  <main class="main clear" role="main">
+
+    <?php echo $this->getChildHtml('breadcrumbs') ?>
+    <article>
+      <?php echo $this->getChildHtml('global_messages') ?>
+      <?php echo $this->getChildHtml('content') ?>
+    </article>
+  </main>
+  
+</div>
+
+
+<?php echo $this->getChildHtml('footer') ?>
+
+
+<?php echo $this->getChildHtml('global_cookie_notice') ?>
+<?php echo $this->getChildHtml('before_body_end') ?>
+
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

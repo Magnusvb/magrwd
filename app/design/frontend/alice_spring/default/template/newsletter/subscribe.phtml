@@ -1,0 +1,29 @@
+<?php
+/**
+* Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+* Template for newsletter subscription
+*
+* @category    design
+* @package     rwd_default
+* @copyright   Copyright (c) 2014 Studio Alice AB. (http://studioalice.se)
+ */
+?>
+<strong><span><?php echo $this->__('Newsletter') ?></span></strong>
+
+<form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
+
+      <label for="newsletter"><?php echo $this->__('Sign Up for Our Newsletter and recive great offers:') ?></label>
+
+     <input type="text" name="email" id="newsletter" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" placeholder="Your e-mail" />
+
+    <button type="submit" title="<?php echo $this->__('Subscribe') ?>" class="button"><span><span><?php echo $this->__('Subscribe') ?></span></span></button>
+
+</form>
+<script type="text/javascript">
+    //<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+  </script>
+
+
+

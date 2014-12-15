@@ -1,0 +1,32 @@
+<?php
+/**
+ * Studio Alice, 2014, studioalice.se, magnus@studioalice.se
+ *
+ * @category    design
+ * @package     topsnus
+ * @copyright   Copyright (c) 2014 Studio Alice AB
+ * @license
+ */
+
+/**
+ * Compare button on product page
+ *
+ * @see Mage_Catalog_Block_Product_View
+ * @see Mage_Review_Block_Product_View
+ */
+?>
+
+<?php $_product = $this->getProduct(); ?>
+<?php $_wishlistSubmitUrl = $this->helper('wishlist')->getAddUrl($_product); ?>
+
+<ul class="add-to-links">
+<?php if ($this->helper('wishlist')->isAllow()) : ?>
+    <li><a href="<?php echo $_wishlistSubmitUrl ?>" onclick="productAddToCartForm.submitLight(this, this.href); return false;" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+<?php endif; ?>
+<?php
+    $_compareUrl = $this->helper('catalog/product_compare')->getAddUrl($_product);
+?>
+<?php if($_compareUrl) : ?>
+  <li><a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+<?php endif; ?>
+</ul>

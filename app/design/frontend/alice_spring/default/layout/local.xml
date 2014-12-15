@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<layout>
+  <default>
+    <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference>
+    <!-- <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference> -->
+    <reference name="head">
+      <action method="addItem"><type>skin_css</type><name>css/app.css</name></action>
+      <action method="addItem"><type>skin_js</type><name>js/modernizr.custom.60681.js</name></action>
+        <action method="addItem"><type>skin_js</type><name>js/respond.min.js</name></action>
+    </reference>
+    <reference name="left">
+      <block type="page/html_header" name="logo" before="-"> <!-- New block for logotype -->
+        <action method="setTemplate"><template>page/html/logotyp.phtml</template></action>
+      </block>
+    </reference>
+    <!-- <reference name="header">
+        <action method="setTemplate"><template>template/checkout/cart/sidebar.phtml</template></action>
+      </block>
+    </reference> -->
+    <reference name="before_body_end"> <!-- Load app.js after page is loaded - MVB -->
+        <block type="core/template" name="trackgoober" template="page/js/menu.phtml" />
+    </reference>
+    <!-- block override here -->
+    <remove name="left.permanent.callout" /> <!--the dog-->
+    <remove name="right.permanent.callout" /> <!--back to school-->
+    <remove name="store_language" /> <!-- drop menu for language -->
+    <remove name="welcome" /> <!-- Default message -->
+    <!-- <remove name="catalog.compare.sidebar" /> --> <!-- Remove compare in sidebar -->
+  </default>
+  <catalog_category_default>
+    <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference>
+  </catalog_category_default>
+  <catalog_category_layered>
+    <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference>
+  </catalog_category_layered>
+  <catalog_category_view>
+    <reference name="root">
+      <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
+    </reference>
+  </catalog_category_view>
+</layout>
