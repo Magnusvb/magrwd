@@ -1,6 +1,5 @@
 /var/
 /media/catalog/product/cache/*
-
 /skin/frontend/rwd/default/scss/.sass-cache/*
-
 /magerwd.sublime-workspace
+skin/frontend/alice_spring/default/scss/.sass-cache/*
