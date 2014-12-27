@@ -63,7 +63,8 @@ section {
   // background-color: lightblue;
   text-align: center;
   @extend %dotted-boxborder;
-  input[type="text"] {
+  input[type="text"],
+  input[type=number] {
     width: 25%;
   }
   .add-to-links {
@@ -83,4 +84,11 @@ section {
 
 .no-display {
   display: none;
+}
+
+.tier-prices {
+  padding-left: 0;
+  li {
+    margin-bottom: .6em;
+  }
 }

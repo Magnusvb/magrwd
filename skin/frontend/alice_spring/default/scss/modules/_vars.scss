@@ -1,3 +1,10 @@
+// Alice Spring theme
+// Cold / warm combination. Light colors.
+// Cold: light-medium blue
+// Warm: Yellow-orange
+// Basic buttons: Yellow-orange
+// CTA-button: Purple
+
 /* ========== Breakpoints ============== */
 @mixin breakpoint($point) {
 	@if $point == extra-small {
@@ -23,32 +30,34 @@
 /*
   Colors
 */
-
 $navlistfirst: rgb(200, 200, 200);
 $navlistsecond: lighten($navlistfirst, 10%);
 $menulinks: rgb(50, 81, 108);
-$headerbg: hsl(42, 10%, 51%);
+$headerbg: hsl(213, 66%, 70%);
 $sidebarbg: rgb(187, 201, 217);
-$menubutton: rgb(227, 226, 200);
-$logobg: hsl(63, 81%, 67%);
+$menubutton: hsl(213, 62%, 42%);
+$logobg: hsl(45, 100%, 65%);
 $footerbg: rgb(240, 240, 240);
-$basicbtn: lighten($headerbg, 35%);
+$basicbtn: $logobg;
+// $basicbtn: hsl(84, 38%, 50%);
 $addcartbtn: rgb(221, 106, 18);
-$checkoutbtn: hsl(358, 86%, 52%);
-$headlines: lighten($logobg, 15%);
+$checkoutbtn: hsl(224, 60%, 45%);
+// $checkoutbtn: hsl(213, 62%, 42%);
+$headlines: hsl(355, 17%, 15%);
 $specialprice: rgb(240, 98, 2);
 $proceedbtn: rgb(255, 130, 39);
-$accent: hsl(358, 86%, 52%);
+$accent: hsl(80, 60%, 70%);
 $accent-dark: darken($accent, 20%);
 $accent-extradark: darken($accent, 45%);
-$light-accent: rgb(238, 238, 238);
+$light-accent: lighten($accent, 25%);
 $verylight-accent: rgb(250, 250, 250);
 $secondary-button: rgb(187, 201, 217);
 $inputerrors: rgb(233, 53, 41);
 $inputsuccess: rgb(110, 188, 44);
 $logobg-light: lighten($logobg, 60%);
-$linkblockbg: lighten($headerbg, 35%);
-$borders: lighten($logobg, 70%);
+$linkblockbg: lighten($headerbg, 20%);
+$borders: $headerbg;
+$textlink: lighten($menulinks, 20%);
 
 /*
 Vars
@@ -90,6 +99,12 @@ $borderstyle: 1px $borders dotted;
   padding: .2em .3em;
 }
 
+@mixin button-border-dark {
+  border: 1px dotted darken($logobg, 40%);
+  @include borderradius(.3em);
+  padding: .2em .3em;
+}
+
 %dotted-boxborder {
   @include borderradius(0.5em);
   border: $borderstyle;
@@ -111,7 +126,7 @@ $borderstyle: 1px $borders dotted;
 }
 
 %add-to-links {
-  @include button-border-light;
+  @include button-border-dark;
   background-color: #ffffff;
   font-size: .8em;
   font-weight: normal;

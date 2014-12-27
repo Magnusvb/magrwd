@@ -73,7 +73,10 @@ article {
 }
 
 .buybutton-mobile {
-text-align: center;
+  text-align: center;
+  input {
+    width: 20%;
+  }
   @include breakpoint(medium) {
     display: none;
   }

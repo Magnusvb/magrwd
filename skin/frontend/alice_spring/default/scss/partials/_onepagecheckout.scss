@@ -8,11 +8,11 @@
   font-size: .9em;
   font-weight: bold;
   line-height: 1.35;
-  background: #eee;
+  background: $accent;
   border: 1px solid #a3aeb3;
   margin: 0 0 6px;
   padding: 2px 8px;
-  color: #999;
+  // color: #999;
 }
 
 .block-progress dd {
@@ -26,7 +26,7 @@
 
 .block-progress dt.complete {
   margin:0;
-  background: $logobg-light;
+  background: $light-accent;
   color:#5e8ab4;
 }
 
@@ -116,11 +116,11 @@
 }
 
 .opc .allow .step-title .number {
-  background: $footerbg;
+  background: $light-accent;
   border-radius: 50%;
   padding: .3em;
   padding-left: .7em;
-  border: 0;
+  border: 1px $accent solid;
   color: #000;
   width: 2em;
 }

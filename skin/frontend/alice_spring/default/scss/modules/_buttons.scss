@@ -7,9 +7,9 @@
   vertical-align: middle;
   min-height: 1em;
   outline: none;
-  border: none;
+  border: 0;
   //border-top: 2px solid hsl(360, 100%, 33%);
-  border-bottom: 3px darken($headerbg, 20%) solid;
+  border-bottom: 3px darken($logobg, 40%) solid;
   background-color: $basicbtn;
   color: $headlines;
   margin: .1em 0;
@@ -55,7 +55,7 @@
   @extend .button;
   color: #fff;
   background-color: $checkoutbtn;
-  border-bottom: 5px darken($checkoutbtn, 30%) solid;
+  border-bottom: 5px darken($checkoutbtn, 25%) solid;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -78,8 +78,8 @@
 
 .small-button {
   @extend .button;
-  font-size: .8em;
-  padding: .2em .5em;
+  font-size: .85em;
+  padding: .3em .5em;
   margin: .4em;
 }
 

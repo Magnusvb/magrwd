@@ -28,15 +28,16 @@ img {
 a {
   text-decoration: none;
   &:link {
-    color: $menulinks;
+    color: $textlink;
   }
   &:visited {
-    color: $menulinks;
+    color: $textlink;
   }
 }
 
 p > a {
   // border-bottom: 1px dotted $menulinks;
+  color: $textlink;
 }
 
 fieldset {

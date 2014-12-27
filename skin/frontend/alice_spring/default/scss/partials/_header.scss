@@ -3,7 +3,7 @@
   position: relative;
   @include breakpoint(small) {
     padding-left: 22%;
-    min-height: 12em;
+    min-height: 13em;
   }
 }
 
@@ -47,7 +47,7 @@
   margin: 0;
   padding: 0;
   li {
-    @include button-border-light;
+    @include button-border-dark;
     //border: 1px #000 dotted;
     margin-bottom: 0.8em;
     margin-right: 4%;
@@ -86,7 +86,7 @@
 .cart {
   @include borderradius(0.5em);
   border: 1px dotted lighten($headerbg, 20%);
-  color: $footerbg;
+  color: #ffffff;
   text-align: center;
   width: 80%;
   margin: 2em auto;
@@ -101,7 +101,7 @@
     // background-color: red;
     float: left;
     font-size: .8em;
-    margin: 0 0 0 3em;
+    margin: 0 0 1em 3em;
     text-align: left;
     width: 45%;
   }

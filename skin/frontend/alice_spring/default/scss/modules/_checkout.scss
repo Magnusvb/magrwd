@@ -37,6 +37,7 @@
     margin: .7em 0;
     @include breakpoint(medium) {
       display: table-cell;
+      text-align: center;
     }
   }
 }
@@ -86,6 +87,9 @@ td.a-center.last {
   }
   tr {
     // text-align: center;
+    // background-color: $footerbg;
+    border-top: 1px $borders dotted;
+    border-bottom: 1px $borders dotted;
   }
   .cart-price {
     font-style: normal;

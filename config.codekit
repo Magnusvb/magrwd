@@ -96950,8 +96950,8 @@
 		"useLibsass": 0
 		},
 	"\/skin\/frontend\/alice_spring\/default\/scss\/app.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
+		"createSourceMap": 1,
+		"debugStyle": 1,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 0,
