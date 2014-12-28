@@ -16,7 +16,8 @@
  */
 ?>
 <?php if($this->getProductData()->getId()): ?>
-<div class="product-view">
+<section class="product-view">
+  <article class="product-essential">
   <div class="page-title">
     <h1><?php echo $this->__('Review Details') ?></h1>
   </div>
@@ -55,9 +56,10 @@
       <?php echo nl2br($this->escapeHtml($this->getReviewData()->getDetail())) ?>
     </dd>
   </dl>
-</div>
+</section>
 <div class="buttons-set">
   <p class="back-link"><a href="<?php echo $this->getBackUrl() ?>"><small>&laquo; </small><?php echo $this->__('Back to Product Reviews') ?></a></p>
 </div>
 </div>
 <?php endif; ?>
+</article>
