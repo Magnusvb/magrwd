@@ -50,8 +50,8 @@ section {
 }
 
 .short-links {
-  // background-color: #aaa;
-  margin-top: 1em;
+  margin: 1em auto; // old margin-top: 1em
+  width: 80%;
   @include breakpoint(medium) {
     float: right;
     margin-top: 0;
@@ -63,8 +63,9 @@ section {
   // background-color: lightblue;
   text-align: center;
   @extend %dotted-boxborder;
-  input[type="text"],
+  input[type=text],
   input[type=number] {
+    font-family: 'clear_sansbold';
     width: 25%;
   }
   .add-to-links {
@@ -93,7 +94,55 @@ section {
   }
 }
 
-/* Rating */
+/* Rating and review */
+.review-product-list {
+  .short-links {
+    // background-color: yellow;
+  }
+  .add-to-box {
+    @include breakpoint(medium) {
+      float: left;
+      margin: 0;
+      width: 60%;
+    }
+  }
+}
+.box-reviews {
+  dd {
+    margin-bottom: 1rem;
+  }
+}
+
+#product-review-table {
+  margin-top: 1em;
+  thead {
+    display: table-header-group;;
+  }
+}
+
+.form-add {
+  fieldset {
+    padding: 0;
+  }
+}
+
+.form-list {
+  .input-box {
+    margin: .5em 0 1em 0;
+    width: 85%;
+  }
+  textarea {
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: .4em;
+    width: 100%;
+  }
+}
+
 .no-rating {
   margin:0;
 }
@@ -109,8 +158,13 @@ section {
   margin:1px 3px 0 0;
 }
 
-.ratings .rating-links {
-  margin:0;
+.ratings {
+  .rating-links {
+    margin: 0;
+    p {
+      font-size: .7rem;
+    }
+  }
 }
 
 .ratings .rating-links .separator {
@@ -144,9 +198,9 @@ section {
 
 .ratings-table th,
 .ratings-table td {
-  font-size:11px;
-  line-height:1.15;
-  padding:3px 0;
+  font-size: .8rem;
+  line-height: 1.15;
+  padding: 3px 0;
 }
 
 .ratings-table th {

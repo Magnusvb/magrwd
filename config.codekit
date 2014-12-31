@@ -96951,7 +96951,7 @@
 		},
 	"\/skin\/frontend\/alice_spring\/default\/scss\/app.scss": {
 		"createSourceMap": 1,
-		"debugStyle": 1,
+		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 0,
@@ -96960,7 +96960,7 @@
 		"outputAbbreviatedPath": "\/skin\/frontend\/alice_spring\/default\/css\/app.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0

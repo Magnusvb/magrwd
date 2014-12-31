@@ -5,14 +5,14 @@
 }
 
 .regular-price {
-  @include price-display(1.2em);
+  @include price-display(1.2rem);
 }
 
 .old-price {
   margin-bottom: .3em;
   .price {
-    @include price-display(1.2em);
-    color: lighten($headerbg, 30%);
+    @include price-display(1.2rem);
+    color: lighten($headlines, 50%);
   }
 }
 
