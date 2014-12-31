@@ -1107,26 +1107,26 @@ section {
 .no-rating {
   margin: 0; }
 
-/* line 99, ../scss/partials/_product.scss */
+/* line 101, ../scss/partials/_product.scss */
 .ratings {
   font-size: 11px;
   line-height: 1.25;
   margin: 7px 0; }
 
-/* line 100, ../scss/partials/_product.scss */
+/* line 107, ../scss/partials/_product.scss */
 .ratings strong {
   float: left;
   margin: 1px 3px 0 0; }
 
-/* line 101, ../scss/partials/_product.scss */
+/* line 112, ../scss/partials/_product.scss */
 .ratings .rating-links {
   margin: 0; }
 
-/* line 102, ../scss/partials/_product.scss */
+/* line 116, ../scss/partials/_product.scss */
 .ratings .rating-links .separator {
   margin: 0 2px; }
 
-/* line 105, ../scss/partials/_product.scss */
+/* line 122, ../scss/partials/_product.scss */
 .rating-box {
   width: 69px;
   height: 13px;
@@ -1136,25 +1136,25 @@ section {
   text-indent: -999em;
   overflow: hidden; }
 
-/* line 106, ../scss/partials/_product.scss */
+/* line 132, ../scss/partials/_product.scss */
 .rating-box .rating {
   float: left;
   height: 13px;
   background: url(../images/bkg_rating.gif) 0 100% repeat-x; }
 
-/* line 107, ../scss/partials/_product.scss */
+/* line 138, ../scss/partials/_product.scss */
 .ratings .rating-box {
   float: left;
   margin-right: 3px; }
 
-/* line 110, ../scss/partials/_product.scss */
+/* line 145, ../scss/partials/_product.scss */
 .ratings-table th,
 .ratings-table td {
   font-size: 11px;
   line-height: 1.15;
   padding: 3px 0; }
 
-/* line 112, ../scss/partials/_product.scss */
+/* line 152, ../scss/partials/_product.scss */
 .ratings-table th {
   font-weight: bold;
   padding-right: 8px; }
