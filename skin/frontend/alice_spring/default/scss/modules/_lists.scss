@@ -75,6 +75,14 @@ dd {
     &:nth-child(odd) {
       clear: left;
     }
+    &.current {
+      background-color: darken($footerbg, 50%);
+      border-left: 2px $headerbg solid;
+      color: #ffffff;
+      strong {
+       font-weight: normal; 
+      }
+    }
   }
   @include breakpoint(medium) {
     li {
