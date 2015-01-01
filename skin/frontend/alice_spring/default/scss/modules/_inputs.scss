@@ -43,3 +43,14 @@ input[type=checkbox] {
   font-size: .8em;
   text-align: right;
 }
+
+textarea {
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: .4em;
+  width: 80%;
+}
