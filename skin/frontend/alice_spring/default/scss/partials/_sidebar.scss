@@ -76,6 +76,9 @@
 
 .recent {
   @extend %dotted-boxborder;
+  .mini-products-list li {
+    border: 0;
+  }
 }
 
 .block-reorder {
