@@ -68,6 +68,8 @@ footer {
 .theme-created {
   clear: both;
   font-size: .6em;
+  font-family: "clear_sansregular";
+  font-style: normal !important;
   text-align: center;
   color: darken($footerbg, 60%);
 }

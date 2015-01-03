@@ -72,13 +72,11 @@
   @include breakpoint(small) {
     float: none;
     li {
-        border: 0;
-        display: block;
-        line-height: 1.2em;
-        text-align: left;
-        width: 80%;
-      &:a {
-      }
+      border: 0;
+      display: block;
+      line-height: 1.2em;
+      text-align: left;
+      width: 100%;
     }
   }
 }
