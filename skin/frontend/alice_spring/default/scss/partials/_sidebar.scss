@@ -56,16 +56,16 @@
 }
 
 #narrow-by-list {
-  font-size: 1em;
+  font-size: 1rem;
   @include breakpoint(small) {
-    font-size: .8em;
+    font-size: .8rem;
   }
   dt {
     font-weight: bold;
     margin-left: 0;
   }
   dd {
-    padding-left: .6em;
+    padding-left: .3em;
     margin-left: 0;
   }
   ol {
@@ -95,7 +95,6 @@
   }
   li {
     @include vertical-border(bottom);
-    /* border: 1px solid #999; */
     display: inline-block;
     margin-bottom: 1em;
     padding-right: .6em;
