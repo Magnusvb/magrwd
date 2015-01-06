@@ -75,7 +75,8 @@
 }
 
 .recent {
-  @extend %dotted-boxborder;
+  @include vertical-border(top);
+  padding: .6em .8em;
   .mini-products-list li {
     border: 0;
   }

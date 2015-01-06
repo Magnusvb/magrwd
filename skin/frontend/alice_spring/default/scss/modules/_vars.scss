@@ -63,6 +63,7 @@ $textlink: lighten($menulinks, 20%);
 Vars
 */
 $borderstyle: 1px $borders dotted;
+$borderstyle-light: 1px lighten($borders, 30%) dotted;
 
 
 /*
@@ -111,6 +112,14 @@ $borderstyle: 1px $borders dotted;
   padding: 0.5em;
   width: 80%;
   margin: 0.5em 10%;
+}
+
+%dotted-boxborder-light {
+	@include borderradius(0.5em);
+	border: $borderstyle-light;
+	padding: 0.5em;
+	width: 80%;
+	margin: 0.5em 10%;
 }
 
 %box-with-bg {
