@@ -48,12 +48,15 @@
   }
 }
 
-dl {
-  
+#product-options-wrapper {
+  dt {
+    font-family: 'clear_sansbold';
+    margin-top: 1.2em;
+  }  
 }
 
-dt {
-  font-weight: bold;
+dl {
+
 }
 
 dd {

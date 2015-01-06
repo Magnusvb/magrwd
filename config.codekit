@@ -53543,6 +53543,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/rating\/detailed.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/rating\/detailed.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/rating\/empty.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/rating\/empty.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/design\/frontend\/alice_spring\/default\/template\/reports\/home_product_compared.phtml": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -54115,6 +54133,177 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/tax\/order\/tax.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/share.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/share.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/tocart.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/tocart.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/update.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/button\/update.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/email\/items.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/email\/items.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/email\/rss.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/email\/rss.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/cart.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/cart.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/image.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/image.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/info.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/info.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/remove.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/column\/remove.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/configure\/addto.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/configure\/addto.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/list.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/item\/list.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/options_list.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/options_list.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price_msrp_item.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price_msrp_item.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price_msrp_rss.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/render\/item\/price_msrp_rss.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/shared.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/shared.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/sharing.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/sharing.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/sidebar.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/sidebar.phtml",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/view.phtml": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/design\/frontend\/alice_spring\/default\/template\/wishlist\/view.phtml",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
