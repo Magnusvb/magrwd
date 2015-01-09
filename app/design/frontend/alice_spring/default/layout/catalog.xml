@@ -302,7 +302,7 @@ Product send to friend
   <label>Catalog Product Email to a Friend</label>
   <!-- Mage_Catalog -->
   <reference name="root">
-    <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
   </reference>
   <reference name="head">
     <action method="addJs"><script>varien/product.js</script></action>
@@ -334,11 +334,11 @@ SEO Site Map
 
 <catalog_seo_sitemap translate="label">
   <label>Catalog Seo Sitemap (Common)</label>
-  <remove name="right"/>
-  <remove name="left"/>
+  <!-- <remove name="right"/> -->
+  <!-- <remove name="left"/> -->
 
   <reference name="root">
-    <action method="setTemplate"><template>page/1column.phtml</template></action>
+    <action method="setTemplate"><template>page/alice-two-col-rwd.phtml</template></action>
   </reference>
   <reference name="content">
     <block type="page/template_container" name="seo.sitemap.container" template="catalog/seo/sitemap/container.phtml">
