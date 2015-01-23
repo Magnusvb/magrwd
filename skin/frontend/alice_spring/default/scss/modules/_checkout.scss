@@ -30,11 +30,17 @@
       display: block;
       @include breakpoint(medium) {
         display: table-cell;
-        text-align: left;
+        text-align: right;
+        padding-right: 0.3em;
+      }
+    }
+    .product-name-cart {
+      @include breakpoint(medium) {
+       text-align: left; 
       }
     }
     .a-center, .a-right {
-    margin: .7em 0;
+    margin: 0.7em 0;
     @include breakpoint(medium) {
       display: table-cell;
       text-align: center;
@@ -69,11 +75,9 @@
   }
 }
 td.a-center.last {
-  @extend %add-to-links;
-  @include breakpoint(medium) {
-    //background-color: transparent;
+  // @extend %add-to-links;
+  font-size: 1rem;
   }
-}
 }
 
 #checkout-review-table {
@@ -154,18 +158,19 @@ tfoot {
       @include vertical-border(right);
       border-bottom: none;
       display: inline-block;
-      width: 30%;
+      width: 28%;
       margin-right: 3%;
       padding-right: 3%;
       &:last-child {
         margin-right: 0;
         border-right: 0;
+        padding-right: 0;
       }
     }
     @include breakpoint(medium) {
-      width: 22%;
-      margin-right: 3%;
-      padding-right: 3%;
+      width: 20%;
+      margin-right: 5%;
+      padding-right: 5%;
     }
     vertical-align: top;
     .add-to-links {

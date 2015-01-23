@@ -8,17 +8,20 @@
   min-height: 1em;
   outline: none;
   border: 0;
-  border-bottom: 3px darken($logobg, 40%) solid;
+  border-bottom: 3px darken($logobg, 30%) solid;
+  border-top: 1px darken($logobg, 20%) solid;
+  border-right: 1px darken($logobg, 20%) solid;
+  border-left: 1px darken($logobg, 20%) solid;
   background-color: $basicbtn;
   color: $headlines;
   margin: .1em 0;
-  padding: 0.8em 1em;
+  padding: 0.7em 1em;
   font-size: 1rem;
   line-height: 1;
   font-family: 'clear_sansbold';
   text-align: center;
   text-decoration: none;
-  border-radius: 0.25em;
+  border-radius: 0.35em;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -42,7 +45,8 @@
   @extend .button;
   color: #fff;
   background-color: $checkoutbtn;
-  border-bottom: 5px darken($checkoutbtn, 25%) solid;
+  border: 1px darken($checkoutbtn, 10%) solid;
+  border-bottom: 5px darken($checkoutbtn, 10%) solid;
   padding-top: 1em;
   padding-bottom: 1em;
 }

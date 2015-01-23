@@ -25,10 +25,10 @@
 
 .logo {
   @include boxshadow;
-  // line-height: 10em;
+  border-radius: 0.5em;
   padding: 2em .8em;
   background-color: $logobg;
-  border-bottom: 3px darken($logobg, 40%) solid;
+  border-bottom: 3px darken($logobg, 30%) solid;
   min-height: 10em; // behövs detta????
   text-align: center;
   &.img {

@@ -1,5 +1,9 @@
 /* One Page Checkout */
-.block-progress { border:0; margin:0; }
+.block-progress {
+  border: 0;
+  margin: 0;
+  padding: 0 0.8em;
+}
 .block-progress .block-title { background:none; border:0; padding:0; margin:0 0 5px; }
 .block-progress .block-title strong { font-size:13px; color:#0a263c; }
 .block-progress .block-content { background:none; }
@@ -9,15 +13,13 @@
   font-weight: bold;
   line-height: 1.35;
   background: $accent;
-  border: 1px solid #a3aeb3;
+  // border: 1px solid #a3aeb3;
   margin: 0 0 6px;
   padding: 2px 8px;
   // color: #999;
 }
 
 .block-progress dd {
-//  background: #eee;
-  // border-bottom: 1px solid #a3aeb3;
   border: 0;
   font-size: .8em;
   padding: 0;
